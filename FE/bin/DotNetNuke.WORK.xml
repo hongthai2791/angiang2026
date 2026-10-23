@@ -1,0 +1,94 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+DotNetNuke.WORK
+</name>
+</assembly>
+<members>
+<member name="T:DotNetNuke.WORK.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:DotNetNuke.WORK.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:DotNetNuke.WORK.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:DotNetNuke.WORK.flFunction.SaveSelectedItems``1(System.Int32,System.String,System.String,System.String)">
+ <summary>
+ Hàm lưu các item được chọn vào DB, dùng chung cho các DropdownList trên giao diện
+ </summary>
+ <typeparam name="T">Mapping class kế thừa từ IMappingInfo (VD: MAP_MucDichInfo, MAP_SalaryMonthInfo...)</typeparam>
+ <param name="PortalId"></param>
+ <param name="userName">[Table]_Id từ các bảng cần map (VD: Work_Id từ CMS_Work, JobUser_ID từ CMS_JobUser...)</param>
+ <param name="values">Danh sách Id, phân tách bởi dấu ","</param>
+ <param name="customTableName">Tên bảng (dùng trong trường hợp bảng trong db và Entity class trong WorkInfo.vb không trùng nhau)</param>
+</member>
+<member name="M:DotNetNuke.WORK.flFunction.SaveSelectedItems``1(System.Int32,System.String,System.Collections.Generic.IEnumerable{``0},System.String)">
+ <summary>
+ Hàm lưu các item được chọn vào DB, dùng chung cho các DropdownList trên giao diện
+ </summary>
+ <typeparam name="T">Mapping class kế thừa từ IMappingInfo (VD: MAP_MucDichInfo, MAP_SalaryMonthInfo...)</typeparam>
+ <param name="PortalId"></param>
+ <param name="userName">[Table]_Id từ các bảng cần map (VD: Work_Id từ CMS_Work, JobUser_ID từ CMS_JobUser...)</param>
+ <param name="values">Danh sách Id, phân tách bởi dấu ","</param>
+ <param name="customTableName">Tên bảng (dùng trong trường hợp bảng trong db và Entity class trong WorkInfo.vb không trùng nhau)</param>
+</member>
+<member name="M:DotNetNuke.WORK.WorkController.MAPWork_GetAllByMapId``1(System.String,System.String,System.String)">
+ <summary>
+ Lấy danh sách id trong bảng mapping theo id của bảng chính. Dùng cho các vị trí cho phép chọn nhiều.
+ </summary>
+ <typeparam name="T">Class entity đang map, có tên giống với tên bảng trong database</typeparam>
+ <param name="PortalConnect"></param>
+ <param name="id">Id của bảng dữ liệu chính (Map_Id)</param>
+ <param name="customTableName">Tên bảng tự định nghĩa, dùng trong trường hợp tên bảng khác tên class entity trong WorkInfo</param>
+ <returns></returns>
+</member>
+<member name="M:DotNetNuke.WORK.WorkController.MAPWork_GetAllByMapId_ToArrayList``1(System.String,System.String,System.String)">
+ <summary>
+ Lấy danh sách trong bảng mapping theo id của bảng chính. Dùng cho các vị trí cho phép chọn nhiều.
+ </summary>
+ <typeparam name="T">Class entity đang map, có tên giống với tên bảng trong database</typeparam>
+ <param name="PortalConnect"></param>
+ <param name="id">Id của bảng dữ liệu chính (Map_Id)</param>
+ <param name="customTableName">Tên bảng tự định nghĩa, dùng trong trường hợp tên bảng khác tên class entity trong WorkInfo</param>
+ <returns></returns>
+</member>
+<member name="M:DotNetNuke.WORK.WorkController.MAPWork_GetByMapId``1(System.String,System.String,System.String)">
+ <summary>
+ Lấy id trong bảng mapping theo id của bảng chính. Dùng cho các vị trí chọn 1.
+ </summary>
+ <typeparam name="T">Class entity đang map, có tên giống với tên bảng trong database</typeparam>
+ <param name="PortalConnect"></param>
+ <param name="id">Id của bảng dữ liệu chính (Map_Id)</param>
+ <param name="customTableName">Tên bảng tự định nghĩa, dùng trong trường hợp tên bảng khác tên class entity trong WorkInfo</param>
+ <returns></returns>
+</member>
+<member name="M:DotNetNuke.WORK.WorkController.MAPWork_Add``1(System.String,System.Data.DataTable,System.String)">
+ <summary>
+ Thêm dữ liệu vào bảng mapping.
+ </summary>
+ <typeparam name="T">Class entity đang map, có tên giống với tên bảng trong database</typeparam>
+ <param name="PortalConnect"></param>
+ <param name="items">Danh sách items của bảng danh mục cần thêm</param>
+ <param name="customTableName">Tên bảng tự định nghĩa, dùng trong trường hợp tên bảng khác tên class entity trong WorkInfo</param>
+</member>
+<member name="M:DotNetNuke.WORK.WorkController.MAPWork_Delete``1(System.String,System.String,System.String)">
+ <summary>
+ Xóa dữ liệu trong bảng mapping theo id của bảng chính.
+ </summary>
+ <typeparam name="T">Class entity đang map, có tên giống với tên bảng trong database</typeparam>
+ <param name="PortalConnect"></param>
+ <param name="id">Id của bảng dữ liệu chính (Map_Id)</param>
+ <param name="customTableName">Tên bảng tự định nghĩa, dùng trong trường hợp tên bảng khác tên class entity trong WorkInfo</param>
+</member>
+</members>
+</doc>

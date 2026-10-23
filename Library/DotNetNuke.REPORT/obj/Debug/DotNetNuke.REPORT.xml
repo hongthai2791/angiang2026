@@ -1,0 +1,456 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+DotNetNuke.REPORT
+</name>
+</assembly>
+<members>
+<member name="T:DotNetNuke.REPORT.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:DotNetNuke.REPORT.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:DotNetNuke.REPORT.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.dtMasterDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.dtData1_1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.dtChart1_1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.dtChart1_2DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.dtChart1_3DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.dtData2_1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.dtChart2_1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.dtChart2_2DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.dtChart2_3DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.dtData2_2DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.dtData1_2DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.dtData1_3DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.dtData2_3DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.dtData3_1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.dtData3_2DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.dtChart2_4DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.dtData3_3DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.dtChart3ADataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.dtChart3_3DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.BHTN1_1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.BHTN2_1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.ChartBHTN2_1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.BHTN2_2DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.ChartBHTN2_2DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.dtMasterRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.dtData1_1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.dtChart1_1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.dtChart1_2Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.dtChart1_3Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.dtData2_1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.dtChart2_1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.dtChart2_2Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.dtChart2_3Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.dtData2_2Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.dtData1_2Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.dtData1_3Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.dtData2_3Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.dtData3_1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.dtData3_2Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.dtChart2_4Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.dtData3_3Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.dtChart3ARow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.dtChart3_3Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.BHTN1_1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.BHTN2_1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.ChartBHTN2_1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.BHTN2_2Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.ChartBHTN2_2Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.dtMasterRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.dtData1_1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.dtChart1_1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.dtChart1_2RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.dtChart1_3RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.dtData2_1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.dtChart2_1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.dtChart2_2RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.dtChart2_3RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.dtData2_2RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.dtData1_2RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.dtData1_3RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.dtData2_3RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.dtData3_1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.dtData3_2RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.dtChart2_4RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.dtData3_3RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.dtChart3ARowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.dtChart3_3RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.BHTN1_1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.BHTN2_1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.ChartBHTN2_1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.BHTN2_2RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.dsReport.ChartBHTN2_2RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.DS_WORK">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.DS_WORK.CMS_WorkDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.DS_WORK.CMS_WorkRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.DS_WORK.CMS_WorkRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.DS_WORKTableAdapters.CMS_WorkTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.DS_WORKTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:DotNetNuke.REPORT.DS_WORKTableAdapters.TableAdapterManager.UpdateUpdatedRows(DotNetNuke.REPORT.DS_WORK,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:DotNetNuke.REPORT.DS_WORKTableAdapters.TableAdapterManager.UpdateInsertedRows(DotNetNuke.REPORT.DS_WORK,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:DotNetNuke.REPORT.DS_WORKTableAdapters.TableAdapterManager.UpdateDeletedRows(DotNetNuke.REPORT.DS_WORK,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:DotNetNuke.REPORT.DS_WORKTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:DotNetNuke.REPORT.DS_WORKTableAdapters.TableAdapterManager.UpdateAll(DotNetNuke.REPORT.DS_WORK)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.DS_WORKTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:DotNetNuke.REPORT.DS_WORKTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>

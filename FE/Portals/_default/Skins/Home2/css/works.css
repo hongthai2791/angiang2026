@@ -1,0 +1,616 @@
+﻿@import url('/portals/_default/skins/vbn/css/font.css');
+
+.detail_job {
+    background: #fff;
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    margin-bottom: 20px;
+}
+
+.br-b {
+    border-bottom: 1px solid #eee !important;
+}
+
+.j_logo {
+    text-align: center;
+}
+
+.detail_job * {
+    font-size: 14px
+}
+
+.detail_job .info-company p.company-name a strong {
+    font-size: 16px
+}
+
+.box_right .title_right {
+    padding: 10px !important;
+    margin: auto !important;
+    font-size: 16px;
+}
+
+.detail_job .info-company p {
+    margin: auto;
+    padding: 4px 0;
+    cursor: pointer;
+    text-align: center;
+}
+
+.item_1 {
+    border: 1px solid #0091ce;
+    border-radius: 3px;
+}
+
+.box-items .job-item:last-child {
+    border-bottom: none;
+}
+
+.job-item {
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 2px;
+    margin: 5px 0;
+    border: 1px solid hsla(0,0%,93%,.8);
+    -webkit-transition: -webkit-box-shadow .2s;
+    transition: -webkit-box-shadow .2s;
+    transition: box-shadow .2s;
+    transition: box-shadow .2s,-webkit-box-shadow .2s;
+    position: relative;
+}
+
+.box-items .job-item {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: none !important;
+    border-bottom: 1px solid #eee !important;
+}
+
+.detail_job .info-company .item_1 p {
+    padding: 6px 0;
+}
+
+.box_right {
+    padding: 10px
+}
+
+.item_1 .title {
+    margin: auto;
+    padding: 10px 20px;
+    background: #0091ce;
+    color: #fff;
+    font-size: 18px;
+}
+
+.item_1 .number span {
+    color: #0091ce;
+    font-size: 40px;
+}
+
+.item_2 {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.detail_job .dollar {
+    float: left;
+    width: 40%;
+    color: #fc205c;
+    font-size: 12px;
+    padding: 2px 0;
+}
+
+h3.title_right.br-b {
+    font-weight: bold;
+    color: #0344b5;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+/*a.el-tooltip.item strong {
+    color: #00415d;
+    line-height: 24px;
+    font-weight: normal;
+    font-size: 15px;
+}*/
+
+p.j_title {
+    margin-bottom: 5px;
+}
+
+.job-item .j_company .name {
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+}
+
+.detail_job .time {
+    float: left;
+    width: 30%;
+    color: #555;
+    font-size: 12px;
+    padding: 2px 0;
+}
+
+.detail_job .location {
+    float: left;
+    width: 30%;
+    color: #555;
+    font-size: 12px;
+    padding: 2px 0;
+}
+
+.box_general_nnghe .nganh-nghe {
+    padding: 10px
+}
+
+.nganh-nghe .col-md-4 {
+    padding-right: 0px !important;
+    line-height: 20px;
+}
+
+.box_general > h2, .box_general > h3 {
+    font-size: 16px !important;
+    margin: auto;
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    font-weight: bold;
+    color: #5e5e5e;
+}
+
+.text_ellipsis {
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.box_general {
+    background: #fff;
+    /* padding-bottom: 10px; */
+    border-radius: 3px;
+    /* -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05); */
+    /* box-shadow: 0 1px 1px rgba(0,0,0,.05); */
+    overflow: hidden;
+    /* margin-bottom: 20px; */
+}
+
+.job-item .job_info .company_logo .logo_box {
+    width: 55px;
+    height: 55px;
+    /* margin-top: 3px; */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.job-item .job_info .company_logo {
+    float: left;
+    max-width: 65px !important;
+    width: 65px;
+    margin-right: 0 !important;
+}
+
+.job-item .job_info .company_name {
+    float: left;
+    max-width: calc(100% - 65px) !important;
+    width: calc(100% - 65px);
+    padding-left: 5px;
+}
+
+    .job-item .job_info .company_name .table-item {
+        width: 100%;
+        overflow: hidden;
+        margin-top: 2px;
+    }
+
+        .job-item .job_info .company_name .table-item .dollar {
+            float: left;
+            width: 50%;
+            color: #fc205c;
+            font-size: 13px;
+        }
+
+        .job-item .job_info .company_name .table-item .time {
+            float: left;
+            width: 50%;
+            color: #555;
+            font-size: 13px;
+        }
+
+.col-md-12.w-h-img {
+    padding: 0px !important
+}
+
+.clear {
+    clear: both !important
+}
+
+.w-h-img img {
+    width: 100%;
+    height: 150px !important
+}
+
+.w-h-img {
+    background-color: rgba(0,145,207,.85);
+    background-image: url(/image/job-bg.jpg?w=auto);
+    background-size: cover;
+    background-position: 50% 50%;
+    position: relative;
+    height: 150px;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.home-work .search-job {
+    top: unset !important;
+    margin-top: 10px !important;
+    margin-bottom: 20px !important;
+    background-color: #0080b7 !important;
+    position: relative !important;
+    left: unset !important;
+    top: unset !important;
+    width: unset !important;
+}
+
+.box-wi {
+    position: relative !important;
+}
+
+/*.box_general .j_title a span {
+    color: #1790d4 !important
+}*/
+
+.box_general .j_title a:hover span {
+    color: #fc205c !important
+}
+
+.box_general .j_company .name a {
+    color: #999
+}
+
+.job-item p {
+    margin: auto;
+    overflow: hidden;
+    margin-bottom: 0;
+}
+
+.job-item {
+    background-color: #fff;
+    padding: 5px 0;
+    border-radius: 2px;
+    margin: 5px 0;
+    border: 1px solid hsla(0,0%,93%,.8);
+    -webkit-transition: -webkit-box-shadow .2s;
+    transition: -webkit-box-shadow .2s;
+    transition: box-shadow .2s;
+    transition: box-shadow .2s,-webkit-box-shadow .2s;
+}
+
+    .job-item:hover {
+        -webkit-box-shadow: 0 0 0 1px rgba(0,0,0,.1), 0 2px 3px rgba(0,0,0,.2);
+        box-shadow: 0 0 0 1px rgba(0,0,0,.1), 0 2px 3px rgba(0,0,0,.2);
+        border: 1px solid transparent;
+    }
+
+.box_general_tdiem .job-item .job_info .company_name, .box_general_vlmoi .job-item .job_info .company_name {
+    float: unset;
+    width: 100%;
+    max-width: 100% !important;
+    padding-left: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+html .box_general_vlmoi * {
+    font-size: 14px;
+}
+
+.box_general_tdiem .job-item .job_info .company_logo {
+    float: unset !important;
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+    .box_general_tdiem .job-item .job_info .company_logo .logo_box {
+        width: 100% !important;
+    }
+
+.box_general_tdiem .job-item .job_info .extra-info .dollar {
+    color: #fc205c;
+    font-size: 12px;
+    padding: 5px 0;
+}
+
+.box_general_tdiem .job-item .job_info .extra-info .time {
+    float: left;
+    width: 50%;
+    color: #555;
+    font-size: 12px;
+    padding: 2px 0;
+}
+
+.box_general_tdiem .job-item .job_info .extra-info .location {
+    float: left;
+    width: 50%;
+    color: #555;
+    font-size: 12px;
+    padding: 2px 0;
+}
+
+.box_general_vlmoi .dollar {
+    color: #fc205c;
+    font-size: 13px;
+    padding: 2px 0;
+}
+
+.box_general_vlmoi .time {
+    float: left;
+    width: 50%;
+    color: #555;
+    font-size: 13px;
+    padding: 2px 0;
+}
+
+.box_general_vlmoi p {
+    margin-bottom: 5px !important
+}
+
+.box_general_vlmoi .location {
+    float: left;
+    width: 50%;
+    color: #555;
+    font-size: 13px;
+    padding: 2px 0;
+}
+
+.box_general_hapdan .dollar, .box_item3 .dollar {
+    color: #fc205c;
+    font-size: 12px;
+    padding: 2px 0;
+    float: left;
+    width: 40%;
+}
+
+.box_general_hapdan .time, .box_item3 .time {
+    float: left;
+    width: 30%;
+    color: #555;
+    font-size: 12px;
+    padding: 2px 0;
+    text-align: center
+}
+
+.box_general_hapdan .location, .box_item3 .location {
+    float: left;
+    width: 60%;
+    color: #555;
+    font-size: 12px;
+    padding: 2px 0;
+    text-align: left
+}
+
+.job-item {
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 2px;
+    margin: 5px 0;
+    border: 1px solid hsla(0,0%,93%,.8);
+    -webkit-transition: -webkit-box-shadow .2s;
+    transition: -webkit-box-shadow .2s;
+    transition: box-shadow .2s;
+    transition: box-shadow .2s,-webkit-box-shadow .2s;
+    position: relative;
+}
+
+.item-list .item {
+    padding-bottom: 5px;
+    /* margin-bottom: 5px; */
+    padding-top: 5px;
+    /* margin-top: 5px; */
+    /* background: #fafafa; */
+}
+
+.box_general_vlmoi .item {
+    border-bottom: 1px dashed #eee;
+}
+
+.box_general .owl-theme .owl-nav.disabled + .owl-dots {
+    position: initial !important;
+    margin-top: 10px !important;
+}
+
+.box_general > h2 a, .box_general > h3 a {
+    font-size: 16px !important;
+    font-weight: bold;
+}
+
+a.td-tieudiem {
+    color: #d701ef !important
+}
+
+    a.td-tieudiem i.fa, a.td-gap i.fa, a.td-hapdan i.fa {
+        font-size: 18px !important;
+        font-weight: bold;
+    }
+
+a.td-gap {
+    color: #f1066f !important;
+}
+
+a.td-hapdan {
+    color: #ff5200 !important
+}
+
+a.td-tieudiem:hover, .box_general a.td-tieudiem:hover * {
+    color: #0092cf !important
+}
+
+a.td-gap:hover, .box_general a.td-tieudiem:hover * {
+    color: #0092cf !important
+}
+
+a.td-hapdan:hover, .box_general a.td-tieudiem:hover * {
+    color: #0092cf !important
+}
+
+.nganh-nghe-phai .fa {
+    color: #fc205c;
+    padding-right: 5px;
+    font-size: 14px !important
+}
+
+.nganh-nghe-phai {
+    padding-bottom: 10px;
+    font-size: 15px !important;
+}
+
+    .nganh-nghe-phai a, .nganh-nghe-phai span {
+        font-size: 15px !important;
+    }
+
+.box_general a:hover * {
+    color: #091900 !important
+}
+
+.box-hot, .box_general .j_title a span.box-hot, .box_list_works span.box-hot {
+    background: #f44336;
+    text-transform: capitalize;
+    padding: .2em .6em .3em !important;
+    font-size: 75% !important;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff !important;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+    margin-right: 5px;
+}
+
+.box-red {
+    color: red !important
+}
+
+.qcao-1 {
+    /* box-shadow: 0 0 3px 1px #319fd4 !important; */
+    margin-bottom: 10px !important;
+    padding: 10px !important;
+    background: #e2f7fd;
+}
+
+.wtitle a * {
+    font-size: 12px !important
+}
+
+.wname a:hover span, .wtitle a:hover span, .company_name a:hover *, .j_company a:hover *, .job-item a:hover * {
+    color: #dd0000 !important
+}
+
+a:hover span.box-hot {
+    color: yellow !important
+}
+
+.table-img {
+    display: table;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+    background: #fff;
+}
+
+.solid {
+    border: 1px solid #ddd;
+}
+
+.height-60 {
+    height: 60px
+}
+
+.height-80 {
+    height: 80px;
+}
+
+.cell-img {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center
+}
+
+.job-over-item .item-list .list-nvl:nth-child(2n+1) {
+    background: #e2f7fd
+}
+
+.qcao-0 {
+    border-bottom: 1px solid #ddd
+}
+
+.pd20 {
+    padding: 20px !important
+}
+
+.info-company i.fa {
+    color: #017cb0
+}
+
+.box-jobs-company .job-item {
+    height: unset !important;
+    padding: 5px 10px;
+}
+
+
+.detail_job {
+    background: #f3f3f3 !important
+}
+
+.box_general h3, .box_general h3 *, .box_general h3 a {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.box_general h3 {
+    margin-top: 5px;
+    padding-bottom: 10px
+}
+
+.tin-td-moi:nth-child(2n+1) {
+    background: #e2f7fd;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.box_general_hapdan .list-items a:visited {
+    color: #84b1cf !important;
+}
+
+.box_general_tdiem .list-items a:visited {
+    color: #84b1cf !important;
+}
+
+.box_general_vlgap .list-items a:visited {
+    color: #84b1cf !important;
+}
+
+.box_general_vlmoi .item-list a:visited {
+    color: #e45896 !important;
+}
+
+.text_ellipsis a {
+    color: #0025c3;
+    line-height: 24px;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.company_name a strong, .job-item a strong {
+    font-weight: normal
+}

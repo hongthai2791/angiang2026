@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="XrRichText1.SerializableRtfString" xml:space="preserve">
+    <value>ewBcAHIAdABmADEAXABkAGUAZgBmADAAewBcAGYAbwBuAHQAdABiAGwAewBcAGYAMAAgAEMAYQBsAGkAYgByAGkAOwB9AHsAXABmADEAIABUAGkAbQBlAHMAIABOAGUAdwAgAFIAbwBtAGEAbgA7AH0AfQB7AFwAYwBvAGwAbwByAHQAYgBsACAAOwBcAHIAZQBkADAAXABnAHIAZQBlAG4AMABcAGIAbAB1AGUAMAAgADsAXAByAGUAZAAwAFwAZwByAGUAZQBuADAAXABiAGwAdQBlADIANQA1ACAAOwB9AHsAXAAqAFwAZABlAGYAYwBoAHAAIABcAGYAMQBcAGYAcwAyADQAfQB7AFwAcwB0AHkAbABlAHMAaABlAGUAdAAgAHsAXABxAGwAXABmADEAXABmAHMAMgA0ACAATgBvAHIAbQBhAGwAOwB9AHsAXABzADEAXABzAGIAYQBzAGUAZABvAG4AMABcAHMAbgBlAHgAdAAxAFwAcQBsAFwAZgBzADIAMgAgAE4AbwAgAFMAcABhAGMAaQBuAGcAOwB9AHsAXAAqAFwAYwBzADIAXABmADEAXABmAHMAMgA0AFwAYwBmADEAIABEAGUAZgBhAHUAbAB0ACAAUABhAHIAYQBnAHIAYQBwAGgAIABGAG8AbgB0ADsAfQB7AFwAKgBcAGMAcwAzAFwAcwBiAGEAcwBlAGQAbwBuADIAXABmADEAXABmAHMAMgA0AFwAYwBmADEAIABMAGkAbgBlACAATgB1AG0AYgBlAHIAOwB9AHsAXAAqAFwAYwBzADQAXAB1AGwAXABmADEAXABmAHMAMgA0AFwAYwBmADIAIABIAHkAcABlAHIAbABpAG4AawA7AH0AewBcACoAXAB0AHMANQBcAHQAcwByAG8AdwBkAFwAZgAxAFwAZgBzADIANABcAHEAbABcAHQAcwBjAGUAbABsAHAAYQBkAGQAZgBsADMAXAB0AHMAYwBlAGwAbABwAGEAZABkAGwAMQAwADgAXAB0AHMAYwBlAGwAbABwAGEAZABkAGYAYgAzAFwAdABzAGMAZQBsAGwAcABhAGQAZABmAHIAMwBcAHQAcwBjAGUAbABsAHAAYQBkAGQAcgAxADAAOABcAHQAcwBjAGUAbABsAHAAYQBkAGQAZgB0ADMAXAB0AHMAdgBlAHIAdABhAGwAdABcAGMAbAB0AHgAbAByAHQAYgAgAE4AbwByAG0AYQBsACAAVABhAGIAbABlADsAfQB7AFwAKgBcAHQAcwA2AFwAdABzAHIAbwB3AGQAXABzAGIAYQBzAGUAZABvAG4ANQBcAGYAMQBcAGYAcwAyADQAXABxAGwAXAB0AHIAYgByAGQAcgB0AFwAYgByAGQAcgBzAFwAYgByAGQAcgB3ADEAMABcAHQAcgBiAHIAZAByAGwAXABiAHIAZAByAHMAXABiAHIAZAByAHcAMQAwAFwAdAByAGIAcgBkAHIAYgBcAGIAcgBkAHIAcwBcAGIAcgBkAHIAdwAxADAAXAB0AHIAYgByAGQAcgByAFwAYgByAGQAcgBzAFwAYgByAGQAcgB3ADEAMABcAHQAcgBiAHIAZAByAGgAXABiAHIAZAByAHMAXABiAHIAZAByAHcAMQAwAFwAdAByAGIAcgBkAHIAdgBcAGIAcgBkAHIAcwBcAGIAcgBkAHIAdwAxADAAXAB0AHMAYwBlAGwAbABwAGEAZABkAGYAbAAzAFwAdABzAGMAZQBsAGwAcABhAGQAZABsADEAMAA4AFwAdABzAGMAZQBsAGwAcABhAGQAZABmAHIAMwBcAHQAcwBjAGUAbABsAHAAYQBkAGQAcgAxADAAOABcAHQAcwB2AGUAcgB0AGEAbAB0AFwAYwBsAHQAeABsAHIAdABiACAAVABhAGIAbABlACAAUwBpAG0AcABsAGUAIAAxADsAfQB9AHsAXAAqAFwAbABpAHMAdABvAHYAZQByAHIAaQBkAGUAdABhAGIAbABlAH0AXABuAG8AdQBpAGMAbwBtAHAAYQB0AFwAcwBwAGwAeQB0AHcAbgBpAG4AZQBcAGgAdABtAGEAdQB0AHMAcABcAGEAbABuAHQAYgBsAGkAbgBkAFwAZQB4AHAAcwBoAHIAdABuAFwAcwBwAGwAdABwAGcAcABhAHIAXABwAGEAcgBkAFwAcABsAGEAaQBuAFwAcwAxAFwAcQBqAFwAcwBiADEAMgAwAHsAXAAqAFwAYgBrAG0AawBzAHQAYQByAHQAIABfAGQAeABfAGYAcgBhAGcAXwBTAHQAYQByAHQARgByAGEAZwBtAGUAbgB0AH0AewBcACoAXABiAGsAbQBrAGUAbgBkACAAXwBkAHgAXwBmAHIAYQBnAF8AUwB0AGEAcgB0AEYAcgBhAGcAbQBlAG4AdAB9AHsAXABsAGEAbgBnADEAMAAzADMAXABsAGEAbgBnAGYAZQAxADAAMwAzAFwAZgAxAFwAZgBzADIAOABcAGMAZgAxACAAIAAgAH0AewBcAGYAMQBcAGYAcwAyADgAXABjAGYAMQAgAFQAcgBvAG4AZwAgAG4AXAB1ADIANQA5AFwAJwA2ADEAbQAgAFsAZAB0AE0AYQBzAHQAZQByAC4ASwB5AEIAQwBdACwAIABUAHIAdQBuAGcAIAB0AFwAdQAyADIANgBcACcAZQAyAG0AIABEAFwAdQA3ADgAOAAzAFwAJwAzAGYAYwBoACAAdgBcAHUANwA5ADAAOQBcACcAMwBmACAAdgBpAFwAdQA3ADgANwA5AFwAJwAzAGYAYwAgAGwAXAB1ADIAMgA0AFwAJwBlADAAbQAgAHQAXAB1ADcAOAA4ADEAXAAnADMAZgBuAGgAIABbAGQAdABNAGEAcwB0AGUAcgAuAFQAaQBuAGgAVABQAF0AIABcAHUAMgA3ADMAXAAnADYANABcAHUAMgAyADcAXAAnAGUAMwAgAHQAaAB1ACAAdABoAFwAdQA3ADgANQAzAFwAJwAzAGYAcAAsACAAawBoAFwAdQA3ADgANAAzAFwAJwAzAGYAbwAgAHMAXAB1ADIAMgA1AFwAJwBlADEAdAAgAHQAaABcAHUAMgA0ADQAXAAnAGYANABuAGcAIAB0AGkAbgAgAHQAaABcAHUANwA4ADgAMwBcACcAMwBmACAAdAByAFwAdQA0ADMAMgBcACcANwA1AFwAdQA3ADkAMAAxAFwAJwAzAGYAbgBnACAAbABhAG8AIABcAHUAMgA3ADMAXAAnADYANABcAHUANwA4ADkANwBcACcAMwBmAG4AZwAgAHQAcgBcAHUAMgAzADQAXAAnAGUAYQBuACAAXAB1ADIANwAzAFwAJwA2ADQAXAB1ADcAOAA4ADMAXAAnADMAZgBhACAAYgBcAHUAMgAyADQAXAAnAGUAMABuACAAdABcAHUANwA4ADgAMQBcACcAMwBmAG4AaAAuACAAUQB1AGEAIABcAHUAMgA3ADMAXAAnADYANABcAHUAMgA0ADMAXAAnAGYAMwAsACAAXAB1ADIANwAzAFwAJwA2ADQAXAB1ADIAMgA3AFwAJwBlADMAIAB0AGgAdQAgAHQAaABcAHUANwA4ADUAMwBcACcAMwBmAHAAIABcAHUAMgA3ADMAXAAnADYANABcAHUANAAzADIAXAAnADcANQBcAHUANwA5ADAANwBcACcAMwBmAGMAIAB0AFwAdQA3ADgAOQAzAFwAJwAzAGYAbgBnACAAYwBcAHUANwA4ADkANwBcACcAMwBmAG4AZwAgADYAOQAyACAAZABvAGEAbgBoACAAbgBnAGgAaQBcAHUANwA4ADcAOQBcACcAMwBmAHAAIABnAGkAXAB1ADcAOAA0ADMAXAAnADMAZgBtACAANAA1ACwANQAxACUAIABzAG8AIAB2AFwAdQA3ADgAOQA5AFwAJwAzAGYAaQAgAG4AXAB1ADIANQA5AFwAJwA2ADEAbQAgADIAMAAyADIALAAgAHYAXAB1ADcAOAA5ADkAXAAnADMAZgBpACAAbgBoAHUAIABjAFwAdQA3ADgANAA3AFwAJwAzAGYAdQAgAHQAdQB5AFwAdQA3ADgANwA1AFwAJwAzAGYAbgAgAGQAXAB1ADcAOQAwADkAXAAnADMAZgBuAGcAIAA5ADUANwA3ACAAfQB7AFwAbABhAG4AZwAxADAANgA2AFwAbABhAG4AZwBmAGUAMQAwADYANgBcAGYAMQBcAGYAcwAyADgAXABjAGYAMQAgAG4AZwBcAHUANAAzADIAXAAnADcANQBcAHUANwA5ADAAMQBcACcAMwBmAGkAIAB2AFwAdQAyADIANABcACcAZQAwACAAfQB7AFwAZgAxAFwAZgBzADIAOABcAGMAZgAxACAAMgAwADYAMgB9AHsAXABsAGEAbgBnADEAMAA2ADYAXABsAGEAbgBnAGYAZQAxADAANgA2AFwAZgAxAFwAZgBzADIAOABcAGMAZgAxACAAIABsAGEAbwAgAFwAdQAyADcAMwBcACcANgA0AFwAdQA3ADgAOQA3AFwAJwAzAGYAbgBnACAAYwBcAHUAMgA0ADMAXAAnAGYAMwAgAG4AaAB1ACAAYwBcAHUANwA4ADQANwBcACcAMwBmAHUAIAB0AFwAdQAyADMANgBcACcAZQBjAG0AIABrAGkAXAB1ADcAOAA3ADEAXAAnADMAZgBtACAAdgBpAFwAdQA3ADgANwA5AFwAJwAzAGYAYwAgAGwAXAB1ADIAMgA0AFwAJwBlADAAbQAgAH0AewBcAGYAMQBcAGYAcwAyADgAXABjAGYAMQAgAHQAXAB1ADIANQA5AFwAJwA2ADEAbgBnACAAMgAyACwANQA5ACUAfQB7AFwAbABhAG4AZwAxADAANgA2AFwAbABhAG4AZwBmAGUAMQAwADYANgBcAGYAMQBcAGYAcwAyADgAXABjAGYAMQAgACAAcwBvACAAdgBcAHUANwA4ADkAOQBcACcAMwBmAGkAIAB9AHsAXABmADEAXABmAHMAMgA4AFwAYwBmADEAIABuAFwAdQAyADUAOQBcACcANgAxAG0AIAAyADAAMgAyAH0AewBcAGwAYQBuAGcAMQAwADYANgBcAGwAYQBuAGcAZgBlADEAMAA2ADYAXABmADEAXABmAHMAMgA4AFwAYwBmADEAIAAuAH0AXABsAGEAbgBnADEAMAA2ADYAXABsAGEAbgBnAGYAZQAxADAANgA2AFwAZgAxAFwAZgBzADIAOABcAGMAZgAxAFwAcABhAHIAXABwAGEAcgBkAFwAcABsAGEAaQBuAFwAcQBsAFwAbABhAG4AZwAxADAANgA2AFwAbABhAG4AZwBmAGUAMQAwADYANgBcAGYAMQBcAGYAcwAyADQAXABjAGYAMQBcAHAAYQByAH0A</value>
+  </data>
+  <data name="XrLabel85.Text" xml:space="preserve">
+    <value>   - Tổ chức tốt các phiên giao dịch việc làm cố định và lưu động
+   - Khai thác, thu thập, lưu trữ, tổng hợp thông tin thị trường lao động trên địa bàn tỉnh.
+   - Ứng dụng công nghệ thông tin vào thực hiện chính sách Bảo hiểm thất nghiệp, đồng thời hỗ trợ giới thiệu việc làm cho người lao động.
+   Trên đây là nội dung Báo cáo Phân tích thị trường lao động tỉnh [dtMaster.TinhTP] năm [dtMaster.KyBC]. Trong quá trình thực hiện, báo cáo có thể còn tồn tại nhiều thiếu sót xuất phát từ những hạn chế về nhân lực và nguồn số liệu.
+   Rất mong nhận được sự góp ý từ các tổ chức, cá nhân để báo cáo ngày càng hoàn thiện hơn./.
+</value>
+  </data>
+  <data name="XrLabel80.Text" xml:space="preserve">
+    <value>   Nguyên nhân thất nghiệp của lao động chủ yếu là do nguyên nhân như «BHTN_18_Danhmuc_Max1» và các nguyên nhân khác. Như vậy, có thể thấy người thất nghiệp hiện nay phần lớn là chủ động thất nghiệp (đơn phương chấm dứt HĐLĐ), nhóm lao động bị động thất nghiệp (Mất việc do doanh nghiệp giải thể, phá sản, thay đổi cơ cấu, hết hạn hợp đồng…) chiếm tỷ trọng khá thấp. 
+   Trong thực tế hiện nay, rất nhiều lao động thất nghiệp tự nguyện (chủ động thất nghiệp). Sau một khoảng một thời gian làm việc, tích lũy đủ kinh nghiệm và kỹ năng, người lao động sẽ có thiên hướng tìm doanh nghiệp khác, các công việc khác có thu nhập tốt hơn (thăng tiến trong công việc hay hiện tượng "nhảy việc"). Điều này là phù hợp với số liệu khi mà theo số liệu tính toán thì nhóm lao động thất nghiệp tập trung chủ yếu vào những người trẻ tuổi (26-30 tuổi). 
+
+</value>
+  </data>
+  <data name="XrLabel76.Text" xml:space="preserve">
+    <value>Theo trình độ chuyên môn kỹ thuật, những người lao động thất nghiệp tập trung lớn ở trình độ "[BHTN2_2.NameMax]" lên đến [BHTN2_2.ValMax] %, sau đó lần lượt đến các nhóm "[BHTN2_2.NameMin1]" với tỷ lệ [BHTN2_2.ValMin1] % và thấp nhất ở nhóm [BHTN2_2.NameMin2], [BHTN2_2.NameMin3] và [BHTN2_2.NameMin4], với tỷ lệ [BHTN2_2.ValMin2],[BHTN2_2.ValMin3] và [BHTN2_2.ValMin4].
+Theo xu hướng chung của độ tuổi, số liệu người thất nghiệp được phân tổ theo trình độ chuyên môn kỹ thuật cũng tuân theo quy luật giảm dần. Ở nhóm trình độ đại học và cao đẳng, thì thất nghiệp tập trung nhiều ở độ tuổi 26-30 tuổi và giảm dần ở các độ tuổi tiếp theo. Còn ở nhóm trình độ trung cấp, có chứng nhận, chứng chỉ sơ cấp, không có bằng cấp chứng chỉ, thất nghiệp tập trung chủ yếu ở nhóm tuổi «BHTN_17_02_Max1». Ví dụ như ở nhóm "đại học và trên đại học" người thất nghiệp tập trung nhiều ở độ tuổi «BHTN_17_02_Max1» với «BHTN_17_02_Max1_cc», tiếp đến là độ tuổi «BHTN_17_02_Max2» với «BHTN_17_02_Max2_cc»,…
+</value>
+  </data>
+  <data name="XrLabel71.Text" xml:space="preserve">
+    <value>   Trong năm [dtMaster.KyBC], số người thất nghiệp tập trung chủ yếu trong nhóm “[BHTN2_1.NameMax]” với [BHTN2_1.ValMax] %, tiếp đến từ các nhóm “[BHTN2_1.NameMin1]” với [BHTN2_1.ValMin1] %, nhóm tuổi “[BHTN2_1.NameMin2]” chiếm [BHTN2_1.ValMin2] %,…
+   Theo số liệu tính toán, người thất nghiệp có xu hướng giảm khi độ tuổi ngày càng lớn. Nhóm tuổi "[BHTN2_1.NameMax]" có tỷ lệ cao nhất và giảm dần theo các nhóm tuổi tiếp theo. Điều này phù hợp với thực tế khi mà càng lớn tuổi nhiều người có mong muốn ổn định công việc.
+</value>
+  </data>
+  <data name="XrLabel66.Text" xml:space="preserve">
+    <value>Tính từ ngày 01/12/[dtMaster.KyBC] đến ngày 30/11/[dtMaster.KyBC] trong năm [dtMaster.KyBC] tỉnh [dtMaster.TinhTP] có [BHTN1_1.ValSum] người nộp hồ sơ hưởng trợ cấp thất nghiệp. Và [BHTN1_1.ValMax] người có quyết định hưởng trợ cấp thất nghiệp, [BHTN1_1.ValMin1] người được chi trả trợ cấp thất nghiệp.</value>
+  </data>
+  <data name="XrLabel63.Text" xml:space="preserve">
+    <value>Thị trường lao động ngày càng phát triển theo xu hướng đổi mới công nghệ, nâng cao năng lực quản lý; phát triển quy mô sản xuất kinh doanh, quy mô doanh nghiệp tạo nhiều chỗ việc làm mới thu hút lao động vào làm việc đặc biệt là lao động làm trong lĩnh vực dệt may, giầy da, … Nhu cầu tuyển dụng lao động phổ thông vẫn chiếm tỷ lệ cao nhất trong cơ cấu tuyển dụng lao động năm [dtMaster.KyBC]; các doanh nghiệp trong tỉnh có nhu cầu tuyển dụng lao động với số lượng lớn nếu như mức lương và các chế độ đãi ngộ không tốt thì sẽ gặp rất nhiều khó khăn trong công việc tuyển dụng lao động vào làm việc.
+Tuy nhiên, thực trạng nhu cầu tuyển lao động của các doanh nghiệp chủ yếu tập trung vào công nhân dệt may, da giầy và không yêu cầu trình độ chuyên môn kỹ thuật nhưng số nhu cầu tìm việc làm ở lĩnh vực này lại ít, đa số người lao động có nhu cầu tìm việc tập trung vao những ngành như hành chính nhân sự, kế toán, … Đây là bị ảnh hưởng của thực trạng đào tạo “thừa thầy, thiếu thợ” của các cơ sở đào tạo nghề trong và ngoài tỉnh. 
+</value>
+  </data>
+  <data name="XrLabel57.Text" xml:space="preserve">
+    <value>   Nhu cầu tuyển dụng lao động trong năm  [dtMaster.KyBC] tập trung chủ yếu là đa phần là công nhân ngành công nghiệp, chế tạo như: dệt, may, giầy da, nhựa....  Bên cạnh những kiến thức về chuyên môn nghiệp vụ cũng như kinh nghiệm làm việc, nhiều doanh nghiệp cũng yêu cầu lao động phải trang bị được một số kỹ năng nhất định như kỹ năng làm việc nhóm, kỹ năng tập trung, kỹ năng chịu được áp lực công việc,...
+   Trong 18 kỹ năng mềm đưa ra khảo sát trong năm [dtMaster.KyBC], hầu hết các doanh nghiệp đều mong muốn và yêu cầu lao động cần phải có "[dtData3_3.NameMax]" chiếm [dtData3_3.ValMax] % trong công việc; "[dtData3_3.NameMin1]" chiếm [dtData3_3.ValMin1] %; "[dtData3_3.NameMin2]" chiếm [dtData3_3.ValMin2] %, "[dtData3_3.NameMin3]" chiếm [dtData3_3.ValMin3] % và "[dtData3_3.NameMin4]" chiếm [dtData3_3.NameMin4].
+   Từ kết quả phân tích có thể thấy tỉ lệ giữa các nhóm kỹ năng mà doanh nghiệp yêu cầu cũng như người lao động trang bị cho mình chênh lệch không nhiều. "[dtData2_3.NameMax]" chiếm [dtData2_3.ValMax] % nhu cầu tìm việc; " [dtData2_3.NameMin1]" chiếm [dtData2_3.ValMin1] %; "[dtData2_3.NameMin2]" chiếm [dtData2_3.ValMin2] %, "[dtData2_3.NameMin3]" chiếm [dtData2_3.ValMin3] % và "[dtData2_3.NameMin4]" chiếm [dtData2_3.NameMin4].
+</value>
+  </data>
+  <data name="XrLabel52.Text" xml:space="preserve">
+    <value>    Trong tổng số nhu cầu tuyển dụng của doanh nghiệp nhóm ngành/nghề được tuyển dụng nhiều nhất, lần lượt là: "[dtData3_1.NameMax]" chiếm  [dtData3_1.ValMax] % tổng nhu cầu tuyển dụng, tiếp đến là "[dtData3_1.NameMin1]" là [dtData3_1.ValMin1] % tổng nhu cầu tuyển dụng, "[dtData3_1.NameMin2]" chiếm [dtData3_1.ValMin2] % tổng nhu cầu tuyển dụng,....
+    Năm [dtMaster.KyBC], người lao động ứng tuyển vào vị trí "[dtData3_2.NameMax]" chiếm [dtData3_2.ValMax] % tổng nhu cầu tìm việc làm, ứng tuyển vào vị trí "[dtData3_2.NameMin1]" chiếm [dtData3_2.ValMin1] % tổng số nhu cầu ứng tuyển, "[dtData3_2.NameMin2]" chiếm [dtData3_2.ValMin2] % tổng nhu cầu ứng tuyển,...
+</value>
+  </data>
+  <data name="XrLabel46.Text" xml:space="preserve">
+    <value>   Kỹ năng mềm mà người tìm việc đã trang bị nhiều nhất cho bản thân là "[dtData2_3.NameMax]" chiếm  [dtData2_3.ValMax] %. Tiếp đến đó là "[dtData2_3.NameMin1]" chiếm  [dtData2_2.ValMin1] %; "[dtData2_3.NameMin2]" chiếm  [dtData2_3.ValMin2] %; "[dtData2_3.NameMin3]" chiếm  [dtData2_3.ValMin3] %  và "[dtData2_3.NameMin4]" chiếm [dtData2_3.ValMin4] %.</value>
+  </data>
+  <data name="XrLabel38.Text" xml:space="preserve">
+    <value>Theo số liệu tổng hợp từ nhu cầu tìm việc làm của người lao động trong năm [dtMaster.KyBC], mức lương người lao động mong muốn nhiều nhất là mức lương "[dtData2_2.NameMax]" chiếm [dtData2_2.ValMax] % ([dtData2_2.ValSubMax] điểm phần trăm so với cùng kỳ năm [dtMaster.KyBCTruoc]); tiếp đến là mức lương "[dtData2_2.NameMin1]" chiếm [dtData2_2.ValMin1] % ([dtData2_2.ValSubMin1] so với cùng kỳ năm [dtMaster.KyBCTruoc]); mức lương "[dtData2_2.NameMin2]" chiếm [dtData2_2.ValMin2] % ([dtData2_2.ValSubMin2] so với cùng kỳ năm [dtMaster.KyBCTruoc]). </value>
+  </data>
+  <data name="XrLabel29.Text" xml:space="preserve">
+    <value>Người tìm việc "[dtData2_1.NameMax]" chiếm [dtData2_1.ValMax]  [dtData2_1.ValSubMax] điểm phần trăm so với cùng kỳ, "[dtData2_1.NameMin1]" chiếm [dtData2_1.ValMin1] %. "[dtData2_1.NameMin2]" chiếm [dtData2_1.ValMin2] %, "[dtData2_1.NameMin3]" chiếm [dtData2_1.ValMin3] %, "[dtData2_1.NameMin4]" chiếm [dtData2_1.ValMin4] %.</value>
+  </data>
+  <data name="XrLabel24.Text" xml:space="preserve">
+    <value>   Các doanh nghiệp trên địa bàn tỉnh [dtMaster.TinhTP] hầu hết là may mặc, giầy da,... cần nhiều lao động kể cả lao động "[dtData1_3.NameMax]" sau đó doanh nghiệp tự đào tạo tay nghề cho người lao động để phù hợp với dây chuyền sản xuất của doanh nghiệp chiếm [dtData1_3.ValMax] %, lao động có "[dtData1_3.NameMin1]" chiếm [dtData1_3.ValMin1] %; "[dtData1_3.NameMin2]” chiếm [dtData1_3.ValMin1] %; “[dtData1_3.NameMin3]” chiếm [dtData1_3.ValMin3] %; “[dtData1_3.NameMin4]” chiếm [dtData1_3.ValMin4]. </value>
+  </data>
+  <data name="XrLabel16.Text" xml:space="preserve">
+    <value>    Nhu cầu tuyển dụng của các doanh nghiệp năm [dtMaster.KyBC] là [dtData1_1.ValSum] việc làm trống. Các doanh nghiệp tập trung nhiều ở nhóm [dtData1_1.NameMax], chiếm tới [dtData1_1.ValMax] %. Tiếp đến là nhóm chiếm tỷ lệ rất nhỏ như “[dtData1_1.NameMin2]” chiếm [dtData1_1.ValMin2] %, [dtData1_1.NameMin1] là [dtData1_1.ValMin1] %
+</value>
+  </data>
+  <data name="XrLabel20.Text" xml:space="preserve">
+    <value>   Nhu cầu tuyển dụng lao động trong năm [dtMaster.KyBC] tập trung chủ yếu là [dtData1_2.NameMax] chiếm [dtData1_2.ValMax] % ([dtData1_2.ValSubMax] điểm phần trăm so với cùng kỳ năm ngoái). Đặc điểm của [dtMaster.TinhTP] là một tỉnh có lợi thế, truyền thống phát triển về công nghiệp dệt may nên nhu cầu sử dụng nhiều lao động không yêu cầu trình độ chuyên môn kỹ thuật là một điều dễ hiểu. Tận dụng lợi thế này, tỉnh [dtMaster.TinhTP] đã làm rất tốt công tác giải quyết lao động cho người lao động cho mọi đối tượng từ lao động có trình độ chuyên môn cao đến những lao động phổ thông.</value>
+  </data>
+  <data name="XrLabel21.Text" xml:space="preserve">
+    <value>    Nhu cầu tuyển dụng lao động có trình độ [dtData1_2.NameMin1] là [dtData1_2.ValMin1] % ([dtData1_2.ValSubMin1] điểm phần trăm so với cùng kỳ năm ngoái); trình độ [dtData1_2.NameMin2] chiếm [dtData1_2.ValMin2] % ([dtData1_2.ValSubMin2] điểm phần trăm); trình độ  [dtData1_2.NameMin3] chiếm [dtData1_2.ValMin3] % ([dtData1_2.ValSubMin3] điểm phần trăm so với cùng kỳ) </value>
+  </data>
+  <metadata name="DsReport1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+</root>

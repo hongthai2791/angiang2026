@@ -1,0 +1,4 @@
+D:\thai\OT\mrP\eportal\Library\DotNetNuke.MAP\obj\Release\DotNetNuke.MAP.vbproj.AssemblyReference.cache
+D:\thai\OT\mrP\eportal\Library\DotNetNuke.MAP\obj\Release\DotNetNuke.MAP.Resources.resources
+D:\thai\OT\mrP\eportal\Library\DotNetNuke.MAP\obj\Release\DotNetNuke.MAP.vbproj.GenerateResource.cache
+D:\thai\OT\mrP\eportal\Library\DotNetNuke.MAP\obj\Release\DotNetNuke.MAP.vbproj.CoreCompileInputs.cache

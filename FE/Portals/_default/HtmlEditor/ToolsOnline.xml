@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <modules>
+    <!--<module name="RadEditorNodeInspector" />-->
+  </modules>
+  <tools name="InsertToolbar" >
+    <tool name="ImageManager" />
+    <tool name="MediaManager"/>
+    <tool name="Bold" shortcut="CTRL+B"/>
+    <tool name="Italic" shortcut="CTRL+I"/>
+    <tool name="Underline" shortcut="CTRL+U"/>
+    <tool separator="true"/>
+    <tool name="JustifyLeft" shortcut="CTRL+L"/>
+    <tool name="JustifyCenter" shortcut="CTRL+E"/>
+    <tool name="JustifyRight" shortcut="CTRL+R"/>
+    <tool name="JustifyFull" shortcut="CTRL+J"/>
+    <tool name="JustifyNone" />
+    <tool separator="true"/>
+    <tool name="PasteStrip"/>
+    <tool name="FormatStripper"/>
+    <!--<tool name="FontName" shortcut="CTRL+SHIFT+F"/>
+    <tool name="RealFontSize" shortcut="CTRL+SHIFT+P"/>-->
+    <tool separator="true"/>
+    <tool name="Undo" shortcut="CTRL+Z"/>
+    <tool name="Redo" shortcut="CTRL+Y"/>
+  </tools>
+  <fontNames>
+    <item name="Arial" />
+    <item name="Tahoma" />
+    <item name="Verdana" />
+    <item name="Helvetica" />
+    <item name="Times New Roman" />
+  </fontNames>
+  <realFontSizes>
+    <item value="14px"></item>
+    <item value="16px"></item>
+    <item value="18px"></item>
+    <item value="20px"></item>
+  </realFontSizes>
+</root>

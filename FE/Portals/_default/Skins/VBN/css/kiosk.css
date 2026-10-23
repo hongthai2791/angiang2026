@@ -1,0 +1,97 @@
+﻿.kiosk-main {
+    text-align:center;
+    font-size:24px;
+    font-weight:bold
+}
+.kiosk-body {
+    background: url(/image/kiosk-body.jpg) no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.kiosk-banner {
+    background: #fff;
+    text-align: center;
+}
+
+.chat-web-manage .cbmb__icon_support img {
+    width: 50px;
+    height: 50px;
+}
+
+.cbmb__icon_support {
+    position: fixed;
+    right: 25px;
+    height: 40px;
+    width: 40px;
+    z-index: 9999;
+    bottom: 100px;
+}
+
+#box_chat_div {
+    bottom: 120px;
+    right: 25px;
+    z-index: 9999;
+    position: fixed;
+}
+
+.kiosk-menu {
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+    .kiosk-menu ul li {
+        padding: 15px;
+        width: 100%;
+        display: inline-flex;
+    }
+
+        .kiosk-menu ul li a {
+            padding: 30px 10px;
+            border-radius: 10px;
+            width: 100%;
+            color: #fff;
+            background-color: #05489b
+        }
+
+#homeworks {
+    position: fixed;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    height: 290px;
+    overflow: hidden;
+    border-radius: 10px;
+    width: 800px;
+}
+
+.timer {
+    color: #fff;
+    bottom: 10px;
+    right: 20px
+}
+
+.box-w-title {
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 600;
+}
+
+.bg-home-work {
+    background-color: rgb(255 255 255 / 85%) !important;
+    border-radius: 10px;
+}
+
+.works-title {
+    text-align: left !important;
+}
+
+    .works-title a {
+        font-size: 14px !important;
+        color: #000
+    }
+
+.box-ct-wh {
+    width: 250px;
+    height: 130px !important;
+}

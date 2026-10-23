@@ -1,0 +1,60 @@
+# Begin robots.txt file
+User-agent: *
+Disallow: /host/
+Disallow: /cms/
+
+Disallow: /admin/Containers/ 
+Disallow: /admin/Modules/ 
+Disallow: /admin/Menus/ 
+Disallow: /admin/Portal/ 
+Disallow: /admin/Sales/ 
+Disallow: /admin/Security/ 
+Disallow: /admin/Skins/ 
+Disallow: /admin/Tabs/ 
+Disallow: /admin/Users/ 
+
+Disallow: /App_Browsers/
+Disallow: /App_Code/
+Disallow: /App_Data/
+Disallow: /App_GlobalResources/
+Disallow: /bin/
+Disallow: /Components/
+Disallow: /Config/
+Disallow: /contest/
+Disallow: /controls/
+Disallow: /DesktopModules/
+Disallow: /Documentation/
+Disallow: /HttpModules/
+Disallow: /Install/
+
+Disallow: /Portals/0/
+Disallow: /Portals/_default/Config/
+Disallow: /Portals/_default/EventQueue/
+Disallow: /Portals/_default/Containers/
+Disallow: /Portals/_default/Config/
+Disallow: /Portals/_default/Cache/
+Disallow: /Portals/_default/HtmlEditor/
+Disallow: /Portals/_default/Install/
+Disallow: /Portals/_default/EventQueue/
+Disallow: /Portals/_default/MergedTemplate/
+Disallow: /Portals/_default/Smileys/
+Disallow: /Portals/_default/Templates/
+Disallow: /Portals/_default/Users/
+Disallow: /Portals/_default/Logs/
+
+Disallow: /Providers/
+Disallow: /Licenses/
+
+Disallow: /Resources/ContentRotator/
+Disallow: /Resources/ControlPanel/
+Disallow: /Resources/Dashboard/
+Disallow: /Resources/FeedBrowser/
+Disallow: /Resources/OpenForceAd/
+Disallow: /Resources/Search/
+Disallow: /Resources/SkinWidgets/
+Disallow: /Resources/TabStrip/
+Disallow: /Resources/Widgets/
+
+Disallow: /Activity-Feed/userId/	
+
+# End of robots.txt file

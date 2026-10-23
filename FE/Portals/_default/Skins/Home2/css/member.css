@@ -1,0 +1,24 @@
+﻿.box-body table td, .box-body table tr, .popup-body table td, .popup-body table tr, .pop-content table tr, .pop-content table td {
+    border:none !important;
+    border-bottom: 1px solid #b5b5b5 !important;
+}
+    .box-body table, .box-body table tr, .box-body table td, .box-body table td label, .box-body table td a, .box-body table td b {
+        font-size: 12px
+    }
+td.hdTitle {
+    background-color: #2567b4 !important;
+    font-size: 14px !important
+}
+
+.cmsbut:hover {
+    background-color: #2869af;
+    border-color: #2869af;
+}
+
+.cblist {
+    display: inline-flex;
+    padding-top:3px
+}
+    .cblist label {
+        padding-top: 3px
+    }

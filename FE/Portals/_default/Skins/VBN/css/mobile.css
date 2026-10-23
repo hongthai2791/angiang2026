@@ -1,0 +1,4705 @@
+﻿@import "/portals/_default/skins/vbn/css/font.css?4.0.0";
+
+@media only screen and (min-width:768px) and (max-width:992px) {
+    .container {
+        margin: 0;
+        padding: 0;
+        width: 767px
+    }
+
+    .menu-box {
+        background: #042E51;
+        margin-right: -5px;
+        padding: 15px 0
+    }
+
+    .txtmenu {
+        padding: 0 15px
+    }
+
+        .txtmenu img {
+            height: 40px
+        }
+
+        .txtmenu p {
+            padding: 3px 0 !important;
+            margin-left: 0;
+            margin-bottom: 0
+        }
+
+    #menumobile {
+        height: 40px;
+        width: 40px;
+        font-size: 17px;
+        margin-top: -47px;
+        padding: 7px 9px;
+        margin-right: 1px
+    }
+
+        #menumobile i {
+            color: #fff
+        }
+
+    .box-carosel {
+        margin-right: -5px;
+        margin-left: -5px;
+        padding-bottom: 10px
+    }
+
+    .product-list__boxNew {
+        top: 0 !important
+    }
+
+    carousel-inner {
+        display: contents;
+        align-items: center
+    }
+
+    .product-list {
+        height: 290px
+    }
+
+    #owl-anhqc img {
+        height: 190px
+    }
+
+    .txt-right {
+        text-align: right
+    }
+
+    .pdtimviec {
+        padding: 10px 5px
+    }
+
+    .home-news {
+        padding: 15px 12px
+    }
+
+    .pdl20 {
+        padding-left: 13px !important
+    }
+
+    .title-tuyendung span {
+        left: 130px
+    }
+
+    .bd-hm-wb5 {
+        padding: 0;
+        margin-right: 12px
+    }
+
+    .footer .foot-lienhe * {
+        font-family: Roboto-Regular;
+        font-size: 12px
+    }
+
+    .footer__link {
+        padding-left: 10px
+    }
+
+    .footer__link_Career {
+        padding-left: 10px
+    }
+
+    .footer-lg {
+        padding-left: 0 !important;
+        padding-bottom: 10px
+    }
+
+    .pdt20 {
+        padding-top: 0 !important
+    }
+
+    .footer__link li.ft-lg {
+        margin-top: 0 !important
+    }
+
+    .titletaiapp {
+        top: 49px;
+        font-size: 18px;
+        left: 8px
+    }
+
+    .taiandoid {
+        left: calc(48% + 15px);
+        top: calc(91% - 95px);
+        width: 136px !important;
+        background-color: rgba(101,127,119,0.55);
+        margin-left: 30px !important
+    }
+
+    .taiios {
+        left: calc(64% - 215px);
+        top: calc(91% - 95px);
+        width: 136px !important;
+        background-color: rgba(75,156,107,0.57)
+    }
+
+    .search-job {
+        position: absolute;
+        left: calc(0%);
+        width: 100%;
+        padding: 15px 5px;
+        height: 133px
+    }
+
+    .searchtitle {
+        font-size: 12px
+    }
+
+    .feature {
+        padding: 0;
+        margin-left: -5px;
+        margin-right: -5px
+    }
+
+    .content1 {
+        margin-left: 0;
+        padding: 3px 0 10px;
+        margin-right: -10px;
+        border-bottom: 1px solid #767d79;
+        height: auto
+    }
+
+        .content1 .fetitle p {
+            font-size: 17px;
+            text-align: left;
+            padding-left: 164px
+        }
+
+        .content1 .fetimviec p {
+            font-size: 15px;
+            text-align: left;
+            padding-left: 164px
+        }
+
+        .content1 .felogo {
+            left: calc(13% - 50px);
+            top: calc(64% - 82px)
+        }
+
+    .feature .fetitle {
+        padding-top: 16px
+    }
+
+    .pdt5 {
+        padding-top: 5px !important;
+        padding-left: 120px
+    }
+
+    .feature .fetimviec {
+        padding-top: 10px
+    }
+
+    .content2 {
+        background: #fff;
+        padding: 0 0 10px;
+        margin-right: -10px;
+        border-bottom: 1px solid #767d79;
+        height: auto
+    }
+
+        .content2 .fetitle p {
+            font-size: 17px
+        }
+
+        .content2 .felogo {
+            right: calc(86% - 40px);
+            top: calc(64% - 82px)
+        }
+
+        .content2 .fetimviec p {
+            font-size: 15px
+        }
+
+        .content2 .fetitle p {
+            text-align: left;
+            padding-left: 164px
+        }
+
+        .content2 .fetimviec p {
+            margin-top: 0;
+            text-align: left;
+            padding-left: 164px
+        }
+
+    .content3 {
+        margin-left: 0;
+        padding: 0;
+        border-bottom: 1px solid #767d79;
+        height: 210px;
+        margin-right: -10px
+    }
+
+        .content3 .felogo {
+            left: calc(13% - 50px);
+            top: calc(56% - 82px)
+        }
+
+        .content3 .fetitle p {
+            padding-top: 0;
+            padding-left: 164px;
+            padding-right: 14px;
+            text-align: left;
+            font-size: 17px
+        }
+
+        .content3 .fetimviec p {
+            margin-top: 0;
+            font-size: 15px;
+            margin-bottom: 26px;
+            text-align: left;
+            padding-left: 164px
+        }
+
+    .pdt30 {
+        padding-top: 0 !important
+    }
+
+    .content3.pdtimviec {
+        padding: 5px 10px 0 5px;
+        margin-left: -5px
+    }
+
+    .content4 {
+        margin-left: 0;
+        padding: 0 0 10px;
+        margin-right: 0;
+        border-bottom: 1px solid #767d79;
+        height: auto;
+        margin-right: -10px
+    }
+
+        .content4 .fetimviec p {
+            color: #9c27b0;
+            font-size: 15px
+        }
+
+        .content4 .fetitle p {
+            padding-left: 0;
+            font-size: 17px;
+            text-align: left;
+            padding-left: 164px
+        }
+
+        .content4 .felogo {
+            right: calc(86% - 40px);
+            top: calc(65% - 82px)
+        }
+
+        .content4 .fetimviec p {
+            margin-top: 0;
+            text-align: left;
+            padding-left: 164px
+        }
+
+    .home-box-news p {
+        height: 97px
+    }
+
+    .home-feature {
+        padding: 0 !important
+    }
+
+    .banner-box {
+        padding-bottom: 10px;
+        padding-top: 10px
+    }
+
+    .bd-hm-wb {
+        margin-left: -5px;
+        margin-right: -5px
+    }
+
+    .breadcrumb-box {
+        padding-left: 0;
+        padding-right: 0
+    }
+
+    .pdr0 {
+        padding-right: 0 !important;
+        margin-left: -5px
+    }
+
+    .box_list_works {
+        margin-left: -5px;
+        margin-right: -5px;
+        padding: 10px 13px;
+        margin-bottom: 10px
+    }
+
+    .ViecLamTheoDanhMuc {
+        margin-left: -5px;
+        margin-right: -5px
+    }
+
+    .tab-content {
+        background: #fff;
+        padding: 15px 5px;
+        line-height: 24px
+    }
+
+    .tq {
+        padding-left: 5px
+    }
+
+    .box-search-job {
+        padding: 9px;
+        margin-left: -5px;
+        margin-right: -5px
+    }
+
+    .AppKeng {
+        margin-left: -5px;
+        margin-right: -5px;
+        padding: 0;
+        border: 1px solid #fff
+    }
+
+        .AppKeng .appboder {
+            border-bottom: 1px solid #95d3ea;
+            margin-bottom: 0;
+            margin-top: 5px
+        }
+
+    .qrcode {
+        padding-top: 0
+    }
+
+    .advertisement {
+        width: auto;
+        margin-top: 20px;
+        height: 236px;
+        background-color: #4a1a67;
+        margin-left: -5px;
+        margin-right: -5px
+    }
+
+    .copyright .foot-copyright {
+        text-align: left;
+        padding-left: 4px
+    }
+
+    .tk {
+        margin-left: -5px
+    }
+
+    .lienh h3 {
+        text-align: center;
+        font-size: 22px;
+        font-weight: 600;
+        padding: 15px 0
+    }
+
+    .bd-hm-w {
+        border: none;
+        border-bottom: 1px solid #ddd
+    }
+
+    #employer-homepage h1 {
+        font-size: 19px !important
+    }
+
+    .list-items .col-md-2 i {
+        margin: 5px 2px
+    }
+
+    .list-items .col-md-2 span {
+        text-align: justify !important;
+        display: inherit;
+        padding-left: 30px
+    }
+
+    .list-product__tab-link {
+        padding: 0
+    }
+
+    .text-center1 {
+        margin-top: -12px
+    }
+
+    .business-gap {
+        padding: 25px 7px
+    }
+
+    .business-nd {
+        padding: 10px 5px;
+        height: 200px
+    }
+
+    .business-title {
+        padding-top: 32px
+    }
+
+        .business-title p {
+            font-size: 15px
+        }
+
+    .business-count {
+        font-size: 15px
+    }
+
+    .pdt40 {
+        padding-top: 10px !important
+    }
+
+    #menu-tab-products2 {
+        display: none
+    }
+
+    .list-product__tab-link.active {
+        margin-bottom: 4px
+    }
+
+    .container-tab__index1 {
+        height: auto;
+        box-shadow: 0 4px 20px 0 rgba(0,0,0,.2);
+        margin-bottom: 24px;
+        padding: 10px;
+        border-top: 4px solid orange
+    }
+
+    #UVQuanLy {
+        display: block !important
+    }
+
+    #UVChuyenMon {
+        display: block !important
+    }
+
+    #UVPhoThong {
+        display: block !important
+    }
+
+    #employer-homepage #guarantee {
+        margin-top: 0
+    }
+
+    #employer-homepage h1 {
+        margin-bottom: 5px
+    }
+
+    .text-center {
+        margin-top: 25px
+    }
+
+    .job-item {
+        height: 90px !important
+    }
+
+    .item-list .item {
+        display: flex
+    }
+
+    .box_general_vlmoi .time {
+        width: 100%
+    }
+
+    .box-hot {
+        margin-top: 0
+    }
+
+    .extra-work .dollar {
+        width: 100% !important
+    }
+
+    .extra-work .time {
+        width: 50% !important
+    }
+
+    .extra-work .location {
+        width: 50% !important
+    }
+
+    .tab-noidungtt {
+        padding-right: 0
+    }
+
+    .box-fanpage {
+        padding: 20px 0 20px 13px !important
+    }
+
+    .diachi {
+        margin-left: -5px !important;
+        margin-right: -5px
+    }
+
+    .page-contact-bg-td {
+        text-align: left;
+        padding-left: 13px
+    }
+
+    .contact-info {
+        padding-left: 15px !important
+    }
+
+    .mau-cv {
+        margin-bottom: 0 !important;
+        padding: 15px 0 !important;
+        margin-left: -5px;
+        margin-right: -5px
+    }
+
+    .template_cv {
+        padding: 10px 5px 0 !important;
+        margin-top: 0 !important
+    }
+
+        .template_cv p {
+            font-size: 12px;
+            padding: 10px 0 0 !important
+        }
+
+    .content-grid {
+        margin-left: -5px;
+        margin-right: -5px;
+        padding: 30px 10px !important;
+        margin-bottom: 0 !important
+    }
+
+        .content-grid * {
+            font-size: 13px !important
+        }
+
+        .content-grid h3 {
+            font-size: 20px !important;
+            padding-bottom: 0
+        }
+
+    .reviewtitle {
+        font-size: 13px !important
+    }
+
+    .td {
+        font-size: 13px
+    }
+
+    .company-info .company-info__name {
+        margin-left: 0;
+        margin-bottom: 5px
+    }
+
+    .company-info .company-info__rating {
+        margin-left: 0
+    }
+
+    .review .card-header-title {
+        padding: 2rem 0 0 .6rem
+    }
+
+    .company-info-company-page .company-info {
+        height: 145px
+    }
+
+    .card-header-title {
+        display: block !important
+    }
+
+    .review .review__time {
+        font-size: 15px !important
+    }
+
+    .detail-review {
+        padding: 15px 10px !important;
+        margin-left: -5px;
+        margin-right: -5px
+    }
+
+    .company-info__rating .fa {
+        font-size: 18px !important
+    }
+
+    .company-info .company-info__rating-count {
+        font-size: 15px
+    }
+
+    .pdt5 {
+        padding-left: 0
+    }
+
+    .review-business-list {
+        margin-top: 0
+    }
+
+    .business-Best {
+        margin-left: -10px;
+        margin-right: -5px
+    }
+
+    .box-works-news {
+        margin-left: -5px;
+        margin-right: -5px
+    }
+
+        .box-works-news .title {
+            margin: 0 8px
+        }
+
+        .box-works-news .list-recruitment .recruitment {
+            padding: 15px 9px
+        }
+
+        .box-works-news .address {
+            margin-left: -5px
+        }
+
+    .detail-works {
+        margin-left: -5px;
+        margin-right: -5px;
+        padding: 10px 7px
+    }
+
+    .detail-business {
+        margin-left: -5px;
+        margin-right: -5px;
+        padding: 9px
+    }
+
+    .logo-company {
+        border: 1px solid #fff;
+        border-bottom: 1px solid #eee
+    }
+
+    .ViecLamTheoDanhMuc .nav-tabs > li.active > a {
+        margin-right: 0;
+        border: 0;
+        padding-top: 14px;
+        border-radius: 0;
+        font-size: 14px;
+        width: 187px
+    }
+
+    .nav > li > a {
+        padding: 8px
+    }
+
+    .ViecLamTheoDanhMuc .nav-tabs > li > a {
+        margin-right: 0;
+        border: 0;
+        padding-top: 14px;
+        border-radius: 0;
+        font-size: 14px;
+        width: 187px
+    }
+
+    .copyright .foot-copyright {
+        color: #cbc8c8;
+        text-align: center
+    }
+}
+
+@media only screen and (min-width:577px) and (max-width:767px) {
+    .business-page:nth-child(2n+1) {
+        background: #eafcfe;
+    }
+    .txt-center img {
+        height: 200px
+    }
+
+    .scroll-body {
+        overflow: auto;
+        max-height: 100% !important
+    }
+
+    .clear-xs {
+        clear: both
+    }
+
+    .ex_page {
+        padding-bottom: 15px
+    }
+
+    .job-item p.txt-4-line {
+        margin-left: 10px
+    }
+
+    .al-logo img {
+        float: left
+    }
+
+    .al-acq {
+        padding-left: 25px
+    }
+
+    .menu-box {
+        background: #042E51;
+        padding: 5px 0
+    }
+
+    .txtmenu {
+        padding: 0 15px
+    }
+
+        .txtmenu img {
+            height: 40px
+        }
+
+        .txtmenu p {
+            padding: 3px 0 !important;
+            margin-left: 7px;
+            margin-bottom: 0;
+            font-size: 8px
+        }
+
+    .hidden-login .navbar {
+        margin-bottom: 0
+    }
+
+    #menumobile {
+        height: 50px;
+        width: 40px;
+        font-size: 17px;
+        padding: 10px;
+        margin-right: 1px
+    }
+
+        #menumobile i {
+            color: #fff
+        }
+
+    .box-carosel {
+        padding-bottom: 0
+    }
+
+    .product-list__boxNew {
+        top: 0 !important
+    }
+
+    carousel-inner {
+        display: contents;
+        align-items: center
+    }
+
+    .box-new-img img {
+        width: 60%
+    }
+
+    .home-box-news p {
+        text-align: center
+    }
+
+    .product-list {
+        height: 290px
+    }
+
+    #owl-anhqc img {
+        height: 190px
+    }
+
+    #owl-anhqc .app-download img {
+        height: auto !important
+    }
+
+    .pdtimviec {
+        padding: 10px
+    }
+
+    .home-news {
+        padding: 15px 12px
+    }
+
+    .pdl20 {
+        padding-left: 13px !important
+    }
+
+    .bd-hm-wb5 {
+        padding: 0;
+        margin-right: 12px
+    }
+
+    .footer .foot-lienhe * {
+        font-family: Roboto-Regular;
+        font-size: 12px
+    }
+
+    .footer__link {
+        padding-left: 10px
+    }
+
+    .footer__link_Career {
+        padding-left: 10px
+    }
+
+    .footer-lg {
+        padding-left: 0 !important;
+        padding-bottom: 10px
+    }
+
+    .pdt20 {
+        padding-top: 0 !important
+    }
+
+    .footer__link li.ft-lg {
+        margin-top: 0 !important
+    }
+
+    .titletaiapp {
+        top: 49px;
+        font-size: 18px;
+        left: 8px
+    }
+
+    .taiandoid {
+        left: calc(48% + 15px);
+        top: calc(91% - 95px);
+        width: 136px !important;
+        background-color: rgba(101,127,119,0.55);
+        margin-left: 4px !important
+    }
+
+    .taiios {
+        left: calc(64% - 215px);
+        top: calc(91% - 95px);
+        width: 136px !important;
+        background-color: rgba(75,156,107,0.57)
+    }
+
+    .search-job {
+        position: absolute;
+        left: calc(0%);
+        width: 100%;
+        padding: 15px 5px;
+        height: 133px
+    }
+
+    .searchtitle {
+        font-size: 12px
+    }
+
+    .feature {
+        padding: 0;
+        margin-left: -5px;
+        margin-right: -5px
+    }
+
+    .content1 {
+        margin-left: 0;
+        padding: 3px 0 10px;
+        margin-right: -10px;
+        border-bottom: 1px solid #767d79;
+        height: auto
+    }
+
+        .content1 .fetitle p {
+            font-size: 17px;
+            text-align: left;
+            padding-left: 120px
+        }
+
+        .content1 .fetimviec p {
+            font-size: 15px;
+            text-align: left;
+            padding-left: 124px
+        }
+
+        .content1 .felogo {
+            left: calc(13% - 50px);
+            top: calc(50% - 82px)
+        }
+
+    .feature .fetitle {
+        padding-top: 16px
+    }
+
+    .pdt5 {
+        padding-top: 5px !important;
+        padding-left: 120px
+    }
+
+    .feature .fetimviec {
+        padding-top: 10px
+    }
+
+    .content2 {
+        background: #fff;
+        padding: 0 0 10px;
+        margin-right: -10px;
+        border-bottom: 1px solid #767d79;
+        height: auto
+    }
+
+        .content2 .fetitle p {
+            font-size: 17px
+        }
+
+        .content2 .felogo {
+            right: calc(83% - 40px);
+            top: calc(58% - 82px)
+        }
+
+        .content2 .fetimviec p {
+            font-size: 15px
+        }
+
+        .content2 .fetitle p {
+            text-align: left;
+            padding-left: 120px
+        }
+
+        .content2 .fetimviec p {
+            margin-top: 0;
+            text-align: left;
+            padding-left: 124px
+        }
+
+    .content3 {
+        margin-left: 0;
+        padding: 0;
+        border-bottom: 1px solid #767d79;
+        height: 214px;
+        margin-right: -10px
+    }
+
+        .content3 .felogo {
+            left: calc(13% - 50px);
+            top: calc(54% - 82px)
+        }
+
+        .content3 .fetitle p {
+            padding-top: 0;
+            padding-left: 120px;
+            padding-right: 14px;
+            text-align: left;
+            font-size: 17px
+        }
+
+        .content3 .fetimviec p {
+            margin-top: 0;
+            font-size: 15px;
+            margin-bottom: 26px;
+            text-align: left;
+            padding-left: 124px
+        }
+
+    .home-news .bg-img {
+        opacity: .35
+    }
+
+    .home-news .read-more {
+        opacity: 1 !important;
+        border-color: #fff !important;
+        font-size: 15px !important;
+        margin-top: 0 !important
+    }
+
+    .home-news .home-box-news a {
+        height: 200px !important
+    }
+
+        .home-news .home-box-news a article .box-detail h4 {
+            opacity: 1 !important;
+            border-color: #fff !important;
+            font-size: 20px !important;
+            margin-bottom: 0 !important
+        }
+
+    .pdt30 {
+        padding-top: 0 !important
+    }
+
+    .content3.pdtimviec {
+        padding: 5px 10px 0 5px;
+        margin-left: -5px
+    }
+
+    .content4 {
+        margin-left: 0;
+        padding: 0 0 10px;
+        margin-right: 0;
+        border-bottom: 1px solid #767d79;
+        height: auto;
+        margin-right: -10px
+    }
+
+        .content4 .fetimviec p {
+            color: #9c27b0;
+            font-size: 15px
+        }
+
+        .content4 .fetitle p {
+            padding-left: 0;
+            font-size: 17px;
+            text-align: left;
+            padding-left: 120px
+        }
+
+        .content4 .felogo {
+            right: calc(84% - 40px);
+            top: calc(60% - 82px)
+        }
+
+        .content4 .fetimviec p {
+            margin-top: 0;
+            text-align: left;
+            padding-left: 124px
+        }
+
+    .home-feature {
+        padding: 0 !important
+    }
+
+    .banner-box {
+        padding-bottom: 10px;
+        padding-top: 10px
+    }
+
+    .bd-hm-wb {
+        margin-left: -5px;
+        margin-right: -5px
+    }
+
+    .breadcrumb-box {
+        padding-left: 0;
+        padding-right: 0
+    }
+
+    .pdr0 {
+        padding-right: 0 !important;
+        margin-left: -5px
+    }
+
+    .box_list_works {
+        margin-left: -5px;
+        margin-right: -5px;
+        padding: 10px 13px;
+        margin-bottom: 10px
+    }
+
+    .ViecLamTheoDanhMuc {
+        margin-left: -5px;
+        margin-right: -5px
+    }
+
+    .tab-content {
+        background: #fff;
+        padding: 15px 5px;
+        line-height: 24px
+    }
+
+    .tq {
+        padding-left: 5px
+    }
+
+    .box-search-job {
+        padding: 9px;
+        margin-left: -5px;
+        margin-right: -5px
+    }
+
+    .AppKeng {
+        margin-left: -5px;
+        margin-right: -5px;
+        padding: 0;
+        border: 1px solid #fff
+    }
+
+        .AppKeng .appboder {
+            border-bottom: 1px solid #95d3ea;
+            margin-bottom: 0;
+            margin-top: 5px
+        }
+
+    .qrcode {
+        padding-top: 0
+    }
+
+    .advertisement {
+        width: auto;
+        margin-top: 20px;
+        height: 236px;
+        background-color: #4a1a67;
+        margin-left: -5px;
+        margin-right: -5px
+    }
+
+    .copyright .foot-copyright {
+        text-align: left;
+        padding-left: 4px
+    }
+
+    .tk {
+        margin-left: -5px
+    }
+
+    .lienh h3 {
+        text-align: center;
+        font-size: 22px;
+        font-weight: 600;
+        padding: 15px 0
+    }
+
+    .home-work .search-job {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important
+    }
+
+    .bd-hm-w {
+        border: none;
+        border-bottom: 1px solid #ddd
+    }
+
+    .hot_news_title p {
+        color: #fff;
+        font-size: 19px
+    }
+
+    .list-news-title a {
+        font-size: 15px
+    }
+
+    .list-news-summary {
+        font-size: 13px
+    }
+
+    .mgl-contents {
+        padding-left: 10px
+    }
+
+    .Candidate-data {
+        padding-left: 0
+    }
+
+    #employer-homepage h1 {
+        font-size: 19px !important
+    }
+
+    #employer-homepage #jumbotron h1 strong {
+        font-size: 30px
+    }
+
+    h4.modal-title {
+        font-size: 13px
+    }
+
+    .close {
+        margin-right: 0 !important
+    }
+
+    #employer-homepage h1 {
+        font-size: 19px !important
+    }
+
+    #employer-homepage #jumbotron h1 small {
+        font-size: 16px
+    }
+
+    .list-items .col-md-2 i {
+        margin: 5px 2px
+    }
+
+    #employer-homepage #jumbotron {
+        height: 112px
+    }
+
+    .list-items .col-md-2 span {
+        text-align: justify !important;
+        display: inherit;
+    }
+    .business-page div i {
+        padding-left: 5px !important;
+        font-size: 10px !important;
+        color: #147b9a;
+    }
+    /*.list-items.text-center1 {
+       padding-left:27px !important;
+    }*/
+    .box_left_content {
+        width: 100% !important;
+        
+    }
+
+    .list-product__tab-link {
+        padding: 0
+    }
+
+    .text-center1 {
+        margin-top: -12px
+    }
+
+    .list-items .col-md-1 i {
+        margin: 5px 2px !important
+    }
+
+    .list-items .col-md-1 span {
+        text-align: justify !important;
+        display: inherit;
+        margin-top:-19px !important;
+    }
+    .business-page div.col-md-1 i
+    {
+        padding-left:0px !important;
+    }
+    .business-page span.xhiend {
+        padding-left: 0px !important;
+        padding-top:19px !important;
+    }
+    .list-items .txt-hoten span {
+        padding-left: 0px !important;
+    }
+  
+    .business-page span.text_grey2 {
+        padding-left: 0px !important;
+    }
+    .text_grey2 a
+    {
+        padding-left:4px !important;
+    }
+    .business-page span {
+        padding-left: 25px !important;
+    }
+
+    .Business-profile {
+        padding: 3px
+    }
+
+    .list-items .col-md-2 {
+        padding: 4px !important
+    }
+
+        .list-items .col-md-2 span {
+            text-align: justify !important;
+         
+        }
+
+            .list-items .col-md-2 span.xhiend {
+                text-align: justify !important;
+                padding-left: 0
+            }
+
+    .text-center1 {
+        margin-top: -12px;
+        position: absolute
+    }
+
+    .business-gap {
+        padding: 25px 0
+    }
+
+    .pdt40 {
+        padding-top: 10px !important
+    }
+
+    #menu-tab-products2 {
+        display: none
+    }
+
+    .list-product__tab-link.active {
+        margin-bottom: 4px
+    }
+
+    .container-tab__index1 {
+        box-shadow: 0 4px 20px 0 rgba(0,0,0,.2);
+        margin-bottom: 24px;
+        padding: 10px;
+        border-top: 4px solid orange
+    }
+
+    #UVQuanLy {
+        display: block !important
+    }
+
+    #UVChuyenMon {
+        display: block !important
+    }
+
+    #UVPhoThong {
+        display: block !important
+    }
+
+    #employer-homepage #guarantee {
+        margin-top: 0
+    }
+
+    #employer-homepage h1 {
+        margin-bottom: 5px;
+        padding: 10px 0
+    }
+
+    .text-center {
+        margin-top: 25px
+    }
+
+    .list-product__tab-link {
+        padding: 0
+    }
+
+    .business-gap {
+        padding: 25px 0
+    }
+
+    .pdt40 {
+        padding-top: 10px !important
+    }
+
+    #menu-tab-products2 {
+        display: none
+    }
+
+    .list-product__tab-link.active {
+        margin-bottom: 4px
+    }
+
+    .container-tab__index1 {
+        box-shadow: 0 4px 20px 0 rgba(0,0,0,.2);
+        margin-bottom: 24px;
+        padding: 10px;
+        border-top: 4px solid orange
+    }
+
+    #UVQuanLy {
+        display: block !important
+    }
+
+    #UVChuyenMon {
+        display: block !important
+    }
+
+    #UVPhoThong {
+        display: block !important
+    }
+
+    #employer-homepage #guarantee {
+        margin-top: 0
+    }
+
+    #employer-homepage h1 {
+        margin-bottom: 20px !important;
+        margin-top: 20px !important
+    }
+
+    .text-center {
+        margin-top: 25px
+    }
+
+    .container-tab__button {
+        position: inherit
+    }
+
+    .job-item .job_info .company_name {
+        width: 100%;
+        max-width: 100% !important
+    }
+
+    .scroll-focus {
+        height: auto
+    }
+
+    .owl-theme .owl-nav.disabled + .owl-dots {
+        margin-top: 5px !important
+    }
+
+    .job-item {
+        height: 90px !important
+    }
+
+    .box_general_vlmoi .dollar {
+        width: 40%;
+        float: left
+    }
+
+    .box_general_vlmoi .time {
+        width: 30%;
+        float: left
+    }
+
+    .box_general_vlmoi .location {
+        width: 30%
+    }
+
+    .nicescroll-cursors {
+        background-color: #fff !important
+    }
+
+    .box_general_tdiem .job-item .job_info .extra-info .dollar {
+        width: 40%;
+        float: left
+    }
+
+    .box_general_tdiem .job-item .job_info .extra-info .time {
+        float: left;
+        width: 30%
+    }
+
+    .box_general_tdiem .job-item .job_info .extra-info .location {
+        float: left;
+        width: 30%
+    }
+
+    .Business-information {
+        margin-top: 0
+    }
+
+    .box-hot {
+        margin-top: 0
+    }
+
+    .extra-work .dollar {
+        width: 32% !important;
+        float: left !important
+    }
+
+    .extra-work .time {
+        width: 32% !important
+    }
+
+    .extra-work .location {
+        width: 35% !important
+    }
+
+    .tab-noidungtt {
+        padding-right: 0
+    }
+
+    .box-fanpage {
+        padding: 20px 0 20px 13px !important
+    }
+
+    .diachi {
+        margin-left: 0 !important
+    }
+
+    .contact-right {
+        padding-left: 0
+    }
+
+    .DC-googlemap {
+        margin: 20px 15px 20px 10px !important
+    }
+
+    .page-contact-bg-td {
+        text-align: left;
+        padding-left: 13px
+    }
+
+    .contact-info {
+        padding-left: 15px !important
+    }
+
+    .mau-cv {
+        margin-bottom: 0 !important;
+        padding: 15px 0 !important
+    }
+
+    .template_cv {
+        padding: 5px 20px !important;
+        margin-top: 0 !important
+    }
+
+        .template_cv p {
+            font-size: 12px;
+            padding: 10px 0 0 !important
+        }
+
+    .item-list .item {
+        display: flow-root
+    }
+
+    .content-grid {
+        margin-left: -5px;
+        margin-right: -5px;
+        padding: 30px 10px !important;
+        margin-bottom: 0 !important
+    }
+
+        .content-grid * {
+            font-size: 13px !important
+        }
+
+        .content-grid h3 {
+            font-size: 20px !important;
+            padding-bottom: 0
+        }
+
+    .companyvip-info img {
+        height: 73px
+    }
+
+    .reviewtitle {
+        font-size: 13px !important
+    }
+
+    .search-review {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+        background-color: #0080b7 !important
+    }
+
+    .td {
+        font-size: 13px
+    }
+
+    .company-info .company-info__name {
+        margin-left: 0;
+        margin-bottom: 5px
+    }
+
+    .company-info .company-info__rating {
+        margin-left: 0
+    }
+
+    .review .card-header-title {
+        padding: 2rem 0 0 .6rem
+    }
+
+    .company-info-company-page .company-info {
+        height: 145px
+    }
+
+    .card-header-title {
+        display: block !important
+    }
+
+    .review .review__time {
+        font-size: 15px !important
+    }
+
+    .detail-review {
+        padding: 15px 10px !important
+    }
+
+    .ads-img {
+        margin: 0
+    }
+
+    .company-info__rating .fa {
+        font-size: 18px !important
+    }
+
+    .company-info .company-info__rating-count {
+        font-size: 15px
+    }
+
+    .pdt5 {
+        padding-left: 0
+    }
+
+    .review-business-list {
+        margin-top: 0
+    }
+
+    .business-Best {
+        padding-left: 0
+    }
+
+    .enterprise-review {
+        padding-left: 0
+    }
+
+    .search-job .TinhTP .bootstrap-select > .dropdown-toggle {
+        margin-top: 5px
+    }
+
+    .search-job .NganhNghe .bootstrap-select > .dropdown-toggle {
+        margin-top: 5px
+    }
+
+    .box-works-news .title {
+        margin: 0 8px
+    }
+
+    .btn-search-job {
+        height: 85px !important
+    }
+
+    .box-works-news .list-recruitment .recruitment {
+        padding: 15px 9px
+    }
+
+    .search-job {
+        padding: 30px 15px !important
+    }
+
+    .box-works-news .address {
+        margin-left: -5px
+    }
+
+    .detail-works {
+        margin-left: -5px;
+        margin-right: -5px;
+        padding: 10px 7px
+    }
+
+    .detail-business {
+        padding: 9px
+    }
+
+    .logo-company {
+        border: 1px solid #fff;
+        border-bottom: 1px solid #eee
+    }
+
+    .mobile-distance {
+        padding-left: 0;
+        padding-right: 0
+    }
+
+    .ViecLamTheoDanhMuc .nav-tabs > li.active > a {
+        margin-right: 0;
+        border: 0;
+        padding-top: 14px;
+        border-radius: 0;
+        font-size: 14px;
+        width: 187px
+    }
+
+    .nav > li > a {
+        padding: 8px
+    }
+
+    .ViecLamTheoDanhMuc .nav-tabs > li > a {
+        margin-right: 0;
+        border: 0;
+        padding-top: 14px;
+        border-radius: 0;
+        font-size: 14px;
+        width: 187px
+    }
+
+    .copyright .foot-copyright {
+        color: #cbc8c8;
+        text-align: center
+    }
+
+    .small-marge img {
+        padding-top: 0 !important
+    }
+
+    .name-td {
+        padding: 0 0 3px !important
+    }
+
+    .hotline-box img {
+        width: 100%
+    }
+
+    .taiandoid {
+        margin-top: 10px !important
+    }
+
+    .advertiside-box img {
+        width: 100% !important
+    }
+
+    .mobile-uv {
+        padding-right: 0 !important
+    }
+
+    .taiios {
+        margin-left: 4px !important
+    }
+}
+
+@media only screen and (max-width:567px) {
+    .frlienhe {
+        padding: 20px 0px !important;
+    }
+        .frlienhe .lhn {
+           
+            padding-left: 5px !important;
+            padding-right:5px !important;
+        }
+    .home-exper {
+        padding: 20px 18px 0 !important
+    }
+
+    .advertiside-box .item.pdt10 {
+        padding-top: 0 !important
+    }
+
+    .home-exper p {
+        height: auto !important;
+        margin-bottom: 15px !important
+    }
+
+    .card-header p {
+        margin: 0 0 5px !important
+    }
+
+    .company-info-company-page .company-info {
+        height: auto !important;
+        padding: 15px 10px
+    }
+
+    .candidate-bt {
+        padding-top: 15px !important
+    }
+
+    .line_list {
+        margin-bottom: 0 !important
+    }
+
+    .wd-row {
+        border-bottom: 1px solid #eee;
+        margin-bottom: 0 !important;
+        padding-bottom: 10px
+    }
+
+    .deta-bt {
+        margin-bottom: 10px !important
+    }
+
+    .hdBHTN .nav-tabs > li > a {
+        height: 40px;
+        font-size: 13px !important
+    }
+
+    .huongDan-bhtn {
+        padding: 0 7px !important
+    }
+
+    .h3-title {
+        font-size: 14px !important;
+        background: #d276a9 !important
+    }
+
+    .hdBHTN img {
+        max-width: 100% !important;
+        height: auto !important
+    }
+
+    .form-control, .search-job .bootstrap-select > .dropdown-toggle {
+        height: 32px !important
+    }
+
+    .pd10 {
+        padding: 10px 0 !important
+    }
+
+    .name-td {
+        padding: 0 0 3px !important
+    }
+
+    .mobile-uv {
+        padding-right: 0 !important
+    }
+
+    .small-marge img {
+        padding-top: 0 !important
+    }
+
+    .search-job {
+        padding: 5px !important;
+        min-height: 91px !important
+    }
+
+    .box-search {
+        margin-bottom: 0 !important;
+        border: 0 !important
+    }
+
+    .hotline-box img {
+        width: 100%
+    }
+
+    .advertiside-box img {
+        width: 100% !important
+    }
+
+    .taiios {
+        margin-top: 10px !important
+    }
+
+    .pushy1 {
+        width: 250px;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: #fff;
+        overflow: auto;
+        -webkit-overflow-scrolling: touch
+    }
+
+    .pushy-open1 {
+        -webkit-transform: translate3d(0,0,0);
+        -moz-transform: translate3d(0,0,0);
+        -ms-transform: translate3d(0,0,0);
+        -o-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0)
+    }
+
+    .pushy-left1 {
+        -webkit-transform: translate3d(-420px,0,0);
+        -moz-transform: translate3d(-420px,0,0);
+        -ms-transform: translate3d(-420px,0,0);
+        -o-transform: translate3d(-420px,0,0);
+        transform: translate3d(-420px,0,0)
+    }
+
+    .pushy1 {
+        z-index: 10000;
+        position: fixed
+    }
+
+    .pushy-active1 .site-overlay1 {
+        display: block;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 9998;
+        background-color: rgba(0,0,0,.5);
+        -webkit-animation: fade .5s;
+        -moz-animation: fade .5s;
+        -o-animation: fade .5s;
+        animation: fade .5s
+    }
+
+    .modal-footer {
+        text-align: center !important
+    }
+
+    .Qr_image_footer img {
+        width: 100px
+    }
+
+    .business-page div span {
+        display: inline-block !important;
+        padding-left: 5px !important
+    }
+
+    .business-page div i {
+        padding-left: 5px !important;
+        font-size: 10px !important;
+        color: #147b9a
+    }
+
+    .list-items .col-md-2.hidden-xs {
+        display: none !important
+    }
+
+    .business-page .col-xs-12 span, .Business-profile .col-xs-12 span {
+        float: unset !important
+    }
+}
+
+@media only screen and (min-width:376px) and (max-width:576px) {
+    .btTkiemD{
+        top:29px!important;
+    }
+    .main-header .navbar .nav > li > a > .label {
+        right: 8px !important;
+        top: 8px !important;
+    }
+
+    .btCircleWhite {
+        padding: 4px 10px !important;
+    }
+    .menucost {
+        padding: 10px !important;
+    }
+    .business-page:nth-child(2n+1) {
+        background: #eafcfe;
+    }
+
+    .business-page {
+        padding-top: 5px !important;
+        padding-bottom: 5px !important
+    }
+
+    .list-items .col-md-2 {
+        text-align: left !important;
+        display: inline-block !important;
+        padding-bottom: 4px !important
+    }
+
+    .list-items .Business-profile.txt-hoten span {
+        padding-left: 0px !important;
+    }
+
+    .list-items .Business-profile.txt-hoten span {
+        padding-left: 0px !important;
+    }
+
+    .business-page div span {
+        display: inline-block !important;
+    }
+
+    .list-items .col-md-2 i {
+        margin: 0px 2px !important
+    }
+
+    .business-page div i {
+        padding-left: 5px !important;
+        font-size: 10px !important;
+        color: #147b9a;
+    }
+
+    .text_grey2 a {
+        font-size: 11px;
+        
+    }
+
+    .list-items .col-md-1 i {
+        padding-left: 2px !important;
+    }
+
+    .list-items .col-md-1 span {
+        text-align: justify !important;
+        display: inherit;
+    }
+
+    .business-page div span {
+        display: inline-block !important;
+        padding-left: 6px !important;
+    }
+
+    .text-center1 {
+        margin-top: 3px;
+    }
+
+    .list-items .col-md-1 i {
+        padding-left: 2px !important;
+    }
+
+    .list-items .col-md-2 span, .list-items .col-md-2 span.text-center1 {
+        text-align: left !important;
+        padding-left: 5px !important;
+    }
+
+    .col-xs-12 span.xhiend {
+        padding-left: 0 !important;
+        padding-top: 0 !important;
+    }
+    .container-tab__info {
+        padding: 10px 0px !important;
+    }
+    .business-page {
+       
+        padding-bottom: 5px !important;
+        padding-top: 5px !important;
+    }
+    .list-items .col-md-1 span.xhiend
+    {
+        padding-left:0px !important;
+    }
+    .list-items .col-md-2 span, .list-items .col-md-2 span.text-center1 {
+        text-align: left !important;
+        padding-left: 10px !important;
+    }
+    .business-page div span {
+        display: inline-block !important;
+        padding-left: 10px !important;
+    }
+
+    .list-items .Business-profile.txt-hoten span {
+        padding-left: 0px !important;
+    }
+
+    .list-items .col-md-2 span, .list-items .col-md-2 span.text-center1.tp-mobile {
+        text-align: left !important;
+        /*padding-left: 29px !important*/
+    }
+
+    .list-items .col-md-1.candidate-phone span {
+        align-items: unset !important;
+        justify-content: unset !important;
+        padding-left: 8px
+    }
+    .business-page div i {
+       
+        padding: 3px 0px !important;
+    }
+    .btnhd-keng p {
+        margin-bottom: 33px
+    }
+
+        .btnhd-keng p.tn {
+            margin-bottom: 10px !important
+        }
+
+    .list-items .col-md-2 span, .list-items .col-md-2 span.text-center1.tp-mobile {
+        text-align: left !important;
+        padding-left: 25px !important
+    }
+
+        .list-items .col-md-2 span, .list-items .col-md-2 span.text-center1.money-mobi {
+            text-align: left !important;
+        }
+
+    .list-items .col-xs-6 i {
+        margin-top: 2px !important
+    }
+
+    .hdBHTN .nav-tabs > li > a {
+        width: 404px !important
+    }
+
+    .right-tab {
+        right: 0 !important
+    }
+
+    .txt-center img {
+        height: 200px
+    }
+
+    .nganh-nghe-phai a, .nganh-nghe-phai span {
+        font-size: 13px !important
+    }
+
+    .scroll-body {
+        overflow: auto;
+        max-height: initial !important;
+        overflow: auto;
+        max-height: 100%
+    }
+
+    .pdt10 {
+        padding-top: 5px
+    }
+
+    .Business-profile {
+        padding-top: 3px;
+        padding-left: 0
+    }
+
+    .Business-profile-kc {
+        padding-left: 0
+    }
+
+    .box_list_works * {
+        font-size: 14px !important
+    }
+
+    .job-item p.txt-4-line {
+        margin-left: 5px
+    }
+
+    .owl-theme .owl-nav.disabled + .owl-dots {
+        margin-top: 15px !important
+    }
+
+    .text_normal {
+        padding-left: 0 !important
+    }
+
+    .small-marge {
+        padding: 12px 20px !important
+    }
+
+    .content-nganhnghe {
+        padding: 20px 0 !important
+    }
+
+    .lpi-link-btn {
+        margin: 10px auto 0 !important
+    }
+
+    .span-tw {
+        padding-left: 0 !important
+    }
+
+    .list-items .col-md-2 {
+        padding: 4px 0 !important
+    }
+
+    .list-items .col-md-1 {
+        padding: 4px 0 !important
+    }
+
+    .box_list_works .list-items {
+        padding-bottom: 0 !important;
+        margin-top: 0 !important
+    }
+
+    .item-list .item {
+        padding-bottom: 8px !important;
+        margin-bottom: 0 !important;
+        display: flow-root
+    }
+
+    .content {
+        padding-left: 5px !important
+    }
+
+    .col-xs-6.candidate-phone {
+        padding-left: 0 !important
+    }
+
+    .list-items .col-md-2 i.candidate {
+        margin-left: 86px;
+        margin-top: 4px !important
+    }
+
+    .scroll-focus {
+        height: auto
+    }
+
+    .job-item .job_info .company_name {
+        width: 100%;
+        max-width: 100% !important
+    }
+
+    .box_general_vlmoi p {
+        margin-bottom: 0 !important
+    }
+
+    .box_general_tdiem .job-item .job_info .company_name, .box_general_vlmoi .job-item .job_info .company_name {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important
+    }
+
+    .pd10 {
+        padding: 0 !important
+    }
+
+    .txtmenu {
+        padding: 0 10px
+    }
+
+        .txtmenu img {
+            height: 40px;
+            padding-top: 8px
+        }
+
+        .txtmenu p {
+            padding: 0 !important;
+            margin-left: 8px;
+            margin-bottom: 0;
+            font-size: 8px
+        }
+
+    #menumobile {
+        height: 50px;
+        width: 40px;
+        font-size: 15px;
+        padding: 10px 9px;
+        margin-right: 1px
+    }
+
+        #menumobile i {
+            color: #fff
+        }
+
+    .hidden-login .navbar {
+        margin-bottom: 0 !important
+    }
+
+    .box-carosel {
+        padding-bottom: 0 !important
+    }
+
+    .product-list__boxNew {
+        top: 0 !important
+    }
+
+    carousel-inner {
+        display: contents;
+        align-items: center
+    }
+
+    .product-list {
+        height: 290px
+    }
+
+    #owl-anhqc img {
+        height: 112px
+    }
+
+    #owl-anhqc .app-download img {
+        height: auto !important
+    }
+
+    .pdtimviec {
+        padding: 10px
+    }
+
+    .home-news {
+        padding: 15px 12px
+    }
+
+    .pdl20 {
+        padding-left: 13px !important
+    }
+
+    .bd-hm-wb5 {
+        padding: 0;
+        margin-right: 12px
+    }
+
+    .footer .foot-lienhe * {
+        font-family: Roboto-Regular;
+        font-size: 12px
+    }
+
+    .footer__link {
+        padding-left: 10px
+    }
+
+    .footer__link_Career {
+        padding-left: 10px
+    }
+
+    .footer-lg {
+        padding-left: 0 !important;
+        padding-bottom: 10px
+    }
+
+    .pdt20 {
+        padding-top: 0 !important
+    }
+
+    .footer__link li.ft-lg {
+        margin-top: 0 !important
+    }
+
+    .titletaiapp {
+        top: 49px;
+        font-size: 18px;
+        left: 8px
+    }
+
+    .taiandoid {
+        left: calc(48% + 15px);
+        top: calc(91% - 95px);
+        width: 136px !important;
+        background-color: rgba(101,127,119,0.55);
+        margin-left: 0 !important;
+        margin-top: 10px !important
+    }
+
+    .taiios {
+        left: calc(64% - 215px);
+        top: calc(91% - 95px);
+        width: 136px !important;
+        background-color: rgba(75,156,107,0.57)
+    }
+
+    .search-job {
+        position: absolute;
+        left: calc(0%);
+        width: 100%;
+        padding: 15px 5px
+    }
+
+    .searchtitle {
+        font-size: 12px
+    }
+
+    .feature {
+        padding: 0;
+        margin-left: -5px;
+        margin-right: -5px
+    }
+
+    .content1 {
+        margin-left: 0;
+        padding: 3px 0 10px;
+        margin-right: -10px;
+        border-bottom: 1px solid #767d79;
+        height: auto
+    }
+
+        .content1 .fetitle p {
+            font-size: 17px;
+            text-align: center
+        }
+
+        .content1 .fetimviec p {
+            font-size: 15px;
+            text-align: center
+        }
+
+        .content1 .felogo {
+            left: calc(13% - 50px);
+            top: calc(50% - 82px)
+        }
+
+    .feature .fetitle {
+        padding-top: 16px
+    }
+
+    .pdt5 {
+        padding-top: 5px !important;
+        padding-left: 120px
+    }
+
+    .feature .fetimviec {
+        padding-top: 10px
+    }
+
+    .content2 {
+        background: #fff;
+        padding: 0 0 10px;
+        margin-right: -10px;
+        border-bottom: 1px solid #767d79;
+        height: auto
+    }
+
+        .content2 .fetitle p {
+            font-size: 17px
+        }
+
+        .content2 .felogo {
+            right: calc(83% - 40px);
+            top: calc(58% - 82px)
+        }
+
+        .content2 .fetimviec p {
+            font-size: 15px
+        }
+
+        .content2 .fetitle p {
+            text-align: center
+        }
+
+        .content2 .fetimviec p {
+            margin-top: 0;
+            text-align: center
+        }
+
+    .content3 {
+        margin-left: 0;
+        padding: 0;
+        border-bottom: 1px solid #767d79;
+        height: 254px;
+        margin-right: -10px
+    }
+
+        .content3 .felogo {
+            left: calc(13% - 50px);
+            top: calc(54% - 82px)
+        }
+
+        .content3 .fetitle p {
+            padding-top: 0;
+            font-size: 17px;
+            text-align: center
+        }
+
+        .content3 .fetimviec p {
+            margin-top: 0;
+            font-size: 15px;
+            margin-bottom: 26px;
+            text-align: center
+        }
+
+    .pdt30 {
+        padding-top: 0 !important
+    }
+
+    .content3.pdtimviec {
+        padding: 5px 10px 0 5px;
+        margin-left: -5px
+    }
+
+    .content4 {
+        margin-left: 0;
+        padding: 0 0 10px;
+        margin-right: 0;
+        border-bottom: 1px solid #767d79;
+        height: auto;
+        margin-right: -10px
+    }
+
+        .content4 .fetimviec p {
+            color: #9c27b0;
+            font-size: 15px
+        }
+
+        .content4 .fetitle p {
+            padding-left: 0;
+            font-size: 17px;
+            text-align: center
+        }
+
+        .content4 .felogo {
+            right: calc(84% - 40px);
+            top: calc(60% - 82px)
+        }
+
+        .content4 .fetimviec p {
+            margin-top: 0;
+            text-align: center
+        }
+
+    .detail-business .title-comdetail {
+        font-size: 17px
+    }
+
+    .home-feature {
+        padding: 0 !important
+    }
+
+    .banner-box {
+        padding-bottom: 10px;
+        padding-top: 10px
+    }
+
+    .home-news .bg-img {
+        opacity: .35
+    }
+
+    .home-news .home-box-news a {
+        height: 200px !important
+    }
+
+    .home-news .read-more {
+        opacity: 1 !important;
+        border-color: #fff !important;
+        margin-top: 0 !important;
+        font-size: 15px
+    }
+
+    .home-news .home-box-news a article .box-detail h4 {
+        opacity: 1 !important;
+        border-color: #fff !important;
+        font-size: 17px !important;
+        margin-bottom: 0 !important
+    }
+
+    .bd-hm-wb {
+        margin-left: -5px;
+        margin-right: -5px
+    }
+
+    .breadcrumb-box {
+        padding-left: 0;
+        padding-right: 0
+    }
+
+    .pdr0 {
+        padding-right: 0 !important
+    }
+
+    .box_list_works {
+        padding: 10px 13px;
+        margin-bottom: 10px
+    }
+
+    .ViecLamTheoDanhMuc {
+        margin-left: -5px;
+        margin-right: -5px
+    }
+
+    .tab-content {
+        background: #fff;
+        padding: 5px !important;
+        line-height: 24px
+    }
+
+    .tq {
+        padding-left: 5px
+    }
+
+    .box-search-job {
+        padding: 9px
+    }
+
+    .AppKeng {
+        margin-left: -5px;
+        margin-right: -5px;
+        padding: 0;
+        border: 1px solid #fff
+    }
+
+        .AppKeng .appboder {
+            border-bottom: 1px solid #95d3ea;
+            margin-bottom: 0;
+            margin-top: 5px
+        }
+
+    .qrcode {
+        padding-top: 0
+    }
+
+    .advertisement {
+        width: auto;
+        margin-top: 20px;
+        height: 236px;
+        background-color: #4a1a67;
+        margin-left: -5px;
+        margin-right: -5px
+    }
+
+    .copyright .foot-copyright {
+        text-align: left;
+        padding-left: 4px
+    }
+
+    .tk {
+        margin-left: -5px
+    }
+
+    .lienh h3 {
+        text-align: center;
+        font-size: 22px;
+        font-weight: 600;
+        padding: 15px 0
+    }
+
+    .searchnangcao {
+        padding-top: 0
+    }
+
+    .home-work .search-job {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important
+    }
+
+    .bd-hm-w {
+        border: none;
+        border-bottom: 1px solid #ddd;
+        width: auto !important
+    }
+
+    h4.modal-title {
+        font-size: 13px
+    }
+
+    .close {
+        margin-right: 0 !important
+    }
+
+    #employer-homepage h1 {
+        font-size: 19px !important
+    }
+
+    .Candidate-data {
+        padding-left: 0
+    }
+
+    #employer-homepage #jumbotron h1 small {
+        font-size: 16px
+    }
+
+    .list-items .col-md-2 i {
+        margin: 5px 2px
+    }
+
+    #employer-homepage #jumbotron {
+        height: 112px
+    }
+
+    .box-pro-1 .list-items {
+        height: auto !important
+    }
+
+    .list-items .col-md-2 span {
+        text-align: justify !important;
+        display: inherit;
+        padding-left: 30px
+    }
+
+    .xhiend {
+        padding-top: 5px;
+        padding-left: 0 !important
+    }
+
+    .list-product__tab-link {
+        padding: 0
+    }
+
+    .text-center1 {
+        margin-top: -12px
+    }
+
+
+
+    .list-items .col-md-1 span {
+        text-align: justify !important;
+        display: inherit;
+        padding-left: 25px;
+        padding-top: 0
+    }
+
+    .list-items .col-md-2 span {
+        text-align: justify !important;
+        padding-left: 30px
+    }
+
+        .list-items .col-md-2 span.xhiend {
+            text-align: justify !important;
+            padding-left: 0 !important
+        }
+
+    .text-center1 {
+        margin-top:0px;
+        position: absolute
+    }
+
+    .business-gap {
+        padding: 25px 0
+    }
+
+    .pdt40 {
+        padding-top: 10px !important
+    }
+
+    #menu-tab-products2 {
+        display: none
+    }
+
+    .list-product__tab-link.active {
+        margin-bottom: 4px
+    }
+
+    .container-tab__index1 {
+        height: auto;
+        box-shadow: 0 4px 20px 0 rgba(0,0,0,.2);
+        margin-bottom: 24px;
+        padding: 10px;
+        border-top: 4px solid orange
+    }
+
+    #UVQuanLy {
+        display: block !important
+    }
+
+    #UVChuyenMon {
+        display: block !important
+    }
+
+    #UVPhoThong {
+        display: block !important
+    }
+
+    #employer-homepage #guarantee {
+        margin-top: 0
+    }
+
+    #employer-homepage h1 {
+        margin-bottom: 5px;
+        padding: 10px 0
+    }
+
+    .text-center {
+        margin-top: 25px
+    }
+
+    .job-item {
+        height: 90px !important
+    }
+
+    .searchtitle {
+        font-size: 11px
+    }
+
+    .box_item3 .dollar {
+        width: 32%
+    }
+
+    .box_item3 .time {
+        width: 32%
+    }
+
+    .box_item3 .location {
+        width: 32%
+    }
+
+    .box_general_vlmoi .dollar {
+        width: 32%;
+        float: left
+    }
+
+    .btn-search-job {
+        padding: 6px;
+        height: 69px !important
+    }
+
+    .search-job .TinhTP .bootstrap-select > .dropdown-toggle {
+        margin-top: 5px
+    }
+
+    .search-job .NganhNghe .bootstrap-select > .dropdown-toggle {
+        margin-top: 5px
+    }
+
+    .box_general_vlmoi .time {
+        width: 32%;
+        float: left
+    }
+
+    .box_general_vlmoi .location {
+        width: auto
+    }
+
+    .nicescroll-cursors {
+        background-color: #fff !important
+    }
+
+    .hot_news_title p {
+        font-size: 16px
+    }
+
+    .adv-new-home #our-partner {
+        padding-top: 10px !important;
+        padding-bottom: 10px !important
+    }
+
+    .center.vl-nganh-nghe {
+        text-align: left !important;
+        padding-left: 15px !important
+    }
+
+    .adv-new-home .imgOur {
+        width: 50% !important;
+        float: left !important
+    }
+
+    .bubble-link {
+        padding: 5px 10px !important
+    }
+
+    #job-search-form .field.relative {
+        width: calc(64% - 1px) !important
+    }
+
+    #job-search-form .field.bttomtk {
+        width: calc(34% - 1px) !important
+    }
+
+    .t-header_content .big-sub-title {
+        font-size: 20px !important;
+        margin-bottom: 5px !important
+    }
+
+    .txt-input {
+        height: 40px !important
+    }
+
+    .bt-timkiem {
+        height: 40px !important
+    }
+
+    .t-header_content {
+        padding: 15px 12px 12px !important
+    }
+
+    .box_left_content {
+        width: 100% !important;
+        height: 135px !important
+    }
+
+    a.link-cta {
+        margin-top: 10px !important
+    }
+
+    .t-header {
+        padding: 15px 0 !important;
+        height: 165px !important
+    }
+
+    .full {
+        padding: 0 10px !important
+    }
+
+    .content-nganhnghe .top-sub-title {
+        font-size: 14px !important
+    }
+
+    .content-nganhnghe h3 {
+        font-size: 18px !important;
+        margin-bottom: 15px !important
+    }
+
+    .box-news-hot .list-news {
+        padding: 15px
+    }
+
+    .list-news-title a {
+        font-size: 15px
+    }
+
+    .list-news-title {
+        margin-bottom: 0
+    }
+
+    .list-news-summary {
+        font-size: 13px
+    }
+
+    .news-event img {
+        width: 95px
+    }
+
+    .tab-noidungtt a {
+        padding: 10px 5px;
+        font-size: 14px !important
+    }
+
+    .box_general_tdiem .job-item .job_info .extra-info .dollar {
+        width: 32%;
+        float: left
+    }
+
+    .box_general_tdiem .job-item .job_info .extra-info .time {
+        float: left;
+        width: 32%
+    }
+
+    .box_general_tdiem .job-item .job_info .extra-info .location {
+        float: left;
+        width: 32%
+    }
+
+    .Business-information {
+        margin-top: 0
+    }
+
+    .box-hot {
+        margin-top: 0
+    }
+
+    .extra-work .dollar {
+        width: 32% !important;
+        float: left !important
+    }
+
+    .extra-work .time {
+        width: 32% !important
+    }
+
+    .extra-work .location {
+        width: 35% !important
+    }
+
+    .tab-noidungtt {
+        padding-right: 0
+    }
+
+    .box-fanpage {
+        padding: 20px 0 20px 38px !important
+    }
+
+    .diachi {
+        margin-left: 0 !important
+    }
+
+    .contact-right {
+        padding-left: 0
+    }
+
+    .page-contact-bg-td {
+        text-align: left;
+        padding-left: 13px
+    }
+
+    .DC-googlemap {
+        margin: 20px 15px 20px 10px !important
+    }
+
+    .contact-info {
+        padding-left: 15px !important
+    }
+
+    .mau-cv {
+        margin-bottom: 0 !important;
+        padding: 15px 0 !important;
+        margin-left: -5px;
+        margin-right: -5px
+    }
+
+    .template_cv .cv-overlay a span {
+        padding: 5px
+    }
+
+    .template_cv {
+        padding: 0 15px !important;
+        margin-top: 0 !important
+    }
+
+        .template_cv p {
+            font-size: 12px;
+            padding: 10px 0 0 !important
+        }
+
+    .content-grid {
+        margin-left: -5px;
+        margin-right: -5px;
+        padding: 30px 10px !important;
+        margin-bottom: 0 !important
+    }
+
+        .content-grid * {
+            font-size: 13px !important
+        }
+
+        .content-grid h3 {
+            font-size: 20px !important;
+            padding-bottom: 0
+        }
+
+    .reviewtitle {
+        font-size: 13px !important;
+        border-bottom: 1px solid #fff
+    }
+
+    .search-review {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+        background-color: #0080b7 !important;
+        height: 112px !important
+    }
+
+    .ads-img {
+        margin: 0
+    }
+
+    .td {
+        font-size: 13px
+    }
+
+    .company-info .company-info__name {
+        margin-left: 0;
+        margin-bottom: 5px !important
+    }
+
+        .company-info .company-info__name a {
+            font-size: 14px !important
+        }
+
+    .company-info .company-info__rating {
+        margin-left: 0
+    }
+
+    .companyvip-info img {
+        height: 73px
+    }
+
+    .review .card-header-title {
+        padding: 2rem 1rem 0
+    }
+
+    .card-header-time {
+        padding-left: 10px
+    }
+
+    .text-5001 {
+        padding: 0 8px 0 5px
+    }
+
+    .company-info-company-page .company-info {
+        height: 145px;
+        padding: 0 10px
+    }
+
+    .card-header-title {
+        display: block !important
+    }
+
+    .review .review__time {
+        font-size: 15px !important
+    }
+
+    .detail-review {
+        padding: 15px 10px !important;
+        margin-left: -5px;
+        margin-right: -5px
+    }
+
+    .company-info__rating .fa {
+        font-size: 18px !important
+    }
+
+    .company-info .company-info__rating-count {
+        font-size: 15px
+    }
+
+    .pdt5 {
+        padding-left: 0
+    }
+
+    .review-business-list {
+        margin-top: 0
+    }
+
+    .business-Best {
+        padding-left: 0
+    }
+
+    .enterprise-review {
+        padding-left: 0
+    }
+
+    .box-works-news .title {
+        margin: 0 8px
+    }
+
+    .box-works-news .list-recruitment .recruitment {
+        padding: 15px 9px
+    }
+
+    .box-works-news .address {
+        margin-left: -5px
+    }
+
+    .detail-works {
+        margin-left: -5px;
+        margin-right: -5px;
+        padding: 10px 7px
+    }
+
+    .detail-business {
+        margin-left: -5px;
+        margin-right: -5px;
+        padding: 9px
+    }
+
+    .logo-company {
+        border: 1px solid #fff;
+        border-bottom: 1px solid #eee
+    }
+
+    .ViecLamTheoDanhMuc .nav-tabs > li.active > a {
+        margin-right: 0;
+        border: 0;
+        padding-top: 14px;
+        border-radius: 0;
+        font-size: 14px;
+        width: 187px
+    }
+
+    .nav > li > a {
+        padding: 8px
+    }
+
+    .ViecLamTheoDanhMuc .nav-tabs > li > a {
+        margin-right: 0;
+        border: 0;
+        padding-top: 14px;
+        border-radius: 0;
+        font-size: 14px;
+        width: 187px
+    }
+
+    .copyright .foot-copyright {
+        color: #cbc8c8;
+        text-align: center
+    }
+
+    #employer-homepage #jumbotron h1 {
+        margin-top: 10px
+    }
+
+        #employer-homepage #jumbotron h1 strong {
+            font-size: 18px;
+            margin-bottom: 8px
+        }
+
+    .Business-candidate {
+        margin-top: 10px
+    }
+
+    .mobile-distance {
+        padding-left: 0;
+        padding-right: 0
+    }
+
+    .al-logo img {
+        float: left
+    }
+
+    .al-acq {
+        padding-left: 25px
+    }
+
+    .txt-right {
+        text-align: unset !important
+    }
+
+    .ex_page {
+        padding-bottom: 15px
+    }
+
+    .texBox-TinhHuong {
+        width: calc(100% - 100px) !important
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .btTkiemD {
+        top: 29px !important;
+    }
+    .main-header .navbar .nav > li > a > .label {
+        right: 17px!important;
+    }
+    .navbar-custom-menu > .navbar-nav > li > a {
+        padding-left: 5px !important;
+        padding-right: 20px !important;
+    }
+    .btCircleWhite{
+        padding:4px 10px!important;
+    }
+    .menucost {
+        padding: 0px !important;
+    }
+    .link-border1, .link-border2 {
+        width: 75px !important;
+        height: 28px !important;
+    }
+    .link-border2 {
+        top: -41px!important;
+        left: 60px!important;
+    }
+    .link-border1 {
+        top: -41px!important;
+        left: 150px!important;
+    }
+    .container-tab__info {
+        padding: 10px 0px !important;
+    }
+    .btnhd-keng p {
+        margin-bottom: 33px
+    }
+
+        .btnhd-keng p.tn {
+            padding-top: 25px;
+            margin-bottom: 11px !important
+        }
+    .list-items .Business-profile.txt-hoten span {
+        padding-left:0px !important;
+
+    }
+    .list-items .col-md-2 span, .list-items .col-md-2 span.text-center1.tp-mobile {
+        text-align: left !important;
+        /*padding-left: 29px !important*/
+    }
+ 
+    .list-items .col-md-1.candidate-phone span {
+        align-items: unset !important;
+        justify-content: unset !important;
+        padding-left: 8px
+    }
+    
+        .list-items .col-xs-5{
+          
+        }
+        .list-items .col-md-1.candidate {
+            /*padding-right:5px !important;*/
+        }
+    .list-items .col-xs-6 i {
+        margin-top: 2px !important
+    }
+
+    .list-items .col-md-1 span.age-td {
+        padding-left: 28px
+    }
+
+    .High-paying-jobs {
+        padding: 10px !important
+    }
+
+    .txt-right {
+        text-align: unset !important
+    }
+
+    SlideContent {
+        padding: 15px 10px !important
+    }
+
+    .texBox-TinhHuong {
+        width: calc(100% - 100px) !important
+    }
+
+    .nganh-nghe-phai span {
+        font-size: 13px !important
+    }
+
+    .scroll-body {
+        overflow: auto;
+        max-height: 100%
+    }
+
+    .al-logo img {
+        float: left
+    }
+
+    .al-acq {
+        padding-left: 25px
+    }
+
+    .pd10 {
+        padding: 0
+    }
+
+    .box_list_works .list-items {
+        padding-bottom: 0 !important;
+        margin-top: 0 !important
+    }
+
+    .search-job {
+        padding: 5px !important;
+        min-height: 91px !important
+    }
+
+    .menu-box {
+        padding: 0;
+        height: 50px
+    }
+
+    .txtmenu {
+        padding: 0;
+        padding-left: 10px
+    }
+
+        .txtmenu img {
+            height: 44px
+        }
+
+        .txtmenu p {
+            padding: 0 !important;
+            margin-left: 8px;
+            margin-bottom: 0;
+            font-size: 8px
+        }
+
+    .text_grey2 a {
+        /*padding-left: 1px*/
+        font-size:11px;
+        margin-left:-4px ;
+    }
+
+    .box-pro-1 .item {
+        height: auto !important
+    }
+
+    .business-page:nth-child(even) {
+        background-image: none !important
+    }
+
+    .pdt_file {
+        margin-top: 0 !important
+    }
+
+    .breadcrumb a {
+        font: 500 14px/30px Roboto-Medium
+    }
+
+    #menumobile {
+        height: 50px;
+        width: 40px;
+        font-size: 15px;
+        padding: 10px
+    }
+
+        #menumobile i {
+            color: #fff
+        }
+
+    .box-carosel {
+        padding-bottom: 0 !important
+    }
+
+    .hidden-login .navbar {
+        margin-bottom: 0 !important
+    }
+
+    .product-list__boxNew {
+        top: 0 !important
+    }
+
+    carousel-inner {
+        display: contents;
+        align-items: center
+    }
+
+    .product-list {
+        height: 290px
+    }
+
+    #owl-anhqc img {
+        height: 115px
+    }
+
+    #owl-anhqc .app-download img {
+        height: auto !important
+    }
+
+    .pdtimviec {
+        padding: 10px
+    }
+
+    .home-news {
+        padding: 15px 12px
+    }
+
+    .pdl20 {
+        padding-left: 13px !important
+    }
+
+    .bd-hm-wb5 {
+        padding: 0;
+        margin-right: 12px
+    }
+
+    .footer .foot-lienhe * {
+        font-family: Roboto-Regular;
+        font-size: 12px
+    }
+
+    .footer__link {
+        padding-left: 10px
+    }
+
+    .footer__link_Career {
+        padding-left: 10px
+    }
+
+    .footer-lg {
+        padding-left: 0 !important;
+        padding-bottom: 10px
+    }
+
+    .pdt20 {
+        padding-top: 0 !important
+    }
+
+    .footer__link li.ft-lg {
+        margin-top: 0 !important
+    }
+
+    .titletaiapp {
+        top: 49px;
+        font-size: 18px;
+        left: 8px
+    }
+
+    .box-pro-1 .list-items {
+        height: auto !important
+    }
+
+    .taiandoid {
+        left: calc(48% + 15px);
+        top: calc(91% - 95px);
+        width: 105px !important;
+        background-color: rgba(101,127,119,0.55)
+    }
+
+    .taiios {
+        left: calc(64% - 215px);
+        top: calc(91% - 95px);
+        width: 105px !important;
+        background-color: rgba(75,156,107,0.57)
+    }
+
+    .searchnangcao {
+        padding-top: 0
+    }
+
+    .home-work .search-job {
+        padding: 10px 5px !important;
+        margin-top: 0 !important;
+        margin-bottom: 0 !important
+    }
+
+    .box-search {
+        margin-bottom: 0 !important
+    }
+
+    .search-job {
+        position: absolute;
+        left: calc(0%);
+        width: 100%;
+        padding: 15px 5px
+    }
+
+    .searchtitle {
+        font-size: 12px !important
+    }
+
+    .feature {
+        padding: 0;
+        margin-left: -5px;
+        margin-right: -5px
+    }
+
+    .box_title_content .title_title_box {
+        font-size: 15px !important
+    }
+
+    .content1 {
+        margin-left: 0;
+        padding: 3px 0 10px;
+        margin-right: -10px;
+        border-bottom: 1px solid #767d79;
+        height: auto
+    }
+
+        .content1 .fetitle p {
+            font-size: 17px;
+            text-align: center
+        }
+
+        .content1 .fetimviec p {
+            font-size: 15px;
+            text-align: center
+        }
+
+        .content1 .felogo {
+            left: calc(13% - 50px);
+            top: calc(50% - 82px)
+        }
+
+    .feature .fetitle {
+        padding-top: 16px
+    }
+
+    .pdt5 {
+        padding-top: 5px !important;
+        padding-left: 120px
+    }
+
+    .feature .fetimviec {
+        padding-top: 10px
+    }
+
+    .content2 {
+        background: #fff;
+        padding: 0 0 10px;
+        margin-right: -10px;
+        border-bottom: 1px solid #767d79;
+        height: auto
+    }
+
+        .content2 .fetitle p {
+            font-size: 17px
+        }
+
+        .content2 .felogo {
+            right: calc(83% - 40px);
+            top: calc(58% - 82px)
+        }
+
+        .content2 .fetimviec p {
+            font-size: 15px
+        }
+
+        .content2 .fetitle p {
+            text-align: center
+        }
+
+        .content2 .fetimviec p {
+            margin-top: 0;
+            text-align: center
+        }
+
+    .business-comment {
+        height: 45px !important
+    }
+
+    .Business-profile-kc {
+        padding-left: 0
+    }
+
+    .content3 {
+        margin-left: 0;
+        padding: 0;
+        border-bottom: 1px solid #767d79;
+        height: 254px;
+        margin-right: -10px
+    }
+
+        .content3 .felogo {
+            left: calc(13% - 50px);
+            top: calc(54% - 82px)
+        }
+
+        .content3 .fetitle p {
+            padding-top: 0;
+            font-size: 17px
+        }
+
+        .content3 .fetimviec p {
+            margin-top: 0;
+            font-size: 15px;
+            margin-bottom: 26px
+        }
+
+    .pdt30 {
+        padding-top: 0 !important
+    }
+
+    .content3.pdtimviec {
+        padding: 5px 10px 0 5px;
+        margin-left: -5px
+    }
+
+    .content4 {
+        margin-left: 0;
+        padding: 0 0 10px;
+        margin-right: 0;
+        border-bottom: 1px solid #767d79;
+        height: auto;
+        margin-right: -10px
+    }
+
+        .content4 .fetimviec p {
+            color: #9c27b0;
+            font-size: 15px
+        }
+
+        .content4 .fetitle p {
+            padding-left: 0;
+            font-size: 17px;
+            text-align: center
+        }
+
+        .content4 .felogo {
+            right: calc(84% - 40px);
+            top: calc(60% - 82px)
+        }
+
+        .content4 .fetimviec p {
+            margin-top: 0;
+            text-align: center
+        }
+
+    .home-news .bg-img {
+        opacity: .35
+    }
+
+    .home-news .read-more {
+        opacity: 1 !important;
+        border-color: #fff !important;
+        margin-top: 0 !important;
+        font-size: 13px !important;
+        padding: 5px !important
+    }
+
+    .home-news .home-box-news a article .box-detail h4 {
+        opacity: 1 !important;
+        border-color: #fff !important;
+        font-size: 14px !important;
+        margin-bottom: 0 !important;
+        height: 50.6px !important
+    }
+
+    .home-news .home-box-news a {
+        height: 135px !important
+    }
+
+    .home-feature {
+        padding: 0 !important
+    }
+
+    .banner-box {
+        padding-bottom: 10px;
+        padding-top: 10px
+    }
+
+    .bd-hm-wb {
+        margin-left: -5px;
+        margin-right: -5px
+    }
+
+    .breadcrumb-box {
+        padding-left: 0;
+        padding-right: 0
+    }
+
+    .pdr0 {
+        padding-right: 0 !important
+    }
+
+    .box_list_works {
+        padding: 10px 13px;
+        margin-bottom: 10px
+    }
+
+    .tab-content {
+        padding: 15px 5px !important
+    }
+
+    .mobile-distance {
+        padding-left: 0;
+        padding-right: 0
+    }
+
+    .tq {
+        padding-left: 5px
+    }
+
+    .box-search-job {
+        padding: 9px
+    }
+
+    .AppKeng {
+        margin-left: -5px;
+        margin-right: -5px;
+        padding: 0;
+        border: 1px solid #fff
+    }
+
+        .AppKeng .appboder {
+            border-bottom: 1px solid #95d3ea;
+            margin-bottom: 0;
+            margin-top: 5px
+        }
+
+    .qrcode {
+        padding-top: 0
+    }
+
+    .advertisement {
+        width: auto;
+        margin-top: 20px;
+        height: 236px;
+        background-color: #4a1a67;
+        margin-left: -5px;
+        margin-right: -5px
+    }
+
+    .copyright .foot-copyright {
+        text-align: left;
+        padding-left: 4px
+    }
+
+    .tk {
+        margin-left: -5px
+    }
+
+    .lienh h3 {
+        text-align: center;
+        font-size: 22px;
+        font-weight: 600;
+        padding: 15px 0
+    }
+
+    .bd-hm-w {
+        border: none;
+        border-bottom: 1px solid #ddd;
+        width: auto !important
+    }
+
+    .candidate-phone i {
+        top: 2px
+    }
+
+    h4.modal-title {
+        font-size: 13px
+    }
+
+    .review .card-header-title {
+        padding: 1rem 0 0 1rem !important
+    }
+
+    .close {
+        margin-right: 0 !important
+    }
+
+    #employer-homepage h1 {
+        font-size: 15px !important
+    }
+
+
+    .list-items .col-md-1 span {
+        text-align: justify !important;
+        display: inherit
+    }
+
+    .col-xs-12 span.xhiend {
+        padding-left: 0 !important;
+        padding-top: 0 !important
+    }
+
+    .list-items .col-md-1 i {
+        padding-left: 2px !important
+    }
+
+    .list-items .col-md-2 span {
+        text-align: justify !important;
+        padding-left: 25px
+    }
+
+        .list-items .col-md-2 span.xhiend {
+            text-align: justify !important;
+            padding-left: 1px !important;
+            padding-top: 5px !important
+        }
+
+    .list-items .col-md-2.col-sm-12.col-xs-12 {
+        text-align: left !important;
+        display: inline-block !important;
+        padding-bottom: 5px !important
+    }
+
+    .list-items .col-md-2 span, .list-items .col-md-2 span.text-center1 {
+        padding-top: 1px
+    }
+
+    .list-items .col-md-2 {
+        text-align: left !important;
+        display: inline-block !important;
+        padding-bottom: 4px !important
+    }
+
+    .candidate-phone {
+        margin-bottom: -4px !important
+    }
+
+    .owl-theme .owl-nav.disabled + .owl-dots {
+        margin-top: 15px !important
+    }
+
+    .span-tw {
+        padding-left: 0 !important
+    }
+
+    .text_normal {
+        padding-left: 0 !important
+    }
+
+    .list-items .col-md-2 i {
+        margin: 0px 2px !important
+    }
+
+    #employer-homepage #jumbotron {
+        height: 112px
+    }
+
+    .list-items .col-md-2 span {
+        text-align: justify !important;
+        display: inline;
+        padding-left: 30px
+    }
+
+    .list-product__tab-link {
+        padding: 0
+    }
+
+    .business-page {
+        padding-top: 5px !important;
+        padding-bottom: 5px !important
+    }
+
+    .text-center1 {
+        margin-top: 3px
+    }
+
+    .business-gap {
+        padding: 25px 0
+    }
+
+    .pdt40 {
+        padding-top: 10px !important
+    }
+
+    #employer-homepage #jumbotron h1 {
+        margin-top: 10px
+    }
+
+        #employer-homepage #jumbotron h1 strong {
+            font-size: 18px;
+            margin-bottom: 8px
+        }
+
+        #employer-homepage #jumbotron h1 small {
+            font-size: 16px
+        }
+
+    #menu-tab-products2 {
+        display: none
+    }
+
+    .list-product__tab-link.active {
+        margin-bottom: 4px
+    }
+
+    .Business-candidate {
+        margin-top: 10px
+    }
+
+    .container-tab__index1 {
+        height: auto;
+        box-shadow: 0 4px 20px 0 rgba(0,0,0,.2);
+        margin-bottom: 24px;
+        padding: 10px 3px;
+        border-top: 4px solid orange
+    }
+
+    #UVQuanLy {
+        display: block !important
+    }
+
+    #UVChuyenMon {
+        display: block !important
+    }
+
+    #UVPhoThong {
+        display: block !important
+    }
+
+    #employer-homepage #guarantee {
+        margin-top: 0
+    }
+
+    #employer-homepage h1 {
+        margin-bottom: 5px;
+        padding: 10px 0
+    }
+
+    .mobile-distance {
+        padding-left: 0;
+        padding-right: 0
+    }
+
+    .text-center {
+        margin-top: 25px
+    }
+
+    .vl-tinhtp .col-md-3 {
+        padding: 7px 30px !important
+    }
+
+        .vl-tinhtp .col-md-3 a {
+            font-size: 13px !important
+        }
+
+    .content-nganhnghe h3 {
+        font-size: 16px !important;
+        margin-bottom: 10px !important
+    }
+
+    .content-nganhnghe .top-sub-title {
+        font-size: 13px !important
+    }
+
+    .small-marge {
+        padding: 10px 0 !important
+    }
+
+    .lpi-link-btn {
+        margin: 0 auto !important
+    }
+
+    .content-nganhnghe {
+        padding: 20px 0 !important
+    }
+
+    .small-marge p {
+        margin: 0 0 5px !important
+    }
+
+    .legal-table1 {
+        width: 30% !important
+    }
+
+    .legal-table2 {
+        width: 25% !important
+    }
+
+    .bubble-link {
+        padding: 9px 4px !important;
+        font-size: 12px !important;
+        width: 161px
+    }
+
+    #employer-homepage h3 {
+        font-size: 16px !important;
+        margin-bottom: 15px
+    }
+
+    .package-column__heading-tag--hidden {
+        background-color: #3fce7f
+    }
+
+    .row-tke {
+        padding: 7px 0 !important
+    }
+
+    .package-column__features {
+        text-align: left;
+        padding-left: 25px
+    }
+
+    .coutner-em .counter-box {
+        height: auto;
+        padding-left: 20px;
+        padding-right: 20px
+    }
+
+        .coutner-em .counter-box .counter-item span {
+            display: inline;
+            font-size: 1.7rem
+        }
+
+    .counter-item {
+        border-right: 0 !important;
+        padding: 8px 0 !important
+    }
+
+    .coutner-em .counter-box .counter-list {
+        -webkit-box-orient: vertical;
+        */-moz-box-orient:vertical;
+        box-orient: vertical;
+        -moz-box-direction: normal;
+        box-direction: normal;
+        -moz-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-direction: column;
+        padding: 0
+    }
+
+    .hot_news_title p {
+        font-size: 16px
+    }
+
+    .job-item p {
+        padding: 0
+    }
+
+    .box-news-hot .list-news {
+        padding: 15px
+    }
+
+    .list-news-title a {
+        font-size: 15px
+    }
+
+    .list-news-title {
+        margin-bottom: 0
+    }
+
+    .list-news-summary {
+        font-size: 13px
+    }
+
+    .news-event img {
+        width: 95px
+    }
+
+    .scroll-focus {
+        height: auto
+    }
+
+    .title_details {
+        font-size: 16px !important
+    }
+
+    .item-list .item {
+        padding-bottom: 8px !important;
+        margin-bottom: 0 !important;
+        margin-top: 0 !important;
+        padding-top: 10px !important;
+        display: flow-root
+    }
+
+    .btn-search-job {
+        font-size: 12px !important;
+        padding: 6px 1px !important
+    }
+
+    .search-job .TinhTP .bootstrap-select > .dropdown-toggle {
+        margin-top: 5px !important;
+        background-image: none !important;
+        padding-left: 2px !important
+    }
+
+    .bootstrap-select .dropdown-toggle .caret {
+        right: 5px !important
+    }
+
+    .search-job .NganhNghe .bootstrap-select > .dropdown-toggle {
+        margin-top: 5px !important;
+        background-image: none !important;
+        padding-left: 2px !important
+    }
+
+    .btn-search-job {
+        height: 69px !important;
+        margin-left: 5px !important;
+        margin-right: 5px !important;
+        width: calc(100% - 5px) !important
+    }
+
+    .box_general_vlmoi .item {
+        border-bottom: none
+    }
+
+    .Lview {
+        font-size: 12px !important
+    }
+
+    .red {
+        font-size: 12px !important
+    }
+
+    .extra-info {
+        padding-bottom: 10px !important
+    }
+
+    .job-item .job_info .company_name {
+        max-width: 100% !important;
+        width: 100%
+    }
+
+    .pdl0 {
+        padding-left: 0 !important;
+        padding-right: 0 !important
+    }
+
+    .box_general_vlmoi p {
+        margin-bottom: 0 !important
+    }
+
+    p.j_title {
+        margin-bottom: 0 !important
+    }
+
+    .tab-noidungtt a {
+        padding: 10px 0 !important;
+        font-size: 13px !important
+    }
+
+    .footer__link li {
+        font-size: 13px !important
+    }
+
+    .nicescroll-cursors {
+        background-color: #fff !important
+    }
+
+    .box_general_tdiem .job-item .job_info .company_name, .box_general_vlmoi .job-item .job_info .company_name {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important
+    }
+
+    .box_list_works * {
+        font-size: 12px !important
+    }
+
+    .box_item3 .dollar {
+        width: 33%
+    }
+
+    .box_item3 .time {
+        width: 32%
+    }
+
+    .box_item3 .location {
+        width: 32%
+    }
+
+    .searchtitle {
+        font-size: 9px
+    }
+
+    .box_general_tdiem .job-item .job_info .extra-info .dollar {
+        width: 32%;
+        float: left
+    }
+
+    .box_general_tdiem .job-item .job_info .extra-info .time {
+        float: left;
+        width: 32%
+    }
+
+    .box_general_tdiem .job-item .job_info .extra-info .location {
+        float: left;
+        width: 32%
+    }
+
+    .job-item {
+        height: 88px !important
+    }
+
+    .box_general_vlmoi .dollar {
+        width: 32%;
+        float: left
+    }
+
+    .box_general_vlmoi .time {
+        width: 32%;
+        float: left
+    }
+
+    .box_general_vlmoi .location {
+        width: auto
+    }
+
+    .detail-business .title-comdetail {
+        font-size: 15px;
+        margin-left: 7px;
+        padding-top: 10px
+    }
+
+    .box-hot {
+        margin-top: 0
+    }
+
+    .ads-img {
+        margin: 0
+    }
+
+    .box_right {
+        padding: 0
+    }
+
+    .extra-work .dollar {
+        width: 32% !important;
+        float: left !important
+    }
+
+    .extra-work .time {
+        width: 32% !important
+    }
+
+    .extra-work .location {
+        width: 35% !important
+    }
+
+    .tab-noidungtt {
+        padding-right: 0
+    }
+
+    .Business-information {
+        margin-top: 0
+    }
+
+    .box-fanpage {
+        padding: 20px 0 20px 18px !important
+    }
+
+    .diachi {
+        margin-left: 0 !important
+    }
+
+    .contact-right {
+        padding-left: 0
+    }
+
+    .DC-googlemap {
+        margin: 20px 15px 20px 10px !important
+    }
+
+    .contact-info {
+        padding-left: 15px !important
+    }
+
+    .mau-cv {
+        margin-bottom: 0 !important;
+        padding: 15px 0 !important
+    }
+
+    .template_cv .cv-overlay a span {
+        padding: 5px
+    }
+
+    .template_cv {
+        padding: 0 10px !important;
+        margin-top: 0 !important
+    }
+
+        .template_cv p {
+            font-size: 12px;
+            padding: 10px 0 0 !important
+        }
+
+    .content-grid {
+        margin-left: -5px;
+        margin-right: -5px;
+        padding: 30px 10px !important;
+        margin-bottom: 0 !important
+    }
+
+        .content-grid * {
+            font-size: 13px !important
+        }
+
+        .content-grid h3 {
+            font-size: 20px !important;
+            padding-bottom: 0
+        }
+
+    .reviewtitle {
+        font-size: 13px !important
+    }
+
+    .pdl10 {
+        margin-top: 5px
+    }
+
+    .pdbt10 {
+        font-size: 13px !important
+    }
+
+    .td {
+        font-size: 13px
+    }
+
+    .search-review {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+        background-color: #0080b7 !important;
+        min-height: 112px !important
+    }
+
+    .company-info .company-info__name {
+        margin-left: 0;
+        margin-bottom: 0 !important
+    }
+
+    .company-info .company-info__rating {
+        margin-left: 0
+    }
+
+    .card-box {
+        padding-bottom: 10px;
+        margin-bottom: 0 !important
+    }
+
+    .review .card-header-title {
+        padding: 1rem 1rem 0
+    }
+
+    .rating-stars ul > li.star > i.fa {
+        font-size: 1.5em !important;
+        padding-top: 5px
+    }
+
+    .rc-anchor-normal {
+        width: 265px !important
+    }
+
+    .detail-review .title-review {
+        font-size: 15px !important
+    }
+
+    .card-header-time {
+        padding-left: 10px
+    }
+
+    .text-5001 {
+        padding: 0 10px 0 5px
+    }
+
+    .ex_page {
+        text-align: center;
+        margin: 20px 0;
+        padding-bottom: 15px
+    }
+
+    .companyvip-info img {
+        height: 73px
+    }
+
+    .company-info-company-page .company-info {
+        height: 135px;
+        padding: 0 10px
+    }
+
+    .company-info .company-info__name a {
+        font-size: 14px !important
+    }
+
+    .card-header-title {
+        display: block !important
+    }
+
+    .reviewtitle {
+        border-bottom: 1px solid #fff
+    }
+
+    .review .review__time {
+        font-size: 15px !important
+    }
+
+    .detail-review {
+        padding: 15px 10px !important
+    }
+
+    .company-info__rating .fa {
+        font-size: 18px !important
+    }
+
+    .company-info .company-info__rating-count {
+        font-size: 15px
+    }
+
+    .pdt5 {
+        padding-left: 0
+    }
+
+    .review-business-list {
+        margin-top: 0
+    }
+
+    .business-Best {
+        padding-left: 0
+    }
+
+    .enterprise-review {
+        padding-left: 0
+    }
+
+    .box-works-news .title {
+        margin: 0 8px
+    }
+
+    .box-works-news .list-recruitment .recruitment {
+        padding: 15px 9px
+    }
+
+    .box-works-news .address {
+        margin-left: -5px
+    }
+
+    .detail-works {
+        padding: 10px 6px !important
+    }
+
+    .detail-business {
+        padding: 9px
+    }
+
+    .Business-profile {
+        padding-top: 3px;
+        padding-left: 1px !important
+    }
+
+    .logo-company {
+        border: 1px solid #fff;
+        border-bottom: 1px solid #eee
+    }
+
+    .ViecLamTheoDanhMuc .nav-tabs > li.active > a {
+        margin-right: 0;
+        border: 0;
+        padding-top: 14px;
+        border-radius: 0;
+        font-size: 14px;
+        width: auto
+    }
+
+    .nav > li > a {
+        padding: 8px 6px !important
+    }
+
+    .hdBHTN .nav-tabs > li > a {
+        width: 366px !important
+    }
+
+    .right-tab {
+        right: 0 !important
+    }
+
+    .ViecLamTheoDanhMuc .nav-tabs > li > a {
+        margin-right: 0;
+        border: 0;
+        padding-top: 14px;
+        border-radius: 0;
+        font-size: 14px;
+        width: auto !important
+    }
+
+    .copyright .foot-copyright {
+        color: #cbc8c8;
+        text-align: center
+    }
+
+    .mobile-distance {
+        padding: 0;
+        padding-right: 0
+    }
+
+    .quangcao-box img {
+        max-width: 100%;
+        width: 100%
+    }
+
+    .job-item p.txt-4-line {
+        margin-left: 5px
+    }
+
+    .box_general_nnghe .nganh-nghe {
+        padding: 10px 5px 0 0
+    }
+
+    .nganh-nghe-phai a, .nganh-nghe-phai span {
+        font-size: 12px !important
+    }
+
+    .box_general > h2 a, .box_general > h3 a {
+        font-size: 15px !important
+    }
+
+    .pdt10 {
+        padding-top: 5px !important
+    }
+
+    .hot_news_title p {
+        font-size: 16px
+    }
+
+    .adv-new-home #our-partner {
+        padding-top: 10px !important;
+        padding-bottom: 10px !important
+    }
+
+    .center.vl-nganh-nghe {
+        text-align: left !important;
+        padding-left: 15px !important
+    }
+
+    .adv-new-home .imgOur {
+        width: 50% !important;
+        float: left !important
+    }
+
+    .bubble-link {
+        margin-right: 5px !important;
+        margin-left: 5px
+    }
+
+    .bubble-link {
+        padding: 5px 10px !important
+    }
+
+    #job-search-form .field.relative {
+        width: calc(64% - 1px) !important
+    }
+
+    #job-search-form .field.bttomtk {
+        width: calc(34% - 1px) !important
+    }
+
+    .t-header_content .big-sub-title {
+        font-size: 17px !important;
+        margin-bottom: 0 !important
+    }
+
+    .t-header_content {
+        padding: 15px 12px 12px !important
+    }
+
+    .txt-input {
+        padding: 15px 5px !important;
+        font-size: 12px !important;
+        height: 35px !important
+    }
+
+    .bt-timkiem {
+        height: 35px !important
+    }
+
+    .box_left_content {
+        width: 100% !important;
+        height: 118px !important
+    }
+
+    a.link-cta {
+        margin-top: 10px !important
+    }
+
+    .full {
+        padding: 0 5px !important
+    }
+
+    .t-header {
+        padding: 5px 0 !important;
+        height: 128px !important
+    }
+
+    .content-nganhnghe .top-sub-title {
+        font-size: 14px !important
+    }
+
+    .content-nganhnghe h3 {
+        font-size: 18px !important;
+        margin-bottom: 15px !important
+    }
+
+    .bt-timkiem {
+        font-size: 13px !important;
+        padding: 10px !important
+    }
+
+    .hdBHTN .nav-tabs > li > a {
+        width: 351px !important
+    }
+
+    .business-page div span {
+        display: inline-block !important;
+        padding-left: 6px !important
+    }
+
+    .business-page:nth-child(2n+1) {
+        background: #eafcfe
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .btCircleWhite {
+        padding: 4px 10px !important;
+    }
+    .menucost {
+       padding:8px!important;
+    }
+    .link-border1, .link-border2 {
+        width: 60px !important;
+        height: 25px !important;
+        padding: 2px 0 0px!important;
+        top:-38px!important;
+    }
+    
+    .pd10 {
+        padding: 10px 0 !important
+    }
+
+    .col-sm-5.col-xs-6.pd0.location.text_ellipsis {
+        font-size: 12px !important
+    }
+
+    .dollar {
+        font-size: 12px !important
+    }
+
+    .item-list .item {
+        padding-bottom: 8px !important;
+        padding-top: 10px !important
+    }
+
+    .mobile-page-uv {
+        padding-left: 0 !important
+    }
+
+    .search-job {
+        padding: 5px !important;
+        min-height: 91px !important
+    }
+
+    .btn-search-job {
+        height: 69px !important;
+        margin-left: 2px !important;
+        margin-right: 5px !important;
+        width: calc(100% - 1px) !important
+    }
+
+    .bubble-link {
+        width: 144px !important
+    }
+
+    .nganh-nghe-phai a, .nganh-nghe-phai span {
+        font-size: 11px !important
+    }
+
+    .bubble-link {
+        margin-right: 0 !important;
+        margin-left: 5px
+    }
+
+    .breadcrumb a {
+        font: 500 13px/30px Roboto-Medium !important
+    }
+
+    .detail-business {
+        padding: 0 !important
+    }
+
+    .nganh-nghe-phai .fa {
+        color: #fc205c;
+        padding-right: 3px;
+        font-size: 13px !important
+    }
+
+    .btnhd-keng p {
+        margin-bottom: 33px
+    }
+
+    .hdBHTN .nav-tabs > li > a {
+        width: 311px !important
+    }
+
+    .right-tab {
+        right: 0 !important;
+        zoom: 1;
+        z-index: 12
+    }
+
+    .footer__link a {
+        font-size: 12px !important
+    }
+
+    .footer__link li {
+        font-size: 12px !important
+    }
+
+    .footer__link {
+        padding-left: 0 !important
+    }
+
+    .footer__link_Career {
+        padding-left: 0 !important
+    }
+
+    .copyright .foot-copyright {
+        text-align: left !important
+    }
+
+    .form-control {
+        font-size: 13px !important
+    }
+
+    .searchtitle {
+        font-size: 13px !important
+    }
+
+    .breadcrumb a {
+        font: 500 13px/30px Roboto-Medium
+    }
+
+    .box_list_works * {
+        font-size: 12px !important
+    }
+
+    .ViecLamTheoDanhMuc .nav-tabs > li.active > a {
+        margin-right: 0;
+        border: 0;
+        padding-top: 14px;
+        border-radius: 0;
+        font-size: 13px;
+        width: auto !important
+    }
+
+    .nav > li > a {
+        padding: 10px 3px !important
+    }
+
+    .ViecLamTheoDanhMuc .nav-tabs > li.active > a {
+        background: #fff;
+        margin-right: 0;
+        color: #042e51;
+        border: 0;
+        padding-top: 14px;
+        border-radius: 0
+    }
+
+    .ViecLamTheoDanhMuc .nav-tabs > li > a {
+        font-size: 13px;
+        width: auto !important
+    }
+
+    .tab-content {
+        padding: 15px 0 !important
+    }
+
+    .tab-noidungtt a {
+        padding: 10px 2px;
+        font-size: 12px !important
+    }
+
+    .box_general_nnghe .nganh-nghe {
+        padding: 10px 0 0 !important
+    }
+
+    .box_general.box_general_nnghe .col-md-4 a {
+        font-size: 12px !important
+    }
+
+    .business-page .col-xs-12 {
+        padding-left: 0 !important
+    }
+
+        .business-page .col-xs-12 span, .Business-profile .col-xs-12 span {
+            padding-left: 9px
+        }
+
+    .list-items .col-md-1 i {
+        left: 0
+    }
+
+    .box-pro-1 .list-items {
+        height: auto !important
+    }
+}

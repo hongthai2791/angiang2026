@@ -1,0 +1,79 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+DotNetNuke.CHATBOT
+</name>
+</assembly>
+<members>
+<member name="T:DotNetNuke.CHATBOT.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:DotNetNuke.CHATBOT.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:DotNetNuke.CHATBOT.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:DotNetNuke.CHATBOT.WebHelper.DDL_GetSelectedValues(System.Object,System.String)">
+ <summary>
+ Get selected value of  dropdown list, checkbock list, radio button list, listbox
+ </summary>
+ <param name="ddl"></param>
+ <param name="seperator">Use to join multiple value</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DotNetNuke.CHATBOT.WebHelper.DDL_SetSelectedValue(System.Object,System.String,System.String)">
+ <summary>
+ 
+ </summary>
+ <param name="ddl"></param>
+ <param name="value">Value to set. Multipleable </param>
+ <param name="seperator">Use to split multiple value</param>
+ <remarks></remarks>
+</member>
+<member name="M:DotNetNuke.CHATBOT.WebHelper.DDL_SelectedValue(System.Object,System.String,System.String)">
+ <summary>
+ Set selected value of  dropdown list, checkbock list, radio button list, listbox
+ </summary>
+ <param name="ddl"></param>
+ <param name="value">Value to set. Multipleable </param>
+ <param name="seperator">Use to split multiple value</param>
+ <remarks></remarks>
+</member>
+<member name="M:DotNetNuke.CHATBOT.WebHelper.DDL_BindData(System.Object,System.Object,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+ <summary>
+ Use bind data to dropdown list, checkbock list, radio button list, listbox
+ </summary>
+ <param name="ddl"></param>
+ <param name="source"></param>
+ <param name="dataTextField"></param>
+ <param name="dataValueField"></param>
+ <param name="headertext"></param>
+ <param name="headervalue"></param>
+ <param name="seperator">If seperator is not empty convert item text as format : item.Value + seperator + item.Text</param>
+ <param name="defaut_no_selectd_value">Set value returned if no item was selected</param>
+ <param name="defaut_all_selectd_value">Set value returned if all item was selected .</param>
+ <remarks></remarks>
+</member>
+<member name="M:DotNetNuke.CHATBOT.WebHelper.DDL_GetTexts(System.Object,System.Object,System.String,System.String)">
+ <summary>
+ Return item.Text by item.Value from dropdown list, list box, checkboxk list, radio list
+ </summary>
+ <param name="ddl"></param>
+ <param name="values"></param>
+ <param name="defaultvalue">Return defaultvalue if found nothing</param>
+ <param name="seperator">Use to split multiple value</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

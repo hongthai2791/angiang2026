@@ -1,0 +1,120 @@
+2025-12-22 00:00:30.931+07:00 [TN20][D:6][T:93][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentException: Error serializing value 'System.String[]' of type 'System.String[].' ---> System.Text.EncoderFallbackException: Unable to translate Unicode character \uD835 at index 34 to specified code page.
+   at System.Text.EncoderExceptionFallbackBuffer.Fallback(Char charUnknown, Int32 index)
+   at System.Text.EncoderFallbackBuffer.InternalFallback(Char ch, Char*& chars)
+   at System.Text.UTF8Encoding.GetByteCount(Char* chars, Int32 count, EncoderNLS baseEncoder)
+   at System.Text.UTF8Encoding.GetByteCount(String chars)
+   at System.IO.BinaryWriter.Write(String value)
+   at System.Web.UI.ObjectStateFormatter.SerializeValue(SerializerBinaryWriter writer, Object value)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.ObjectStateFormatter.SerializeValue(SerializerBinaryWriter writer, Object value)
+   at System.Web.UI.ObjectStateFormatter.Serialize(Object stateGraph, Purpose purpose)
+   at System.Web.UI.Util.SerializeWithAssert(IStateFormatter2 formatter, Object stateGraph, Purpose purpose)
+   at System.Web.UI.HiddenFieldPageStatePersister.Save()
+   at System.Web.UI.Page.SaveAllState()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2025-12-22 00:00:30.947+07:00 [TN20][D:6][T:93][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=2139&error=Error+serializing+value+%27System.String%5b%5d%27+of+type+%27System.String%5b%5d.%27&content=0
+System.ArgumentException: Error serializing value 'System.String[]' of type 'System.String[].' ---> System.Text.EncoderFallbackException: Unable to translate Unicode character \uD835 at index 34 to specified code page.
+   at System.Text.EncoderExceptionFallbackBuffer.Fallback(Char charUnknown, Int32 index)
+   at System.Text.EncoderFallbackBuffer.InternalFallback(Char ch, Char*& chars)
+   at System.Text.UTF8Encoding.GetByteCount(Char* chars, Int32 count, EncoderNLS baseEncoder)
+   at System.Text.UTF8Encoding.GetByteCount(String chars)
+   at System.IO.BinaryWriter.Write(String value)
+   at System.Web.UI.ObjectStateFormatter.SerializeValue(SerializerBinaryWriter writer, Object value)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.ObjectStateFormatter.SerializeValue(SerializerBinaryWriter writer, Object value)
+   at System.Web.UI.ObjectStateFormatter.Serialize(Object stateGraph, Purpose purpose)
+   at System.Web.UI.Util.SerializeWithAssert(IStateFormatter2 formatter, Object stateGraph, Purpose purpose)
+   at System.Web.UI.HiddenFieldPageStatePersister.Save()
+   at System.Web.UI.Page.SaveAllState()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2025-12-22 00:00:40.416+07:00 [TN20][D:6][T:83][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentException: Error serializing value 'System.String[]' of type 'System.String[].' ---> System.Text.EncoderFallbackException: Unable to translate Unicode character \uD835 at index 34 to specified code page.
+   at System.Text.EncoderExceptionFallbackBuffer.Fallback(Char charUnknown, Int32 index)
+   at System.Text.EncoderFallbackBuffer.InternalFallback(Char ch, Char*& chars)
+   at System.Text.UTF8Encoding.GetByteCount(Char* chars, Int32 count, EncoderNLS baseEncoder)
+   at System.Text.UTF8Encoding.GetByteCount(String chars)
+   at System.IO.BinaryWriter.Write(String value)
+   at System.Web.UI.ObjectStateFormatter.SerializeValue(SerializerBinaryWriter writer, Object value)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.ObjectStateFormatter.SerializeValue(SerializerBinaryWriter writer, Object value)
+   at System.Web.UI.ObjectStateFormatter.Serialize(Object stateGraph, Purpose purpose)
+   at System.Web.UI.Util.SerializeWithAssert(IStateFormatter2 formatter, Object stateGraph, Purpose purpose)
+   at System.Web.UI.HiddenFieldPageStatePersister.Save()
+   at System.Web.UI.Page.SaveAllState()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2025-12-22 00:00:40.416+07:00 [TN20][D:6][T:83][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=2139&error=Error+serializing+value+%27System.String%5b%5d%27+of+type+%27System.String%5b%5d.%27&content=0
+System.ArgumentException: Error serializing value 'System.String[]' of type 'System.String[].' ---> System.Text.EncoderFallbackException: Unable to translate Unicode character \uD835 at index 34 to specified code page.
+   at System.Text.EncoderExceptionFallbackBuffer.Fallback(Char charUnknown, Int32 index)
+   at System.Text.EncoderFallbackBuffer.InternalFallback(Char ch, Char*& chars)
+   at System.Text.UTF8Encoding.GetByteCount(Char* chars, Int32 count, EncoderNLS baseEncoder)
+   at System.Text.UTF8Encoding.GetByteCount(String chars)
+   at System.IO.BinaryWriter.Write(String value)
+   at System.Web.UI.ObjectStateFormatter.SerializeValue(SerializerBinaryWriter writer, Object value)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.ObjectStateFormatter.SerializeValue(SerializerBinaryWriter writer, Object value)
+   at System.Web.UI.ObjectStateFormatter.Serialize(Object stateGraph, Purpose purpose)
+   at System.Web.UI.Util.SerializeWithAssert(IStateFormatter2 formatter, Object stateGraph, Purpose purpose)
+   at System.Web.UI.HiddenFieldPageStatePersister.Save()
+   at System.Web.UI.Page.SaveAllState()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2025-12-22 00:05:30.598+07:00 [TN20][D:7][T:87][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentException: Error serializing value 'System.String[]' of type 'System.String[].' ---> System.Text.EncoderFallbackException: Unable to translate Unicode character \uD835 at index 34 to specified code page.
+   at System.Text.EncoderExceptionFallbackBuffer.Fallback(Char charUnknown, Int32 index)
+   at System.Text.EncoderFallbackBuffer.InternalFallback(Char ch, Char*& chars)
+   at System.Text.UTF8Encoding.GetByteCount(Char* chars, Int32 count, EncoderNLS baseEncoder)
+   at System.Text.UTF8Encoding.GetByteCount(String chars)
+   at System.IO.BinaryWriter.Write(String value)
+   at System.Web.UI.ObjectStateFormatter.SerializeValue(SerializerBinaryWriter writer, Object value)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.ObjectStateFormatter.SerializeValue(SerializerBinaryWriter writer, Object value)
+   at System.Web.UI.ObjectStateFormatter.Serialize(Object stateGraph, Purpose purpose)
+   at System.Web.UI.Util.SerializeWithAssert(IStateFormatter2 formatter, Object stateGraph, Purpose purpose)
+   at System.Web.UI.HiddenFieldPageStatePersister.Save()
+   at System.Web.UI.Page.SaveAllState()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2025-12-22 00:05:30.610+07:00 [TN20][D:7][T:87][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=2139&error=Error+serializing+value+%27System.String%5b%5d%27+of+type+%27System.String%5b%5d.%27&content=0
+System.ArgumentException: Error serializing value 'System.String[]' of type 'System.String[].' ---> System.Text.EncoderFallbackException: Unable to translate Unicode character \uD835 at index 34 to specified code page.
+   at System.Text.EncoderExceptionFallbackBuffer.Fallback(Char charUnknown, Int32 index)
+   at System.Text.EncoderFallbackBuffer.InternalFallback(Char ch, Char*& chars)
+   at System.Text.UTF8Encoding.GetByteCount(Char* chars, Int32 count, EncoderNLS baseEncoder)
+   at System.Text.UTF8Encoding.GetByteCount(String chars)
+   at System.IO.BinaryWriter.Write(String value)
+   at System.Web.UI.ObjectStateFormatter.SerializeValue(SerializerBinaryWriter writer, Object value)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.ObjectStateFormatter.SerializeValue(SerializerBinaryWriter writer, Object value)
+   at System.Web.UI.ObjectStateFormatter.Serialize(Object stateGraph, Purpose purpose)
+   at System.Web.UI.Util.SerializeWithAssert(IStateFormatter2 formatter, Object stateGraph, Purpose purpose)
+   at System.Web.UI.HiddenFieldPageStatePersister.Save()
+   at System.Web.UI.Page.SaveAllState()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2025-12-22 00:08:15.279+07:00 [TN20][D:9][T:89][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentException: Error serializing value 'System.String[]' of type 'System.String[].' ---> System.Text.EncoderFallbackException: Unable to translate Unicode character \uD835 at index 34 to specified code page.
+   at System.Text.EncoderExceptionFallbackBuffer.Fallback(Char charUnknown, Int32 index)
+   at System.Text.EncoderFallbackBuffer.InternalFallback(Char ch, Char*& chars)
+   at System.Text.UTF8Encoding.GetByteCount(Char* chars, Int32 count, EncoderNLS baseEncoder)
+   at System.Text.UTF8Encoding.GetByteCount(String chars)
+   at System.IO.BinaryWriter.Write(String value)
+   at System.Web.UI.ObjectStateFormatter.SerializeValue(SerializerBinaryWriter writer, Object value)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.ObjectStateFormatter.SerializeValue(SerializerBinaryWriter writer, Object value)
+   at System.Web.UI.ObjectStateFormatter.Serialize(Object stateGraph, Purpose purpose)
+   at System.Web.UI.Util.SerializeWithAssert(IStateFormatter2 formatter, Object stateGraph, Purpose purpose)
+   at System.Web.UI.HiddenFieldPageStatePersister.Save()
+   at System.Web.UI.Page.SaveAllState()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2025-12-22 00:08:15.304+07:00 [TN20][D:9][T:89][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=2139&error=Error+serializing+value+%27System.String%5b%5d%27+of+type+%27System.String%5b%5d.%27&content=0
+System.ArgumentException: Error serializing value 'System.String[]' of type 'System.String[].' ---> System.Text.EncoderFallbackException: Unable to translate Unicode character \uD835 at index 34 to specified code page.
+   at System.Text.EncoderExceptionFallbackBuffer.Fallback(Char charUnknown, Int32 index)
+   at System.Text.EncoderFallbackBuffer.InternalFallback(Char ch, Char*& chars)
+   at System.Text.UTF8Encoding.GetByteCount(Char* chars, Int32 count, EncoderNLS baseEncoder)
+   at System.Text.UTF8Encoding.GetByteCount(String chars)
+   at System.IO.BinaryWriter.Write(String value)
+   at System.Web.UI.ObjectStateFormatter.SerializeValue(SerializerBinaryWriter writer, Object value)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.ObjectStateFormatter.SerializeValue(SerializerBinaryWriter writer, Object value)
+   at System.Web.UI.ObjectStateFormatter.Serialize(Object stateGraph, Purpose purpose)
+   at System.Web.UI.Util.SerializeWithAssert(IStateFormatter2 formatter, Object stateGraph, Purpose purpose)
+   at System.Web.UI.HiddenFieldPageStatePersister.Save()
+   at System.Web.UI.Page.SaveAllState()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)

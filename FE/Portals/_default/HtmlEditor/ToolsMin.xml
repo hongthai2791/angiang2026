@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <modules>
+    <!--<module name="RadEditorStatistics" dockingZone="Bottom"/>
+    <module name="RadEditorDomInspector" />-->
+    <module name="RadEditorNodeInspector" />
+  </modules>
+  <tools name="InsertToolbar" >
+    <tool name="DocumentManager" />
+  </tools>
+  <tools name="InsertToolbar" >
+    <tool name="ImageManager" />
+  </tools>
+  <tools name="InsertToolbar" >
+    <tool name="MediaManager"/>
+  </tools>
+  <tools name="InsertToolbar" >
+    <tool name="InsertExternalVideo"/>
+  </tools>
+  <tools name="InsertToolbar" >
+    <tool name="LinkManager"/>
+  </tools>
+  <tools name="InsertToolbar" >
+    <tool name="Unlink" shortcut="CTRL+SHIFT+K"/>
+  </tools>
+  <tools name="InsertToolbar" >
+    <tool name="InsertTable"/>
+  </tools>
+  <tools name="InsertToolbar" >
+    <tool name="PasteStrip"/>
+  </tools>
+  <tools name="InsertToolbar" >
+    <tool name="FormatStripper"/>
+  </tools>
+  <tools name="InsertToolbar" >
+    <tool name="ForeColor"/>
+  </tools>
+  <tools name="InsertToolbar" >
+    <tool name="BackColor"/>
+  </tools>
+  <tools name="InsertToolbar" >
+    <tool name="Bold" shortcut="CTRL+B"/>
+  </tools>
+  <tools name="InsertToolbar" >
+    <tool name="Italic" shortcut="CTRL+I"/>
+  </tools>
+  <tools name="InsertToolbar" >
+    <tool name="Underline" shortcut="CTRL+U"/>
+  </tools>
+  <tools name="InsertToolbar" >
+    <tool name="StrikeThrough" />
+  </tools>
+  <tools name="InsertToolbar" >
+    <tool name="Print" shortcut="CTRL+P"/>
+  </tools>
+  <tools name="InsertToolbar" >
+    <tool name="ToggleScreenMode"/>
+  </tools>
+  <fontNames>
+    <item name="Arial" />
+    <item name="Tahoma" />
+    <item name="Verdana" />
+    <item name="Helvetica" />
+    <item name="Times New Roman" />
+  </fontNames>
+  <realFontSizes>
+    <item value="14px"></item>
+    <item value="16px"></item>
+    <item value="18px"></item>
+    <item value="20px"></item>
+    <item value="22px"></item>
+    <item value="24px"></item>
+    <item value="26px"></item>
+    <item value="28px"></item>
+    <item value="32px"></item>
+    <item value="36px"></item>
+    <item value="48px"></item>
+  </realFontSizes>
+</root>

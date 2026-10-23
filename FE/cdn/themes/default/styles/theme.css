@@ -1,0 +1,198 @@
+.fm-container * {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #475466;
+  letter-spacing: 0.2px;
+  -webkit-font-smoothing: antialiased;
+  cursor: default;
+  overflow: hidden;
+  border: 0px solid #DADEE0;
+  white-space: normal;
+  -webkit-appearance: none;
+}
+
+.fm-container {
+    background-color: #EBEDF0;
+}
+.fm-container .view-items .list thead{
+    background: -moz-linear-gradient(top, #f4f1ed 0%, #EBEDF0 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #EBEDF0), color-stop(100%, #EBEDF0)); 
+    background: -webkit-linear-gradient(top, #EBEDF0 0%, #EBEDF0 100%); 
+    background: -o-linear-gradient(top, #EBEDF0 0%, #EBEDF0 100%);
+    background: -ms-linear-gradient(top, #EBEDF0 0%, #EBEDF0 100%);
+    background: linear-gradient(to bottom, #EBEDF0 0%, #EBEDF0 100%);
+    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #5ccce7;
+}
+.fm-container .view-items .list thead tr{
+line-height: 26px;
+}
+.fm-container .view-items .list th.sorted-asc, .fm-container .view-items .list th.sorted-desc {
+    background: #EBEDF0;
+    background: -moz-linear-gradient(top, #EBEDF0 0%, #EBEDF0 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #EBEDF0), color-stop(100%, #EBEDF0));
+    background: -webkit-linear-gradient(top, #EBEDF0 0%, #EBEDF0 100%);
+    background: -o-linear-gradient(top, #EBEDF0 0%, #EBEDF0 100%);
+    background: -ms-linear-gradient(top, #EBEDF0 0%, #EBEDF0 100%);
+    background: linear-gradient(to bottom, #EBEDF0 0%, #EBEDF0 100%);
+}
+.fm-container .fm-header .breadcrumbs {
+    color: #000000;
+}
+
+.fm-container .fm-splitter .splitter-bar-vertical {
+    width: 6px;
+}
+
+.fm-container .fm-filetree {
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+.fm-container .fm-fileinfo {
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.fm-container .fm-preview .fm-preview-title h1 {
+    color: #8fabc6;
+}
+
+.fm-container .fm-preview .fm-preview-details td {
+    color: #333;
+    border-bottom: 1px dotted #ccc;
+}
+
+.fm-container .button-group .btn {
+    color: #777777;
+    background-color: #ffffff;
+    border: 1px solid #dcdcdc;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+}
+
+.fm-container .button-group .separator {
+    padding: 0 1px;
+    background-color: #ffffff;
+}
+
+.fm-container .fm-header .button-group .btn {
+    padding: 3px;
+}
+.fm-container .fm-header .button-group .btn:hover{
+    cursor: pointer;
+}
+.fm-container .button-group .btn.no-label span{
+    cursor: pointer;
+}
+.fm-container .button-group .btn span{
+    cursor: pointer;
+}
+.fm-container .fm-header .button-group select.btn {
+    padding: 3px;
+}
+
+.fm-container .button-group .btn:not(.disabled):hover {
+    background-color: #ffffff;
+}
+
+.fm-container .input-group .input-group-input {
+    color: #000;
+    background-color: #FFFFFF;
+    border-style: solid;
+    border-color: #dcdcdc;
+    border-width: 1px 0 1px 0;
+}
+
+.fm-container .input-group .input-group-addon {
+    background-color: #FFFFFF;
+    border-style: solid;
+    border-color: #dcdcdc;
+}
+
+.fm-container .input-group .input-group-addon:first-child {
+    border-width: 1px 0 1px 1px;
+}
+
+.fm-container .input-group .input-group-addon:last-child {
+    border-width: 1px 1px 1px 0;
+}
+
+.fm-container #folder-info {
+    color: #777;
+}
+.fm-container .drag-helper-grid,
+.fm-container .view-items .grid li {
+    width: 142px;
+}
+
+.fm-container .view-items .grid li.drop-hover,
+.fm-container .view-items .list tr.drop-hover {
+    background-color: #e0e0e0;
+}
+
+.fm-container .view-items .list td {
+    border-bottom: 1px solid #EBEDF0;
+}
+
+.fm-popup.alertify .fm-fileupload-container #total-progress {
+    background-color: #A7A1C6;
+}
+
+.fm-popup.alertify .fm-fileupload-container #total-progress .progress-bar {
+    background-color: #294750;
+}
+
+.fm-container .drag-helper-grid {
+    width: 142px;
+}
+.fm-popup.alertify div.prompt-info{ font-family: Roboto, sans-serif;}
+.fm-container .fm-filetree li{padding: 2px 0 4px 0;}
+.fm-container .fm-filetree li:hover{background:#e9e9e9;}
+.fm-container .fm-filetree li>a{font-size:21px;height:auto;}
+.fm-container .fm-filetree li>a:hover{background:transparent;}
+.fm-container .fm-filetree li{line-height:24px;}
+.fm-container .fm-filetree li span.button.switch{height:16px;padding:3px 0 0 0;}
+.fm-container .list-icon.ico_folder, .fm-container li span.button.ico_folder {
+    width: 21px;
+    height: 21px;
+    background-image: url("../images/icon_folder.png");
+}
+.fm-container .fm-filetree li span{line-height:0;}
+.fm-container .fm-filetree li>div.row{height:29px;}
+.fm-container .fm-filetree{padding: 0;}
+.fm-container .fm-header{margin: 0 0 10px;background: #fff;
+    padding: 10px 10px 0 0;}
+.fm-container .fm-wrapper{padding: 0 0 30px 0;}
+.fm-container .view-items .list td:first-child {
+    width: 75%;
+}
+.fm-container .view-items .list td:first-child {text-align: left;}
+.fm-container .view-items .list td{text-align: center;padding: 3px 5px;}
+.fm-container .fm-fileinfo *{font-size: 14px;}
+.fm-container .view-items .list th{border-right: 1px solid #ccc;}
+.fm-container .view-items .list th span {
+    font-weight: bolder;
+}
+.fm-container .button-group .separator{margin: 0;}
+.fm-container .search-box{margin:8px 0 0 5px ;height: 33px;width: 300px;}
+.fm-popup.alertify .alert, .fm-popup.alertify .dialog{font-size: 14px;font-family: Roboto, sans-serif;}
+.alertify .dialog [data-alertify-msg], .alertify .alert [data-alertify-msg] {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.fm-container .fm-header .breadcrumbs .nav-title{padding: 3px 0 0 0;text-transform: uppercase;}
+.fm-container .context-menu-list{background: #fff;font-size: 14px;}
+.fm-container .context-menu-item{font-size: 14px;background: #fff;margin: 5px 0;}
+.context-menu-item {
+    padding: 3px 0 3px 28px;
+}
+.fm-container .context-menu-list{min-width: 160px;}
+.fm-container .fm-header .breadcrumbs .separator {
+    margin: 4px 5px;
+}
+.fm-container .fm-header .breadcrumbs .nav-item{line-height: 24px;}
+.fm-container .fm-preview .fm-preview-viewer img{max-width:300px}

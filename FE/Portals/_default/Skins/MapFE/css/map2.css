@@ -1,0 +1,75 @@
+﻿
+.vbanner {
+    background: rgb(8 86 179);
+}
+
+
+.copyright {
+    background: rgb(8 86 179);
+}
+
+#pushycontainer .menu-btn {
+    background-color: #0a59ad;
+}
+
+#scroll-top a {
+    background: #fb503d;
+}
+.left-tke h3:before {
+    background: url(/portals/_default/skins/MapFE/images/bg-title2.png?v=1.1) no-repeat center center;
+}
+
+.footer {
+    background: #24324a ;
+}
+
+.bg-green {
+    background-color: #0aad2d;
+}
+
+.bg-organe {
+    background-color: #ef8000;
+}
+
+.bg-blue {
+    background-color: #043161;
+}
+
+.bg-pink {
+    background-color: #eb3d89;
+}
+
+.bg-red {
+    background-color: rgb(163 36 0);
+}
+
+.bg-yellow {
+    background-color: rgb(174 177 2);
+}
+
+.bg-primary {
+    background-color: #0a59ad;
+}
+
+.header-map-one {
+    color: #0aad2d;
+}
+
+.header-map-two {
+    color: #ef8000;
+}
+
+.header-map-three {
+    color: #043161
+}
+
+.header-map-four {
+    color: #ff9dc8;
+}
+
+.header-map-five {
+    color: #eb3d89
+}
+.header-map-six {
+    color: rgb(163 36 0);
+}

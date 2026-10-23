@@ -1,0 +1,269 @@
+﻿.col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9 {
+    padding-bottom: 10px
+}
+
+.none, .andi {
+    display: none !important
+}
+
+.clear {
+    clear: both
+}
+
+a#return-to-top {
+    background: #117238;
+    padding: 5px 10px;
+    text-align: center;
+    color: #fff;
+    position: fixed;
+    bottom: 50px;
+    right: 100px;
+    z-index: 100;
+    opacity: .7;
+    display: none;
+    right: 30px
+}
+
+    a#return-to-top:hover {
+        opacity: 1
+    }
+
+    a#return-to-top i {
+        font-size: 20px
+    }
+
+#Body {
+    margin-left: 0 !important;
+    background: rgba(221,221,221,0.5);
+    overflow: auto !important;
+    /*font-family: Tahoma !important*/
+}
+
+.pdl0 {
+    padding-left: 0 !important
+}
+
+.pdr0 {
+    padding-right: 0 !important
+}
+
+.pdt0 {
+    padding-top: 0 !important
+}
+
+.pdt5 {
+    padding-top: 5px !important
+}
+
+.pdbt0 {
+    padding-bottom: 0 !important
+}
+
+.pdtr {
+    padding-top: 5px !important
+}
+
+.waiting {
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    z-index: 100;
+    height: 100%;
+    top: 0;
+    width: 100%
+}
+
+.TextBox, textarea {
+    font-size: 14px;
+    width: 100%;
+    padding: 5px;
+    color: #000;
+    display: block;
+    border: none;
+    background: rgba(255,255,255,0.7) url(/image/lineinput-dvc.gif) repeat-x left bottom;
+    outline: 0 !important
+}
+
+.chosen-container-single .chosen-single {
+    border: 0 !important;
+    background: rgba(255,255,255,0.7) url(/image/lineinput-dvc.gif) repeat-x left bottom;
+    outline: 0 !important
+}
+
+.header {
+    background: linear-gradient(-181deg,#fff -1%,#33b4ec)
+}
+
+a.ctlview {
+    float: left;
+    height: 30px;
+    display: block;
+    margin-top: 16px;
+    width: 30px;
+    margin-left: 40px;
+    z-index: 9999;
+    position: relative;
+    font-size: 14px;
+    color: #fff
+}
+
+.i-img {
+    float: left;
+    margin-right: 10px
+}
+
+.i-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: #444;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    padding-top: 1px
+}
+
+.i-title1 {
+    font-size: 14px;
+    color: #015688;
+    font-weight: 700
+}
+
+.a-book {
+    color: #fff;
+    margin-top: 20px !important;
+    display: inline-block
+}
+
+.search-box {
+    width: 500px;
+    margin: 50px auto
+}
+
+a.cmSearch {
+    border: 1px solid #ccc;
+    padding: 4.5px 15px;
+    display: inline-block
+}
+
+    a.cmSearch:hover {
+        background-color: #ccc
+    }
+
+a:hover {
+    text-decoration: none !important
+}
+
+.txt-center {
+    text-align: center !important
+}
+
+.txt-right {
+    text-align: right !important
+}
+
+.search-box span {
+    font-size: 12px;
+    display: inline-block;
+    color: #015b93;
+    font-weight: 700
+}
+
+.box-proce {
+    padding-top: 20px;
+    min-height: 400px;
+    background: linear-gradient(to top,#b2def7,#f5fafd)
+}
+
+.bg-bhtn {
+    background: #fff
+}
+
+.box-send {
+    text-align: center;
+    font-weight: 700
+}
+
+    .box-send .row {
+        padding-top: 10px
+    }
+
+.search-box {
+    text-align: center;
+    font-weight: 700
+}
+
+.mdt40 {
+    margin-top: 40px !important
+}
+
+.pdt10 {
+    padding-top: 10px !important
+}
+
+.pdbt20 {
+    padding-bottom: 20px !important
+}
+
+.box-proce h1 {
+    color: #3b8c05;
+    padding: 35px 0 15px;
+    margin: 0;
+    line-height: 22px;
+    font-size: 15px;
+    font-weight: 700
+}
+
+.box-proce h2 {
+    color: #ec0000;
+    padding: 0;
+    margin: 10px 0;
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: 700
+}
+
+.box-proce h3 {
+    color: #000;
+    margin: 0;
+    line-height: 22px;
+    font-size: 14px
+}
+
+.box-proce h4 {
+    color: #000;
+    padding: 15px 0;
+    margin: 0;
+    line-height: 22px;
+    font-size: 14px;
+    font-style: italic
+}
+
+.box-send:hover {
+    color: red !important;
+    cursor: pointer
+}
+
+@media (max-width:767px) {
+    .search-box, img {
+        max-width: 100% !important;
+        width: auto !important
+    }
+
+    .search-box, .box-login {
+        margin-top: 0 !important
+    }
+
+    .box-proce {
+        height: auto !important
+    }
+}
+
+@media (max-width:480px) {
+    .help-div {
+        display: none
+    }
+
+    .item.col-md-2.col-sm-3.col-xs-6 {
+        height: 115px;
+        background: #fff;
+        padding-top: 10px !important
+    }
+}

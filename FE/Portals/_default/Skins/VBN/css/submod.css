@@ -1,0 +1,371 @@
+﻿@font-face {
+    font-family: 'Roboto-Bold';
+    src: url(/portals/_default/fonts/font/Roboto-Bold.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: 'Roboto-Medium';
+    src: url(/portals/_default/fonts/font/Roboto-Medium.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url(/portals/_default/fonts/font/Roboto-Regular.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: 'Roboto-Italic';
+    src: url(/portals/_default/fonts/font/Roboto-Italic.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url(/portals/_default/fonts/font/Roboto-Light.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: 'RobotoCondensedBold';
+    src: url(/portals/_default/fonts/font/RobotoCondensed-Bold.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: 'RobotoCondensedBoldItalic';
+    src: url(/portals/_default/fonts/font/RobotoCondensed-BoldItalic.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: 'RobotoCondensedItalic';
+    src: url(/portals/_default/fonts/font/RobotoCondensed-Italic.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: 'RobotoCondensedLight';
+    src: url(/portals/_default/fonts/font/RobotoCondensed-Light.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: 'RobotoCondensedRegular';
+    src: url(/portals/_default/fonts/font/RobotoCondensed-Regular.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: 'Roboto-BoldItalic';
+    src: url(/portals/_default/fonts/font/Roboto-BoldItalic.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: 'RobotoLight';
+    src: url(/portals/_default/fonts/font/Roboto-Light.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: 'RobotoMedium';
+    src: url(/portals/_default/fonts/font/Roboto-Medium.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: 'Oswald-Bold';
+    src: url(/portals/_default/fonts/font/Oswald-Bold.ttf) format("truetype")
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto
+}
+
+.row {
+    margin-bottom: 0
+}
+
+.top-header {
+    position: relative;
+    padding: 5px 0 0
+}
+
+    .top-header .i-box {
+        position: relative;
+        clear: both;
+        width: 100%;
+        float: left
+    }
+
+        .top-header .i-box .i-img {
+            width: 140px;
+            float: left
+        }
+
+        .top-header .i-box .i-title {
+            width: calc(100% - 140px);
+            float: right;
+            text-align: left;
+            position: absolute;
+            bottom: 0;
+            left: 160px;
+            font-size: 25px;
+            font-family: RobotoCondensedBold;
+            color: #001946;
+            text-transform: uppercase;
+            line-height: 25px
+        }
+
+.bodyContent {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/background_submod.jpg?v=1.0);
+}
+
+    .bodyContent .item {
+        text-align: center;
+        padding: 0 15px;
+    }
+
+.footer-up {
+    background: #015086;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 10px
+}
+
+.box-div {
+    position: relative;
+    padding: 0
+}
+
+.footer-up .i-left .i-bold {
+    font-family: RobotoCondensedBold;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 25px;
+    margin-top: 0;
+    margin-bottom: 0
+}
+
+.footer-up .i-left span {
+    display: block;
+    width: 100%;
+    float: left;
+    font-family: RobotoCondensedRegular;
+    font-size: 16px;
+    line-height: 30px
+}
+
+.footer-middle {
+    background: #373739;
+    min-height: 40px;
+    line-height: 40px
+}
+
+    .footer-middle .i-left {
+        font-size: 14px;
+        color: #fff;
+        font-family: RobotoCondensedRegular
+    }
+
+    .footer-middle .i-right {
+        height: 40px;
+        line-height: 40px;
+        padding-top: 5px
+    }
+
+.pdt0 {
+    padding-top: 0 !important
+}
+
+.footer-up .i-left {
+    margin-bottom: 0;
+    border-right: 1px solid #949494
+}
+
+.footer-up .i-right {
+    text-align: right;
+    margin-bottom: 0 !important
+}
+
+    .footer-up .i-right .i-name {
+        display: inline-block;
+        text-align: left;
+        padding-top: 5px;
+        font-size: 20px;
+        font-family: RobotoCondensedBold;
+        color: #fffffb;
+        text-transform: uppercase;
+        line-height: 40px
+    }
+
+.bodyContent .item a .i-img {
+    width: 100%;
+    float: unset;
+    text-align: center;
+    font-size: 60px;
+}
+
+    .bodyContent .item a .i-img i.fa:hover {
+        color: #fff
+    }
+
+.bodyContent .item a .i-link {
+    font-family: Roboto-Medium;
+    color: #2b2b2b;
+    padding-top: 15px;
+    font-size: 18px;
+}
+
+.bodyContent .item a:hover .i-link {
+    color: #fff
+}
+
+.left-login {
+    height: 100vh;
+    color: #fff
+}
+
+.bg-cover {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.mt20 {
+    margin-top: 20px
+}
+
+.mt40 {
+    margin-top: 40px
+}
+
+.right-login {
+    background-image: url('../images/left-login.png');
+    height: 100vh;
+    color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+    .right-login h2 {
+        font-size: 2em;
+        text-transform: uppercase;
+        font-weight: bold
+    }
+
+    .right-login .avatar {
+        background: #fff;
+        border-radius: 50%;
+        box-shadow: 1px 1px 11px 6px #2a659b;
+        height: 200px;
+        object-fit: contain;
+        width: 200px;
+        margin-top: 50px;
+    }
+
+    .right-login u {
+        font-size: 20px
+    }
+
+    .right-login .btn {
+        color: #fff;
+        padding: 10px 15px;
+        font-size: 16px !important;
+        border-radius: 5px;
+    }
+
+    .right-login #clock {
+        font-size: 40px
+    }
+
+    .right-login .btnInfo {
+        background-color: coral !important;
+    }
+
+    .right-login .btnLogoff {
+        background: #028bff;
+    }
+
+.item-grid {
+    max-width: 700px;
+    text-align: center;
+    margin: 30px auto
+}
+
+.phanhe {
+    padding: 25px 10px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 9px 1px #dadada;
+    display: inline-block;
+    height: 170px;
+    margin: 10px;
+    min-width: 100px;
+    white-space: normal;
+    width: 100%;
+    display: block;
+    float: left;
+    -moz-transition: all linear .1s;
+    -o-transition: all linear .1s;
+    -ms-transition: all linear .1s;
+    -webkit-transition: all linear .1s;
+    transition: all linear .1s;
+    background-color: #fff
+}
+
+a.phanhe {
+    -moz-transition: all linear .1s;
+    -o-transition: all linear .1s;
+    -ms-transition: all linear .1s;
+    -webkit-transition: all linear .1s;
+    transition: all linear .1s;
+    color: #028bff;
+}
+
+.phanhe:hover {
+    color: #fff;
+    background: #1572e8 !important;
+    background: -webkit-linear-gradient(legacy-direction(-45deg), #06418e, #1572e8) !important;
+    background: linear-gradient(-45deg, #2d82c4, #339ff3) !important;
+    box-shadow: 1px 2px 9px 1px rgba(39,23,86,.52156862745098);
+    -moz-transition: all linear .1s;
+    -o-transition: all linear .2s;
+    -ms-transition: all linear .2s;
+    -webkit-transition: all linear .2s;
+    transition: all linear .2s;
+    transform: scale(1.1);
+}
+
+@media(max-width: 767px) {
+    .footer-up .i-left, .footer-up .i-right {
+        text-align: center
+    }
+
+    .footer-up .i-left {
+        padding-bottom: 14px;
+        border-right: none;
+        position: relative
+    }
+
+        .footer-up .i-left:after {
+            position: absolute;
+            content: "";
+            width: 30%;
+            height: 1px;
+            background: #949494;
+            bottom: 0;
+            left: 35%
+        }
+
+    .bodyContent .item {
+        /*margin-bottom: 20px;*/
+        min-height: 120px
+    }
+
+    .footer-up .i-right .i-name {
+        text-align: center
+    }
+}

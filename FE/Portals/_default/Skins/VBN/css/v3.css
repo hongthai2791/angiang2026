@@ -1,0 +1,47 @@
+﻿
+.categories-feature .item-category h6 {
+     color: inherit !important; 
+}
+.business-box {
+    background: #2a4fb3;
+    color: #fff;
+}
+    .business-box .hm-w-title a {
+        color: #000 !important
+    }
+.hotnews .slide-box p {
+    color: #fff;
+}
+.home-box-news a {
+    color: #fff;
+}
+.footer {
+    padding: 15px 0px;
+    background: #2a4fb3;
+    color: #fff;
+}
+.home-box-news p{
+    font-size:14px
+}
+.home-box-news-video p {
+    background-color: #3C65F5bd !important;
+    border-radius: 5px;
+    font-size: 14px
+}
+.copyright {
+    background-color: #08235d !important;
+}
+.box-ct-wh {
+    -webkit-transition: all linear .1s;
+    transition: all linear .1s;
+}
+.box-ct-wh:hover{
+    cursor:pointer;
+transform: scale(1.05);
+}
+.link-readmore a {
+    color: #fff;
+}
+/*.search-job-content {
+    background-color: rgba(8, 19, 27, 0.5);
+}*/

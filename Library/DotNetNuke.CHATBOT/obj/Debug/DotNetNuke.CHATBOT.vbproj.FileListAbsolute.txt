@@ -1,0 +1,3 @@
+C:\Project\FE\bin\DotNetNuke.CHATBOT.dll
+C:\Project\FE\bin\DotNetNuke.CHATBOT.pdb
+C:\Project\FE\bin\DotNetNuke.CHATBOT.xml

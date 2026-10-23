@@ -1,0 +1,403 @@
+﻿a, abbr, acronym, address, applet, b, big, blockquote, body, center, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, kbd, label, legend, li, object, ol, pre, q, s, samp, small, span, strike, strong, sub, sup, tt, u, ul, var {
+    font-family: "Be Vietnam Pro", Roboto;
+}
+
+.navbar {
+    margin-bottom: -1px
+}
+
+.menu-top .right-box {
+    text-align: left
+}
+
+.main-menu ul > li > a {
+    font-family: "Be Vietnam Pro", Roboto;
+}
+
+.search-job {
+    margin-top: 220px;
+}
+
+.search-job-content {
+    box-shadow: 0px 8px 24px 0px #a09fc652;
+    backdrop-filter: blur(0px);
+    background: linear-gradient(180deg, rgba(208, 208, 208, 0.33) 0%, rgba(255, 255, 255, 0.5) 48.82%, rgba(255, 255, 255, 0.5) 100%);
+}
+
+.homeslide img {
+    max-height: 500px;
+    /*height:500px*/
+}
+
+.footer .foot-lienhe * {
+    font-family: "Be Vietnam Pro", Roboto;
+    line-height: 40px;
+}
+
+.vbanner {
+    background: rgb(75 29 156);
+    height: 86px;
+    padding: 5px 0px 0px 0px;
+}
+
+#pushycontainer .menu-btn {
+    position: absolute;
+    right: 20px;
+    top: 28px;
+    color: #fff;
+    background-color: #511d98;
+}
+
+.vlogo a:hover h1, .vlogo a:hover h2, .main-menu .active a, .main-menu li:hover a {
+    color: yellow !important
+}
+
+.main-menu ul > li > a {
+    color: #fff !important
+}
+
+.main-menu ul > li > a {
+    font-size: 15px !important
+}
+
+.footer {
+    background: #24324a url(/portals/_default/skins/MapFE/images/backgroundFooterMap.jpg?v=1.1) center no-repeat;
+}
+
+.copyright {
+    background: #30174f;
+}
+
+.box-thong-ke {
+    line-height: 40px;
+}
+
+.right-tke {
+    text-align: right;
+}
+
+    .right-tke img {
+        width: 100%;
+        margin-top: 75px
+    }
+
+.sptb {
+    background: #fff;
+}
+
+.journey .statistics {
+    gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    position: relative;
+    z-index: 9;
+    max-width: 560px;
+    margin-bottom: 20px;
+}
+
+    .journey .statistics .item:before {
+        content: "";
+        height: 70px;
+        width: 3px;
+        background: linear-gradient(91.88deg, #0cff8a .47%, #56cbff 70.44%, #6ce5ff 98.32%);
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .journey .statistics .item {
+        box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, .05);
+        border-radius: 10px;
+        padding: 30px 18px 25px;
+        position: relative;
+    }
+
+        .journey .statistics .item .number, .journey .statistics .item .number span {
+            font-size: 45px;
+            font-weight: 700;
+            color: #007bff;
+        }
+
+.btn-search-job {
+    background-color: #4b1d9c;
+}
+
+.all-map-content {
+    position: relative;
+    width: 100%;
+}
+
+.fix-form-map {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 10px;
+    height: 0px;
+    z-index: 999;
+}
+
+.form-map {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px !important;
+    width: 590px;
+    background: #fff;
+    margin: 0 auto;
+    border-image: linear-gradient(to right, #462396 0%, #7735bf 100%) 1;
+    border: 13px solid;
+    padding: 17px;
+    border-radius: 50px;
+    color: rgb(110, 32, 145)
+}
+
+.selectRG {
+    height: 33px;
+    font-size: 14px;
+}
+
+    .selectRG option {
+        font-size: 14px;
+    }
+
+.all-map-content {
+    position: relative;
+    width: 100%;
+}
+
+.form-select {
+    width: 200px;
+}
+
+.form-label {
+    position: relative;
+    top: 6px;
+    font-weight: bold;
+}
+
+.vietNamToiYeu {
+    line-height: 12px;
+    position: absolute;
+    font-size: 16px;
+    padding: 5px 2px;
+    background: #fff;
+    border-radius: 5px;
+    color: #bf1515;
+    z-index: 9999;
+    font-size: 11px;
+    top: -2px;
+    left: -2px;
+    width: 100px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.icon-vietnamToiYeu {
+    width: 20px;
+    height: 20px;
+}
+
+.coVietNam {
+    width: 40px;
+}
+
+.vietNamToiYeu:before, .vietNamToiYeu:after {
+    border: none !important;
+    display: none;
+}
+
+.info-box .icon i {
+    font-size: 31px;
+}
+
+.left-tke h3 {
+    font-weight: 700;
+    color: #2c85f3;
+    height: 110px;
+    line-height: 110px;
+    position: relative;
+    text-transform: uppercase;
+    margin: 45px 0 10px;
+}
+
+    .left-tke h3:before {
+        content: "";
+        width: 586px;
+        height: 110px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: url(/portals/_default/skins/MapFE/images/bg-title.png) no-repeat center center;
+    }
+
+    .left-tke h3 span {
+        position: relative;
+        color: #fff;
+        font-size: 22px;
+        margin-left: 175px;
+    }
+
+#scroll-top a {
+    background: #fba33d;
+}
+
+
+
+.header-map-one {
+    color: #2d816b
+}
+.header-map-two {
+    color: #fba33d
+}
+.header-map-three {
+    color: #007bff
+}
+.header-map-four {
+    color: #ff9dc8
+}
+.header-map-five {
+    color: rgb(255 66 13)
+}
+.header-map-six {
+    color: #003f65
+}
+
+.waiting {
+    z-index: 9999;
+}
+
+.selectRG {
+    height: 33px;
+    font-size: 14px;
+    width: 100%
+}
+
+    .selectRG option {
+        font-size: 14px;
+    }
+
+.all-map-content {
+    position: relative;
+    width: 100%;
+}
+
+.form-select {
+    width: 200px;
+}
+
+.form-label {
+    position: relative;
+    top: 6px;
+    font-weight: bold;
+}
+
+.vietNamToiYeu {
+    line-height: 12px;
+    position: absolute;
+    font-size: 16px;
+    padding: 5px 2px;
+    background: #fff;
+    border-radius: 5px;
+    color: #bf1515;
+    z-index: 9999;
+    font-size: 11px;
+    top: -2px;
+    left: -2px;
+    width: 100px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.icon-vietnamToiYeu {
+    width: 20px;
+    height: 20px;
+}
+
+.coVietNam {
+    width: 40px;
+}
+
+.vietNamToiYeu:before, .vietNamToiYeu:after {
+    border: none !important;
+    display: none;
+}
+
+.info-box .icon i {
+    font-size: 31px;
+}
+
+.icon-xa {
+    background-color: #0f5132;
+    border-radius: 50px;
+    border: 2px solid #43dd48;
+}
+
+.title-map {
+    padding: 20px 0;
+    font-weight: bold;
+}
+
+#search-box {
+    padding: 10px;
+}
+
+#grid-view {
+    padding: 0 10px;
+}
+
+.icon-map {
+    width: 20px;
+    vertical-align: middle !important;
+}
+
+    .icon-map i {
+        font-size: 20px;
+    }
+
+.station-list table tbody {
+    height: 500px;
+    overflow-y: auto;
+    width: 100%;
+    display: inline-block;
+}
+
+    .station-list table tbody tr, .station-list table tbody tr td {
+        width: 100%;
+        cursor: pointer;
+    }
+.bg-green {
+   background-color: #2d816b
+}
+.bg-blue {
+    background-color: #007bff
+}
+.bg-organe {
+    background-color: #fba33d
+}
+
+.bg-pink {
+    background-color: #ff9dc8
+}
+.bg-red {
+    background-color: rgb(255 66 13)
+}
+.bg-darkgreen {
+    background-color: #003f65
+}
+
+table.table-bordered td, table.table-bordered tr, .pop-content table td {
+    box-sizing: border-box;
+    font-size: 14px;
+    padding: 6px !important;
+    position: relative;
+}
+@media only screen and (max-width:1368px) {
+    .form-map {
+        width: 500px;
+        border: 10px solid;
+        padding:13px
+    }
+}

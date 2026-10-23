@@ -1,0 +1,81 @@
+﻿@media (max-width: 768px) {
+    .fix-column span input {
+        display: table;
+		width:22px!important;
+		height:22px!important
+    }
+    .respo-table th.column-primary ~ th, .respo-table tr:not(.inline-edit-row):not(.no-items) td.column-primary ~ td:not(.fix-column) {
+        display: none;
+    }
+
+    .author {
+        display: block !important;
+    }
+
+    .respo-view {
+        text-align: left !important;
+    }
+
+    .respo-table tr:not(.inline-edit-row):not(.no-items) td:not(.column-primary):not(.fix-column)::before {
+        display: block;
+        content: attr(text-column);
+        width: 100px;
+        float: left;
+        color: gray;
+    }
+
+    .respo-table .column-primary {
+        width: 100%;
+    }
+
+    .respo-table .respo-title {
+        width: 0 !important;
+    }
+
+    .respo-table .fix-column {
+        display: table-cell;
+        width: 40px !important;
+    }
+
+    .respo-table .column-primary .toggle-row {
+        display: block;
+    }
+
+    .respo-table tr:not(.inline-edit-row):not(.no-items) td:not(.fix-column) {
+        position: relative;
+        clear: both;
+        display: block;
+        width: auto !important;
+        border: 0 !important;
+        padding-right: 30px!important;
+    }
+
+    .respo-table .is-expanded td:not(.hidden) {
+        display: block !important;
+        overflow: hidden;
+    }
+
+    .respo-table .column-primary .toggle-row {
+        display: block;
+    }
+
+    .respo-table .toggle-row {
+        position: absolute;
+        right: 8px;
+        top: 10px;
+        display: none;
+        width: 20px;
+        height: 20px;
+        background: url(down-up.png) no-repeat;
+        cursor: pointer;
+    }
+
+    .td-das-view {
+        width: 90% !important;
+        display: table;
+    }
+
+    .toggle-active {
+        background: url(down-top.png) no-repeat !important;
+    }
+}

@@ -1,0 +1,14 @@
+D:\thai\OT\mrP\eportal\Code\bin\DotNetNuke.INSU.dll
+D:\thai\OT\mrP\eportal\Code\bin\DotNetNuke.INSU.pdb
+D:\thai\OT\mrP\eportal\Code\bin\DotNetNuke.INSU.xml
+D:\thai\OT\mrP\ANGIANG_NGHIEMTHU\Web\Library\DotNetNuke.INSU\obj\Debug\DotNetNuke.INSU.vbproj.AssemblyReference.cache
+D:\thai\OT\mrP\ANGIANG_NGHIEMTHU\Web\Library\DotNetNuke.INSU\obj\Debug\DotNetNuke.INSU.Resources.resources
+D:\thai\OT\mrP\ANGIANG_NGHIEMTHU\Web\Library\DotNetNuke.INSU\obj\Debug\DotNetNuke.INSU.vbproj.GenerateResource.cache
+D:\thai\OT\mrP\ANGIANG_NGHIEMTHU\Web\Library\DotNetNuke.INSU\obj\Debug\DotNetNuke.INSU.vbproj.CoreCompileInputs.cache
+D:\thai\OT\mrP\ANGIANG_NGHIEMTHU\Web\Library\DotNetNuke.INSU\obj\Debug\DotNetNuke.INSU.dll
+D:\thai\OT\mrP\ANGIANG_NGHIEMTHU\Web\Library\DotNetNuke.INSU\obj\Debug\DotNetNuke.INSU.xml
+D:\thai\OT\mrP\ANGIANG_NGHIEMTHU\Web\Library\DotNetNuke.INSU\obj\Debug\DotNetNuke.INSU.pdb
+D:\thai\OT\mrP\ANGIANG_NGHIEMTHU\Web\FE\bin\DotNetNuke.INSU.dll
+D:\thai\OT\mrP\ANGIANG_NGHIEMTHU\Web\FE\bin\DotNetNuke.INSU.pdb
+D:\thai\OT\mrP\ANGIANG_NGHIEMTHU\Web\FE\bin\DotNetNuke.INSU.xml
+D:\thai\OT\mrP\ANGIANG_NGHIEMTHU\Web\Library\DotNetNuke.INSU\obj\Debug\DotNetNu.2008E9DF.Up2Date

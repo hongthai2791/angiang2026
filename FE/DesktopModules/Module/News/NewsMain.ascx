@@ -1,0 +1,2 @@
+<%@ Control Language="vb" AutoEventWireup="false" Explicit ="true"  codefile="NewsMain.ascx.vb" Inherits="DesktopModules.Modules.Home.Main" %>
+<asp:PlaceHolder id="plhNews" runat="server"></asp:PlaceHolder> 

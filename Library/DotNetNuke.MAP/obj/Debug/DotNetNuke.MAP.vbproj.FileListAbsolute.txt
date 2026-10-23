@@ -1,0 +1,3 @@
+D:\thai\OT\mrP\eportal\Map\FE\bin\DotNetNuke.MAP.dll
+D:\thai\OT\mrP\eportal\Map\FE\bin\DotNetNuke.MAP.pdb
+D:\thai\OT\mrP\eportal\Map\FE\bin\DotNetNuke.MAP.xml

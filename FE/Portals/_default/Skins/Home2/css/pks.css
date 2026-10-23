@@ -1,0 +1,106 @@
+﻿
+/*startnew 31/03/2023*/
+/*#Body{
+    overflow:hidden !important;
+}
+.box.box-info {
+    margin-top: 50px !important;
+    height: calc(100vh - 50px);
+    overflow: auto;
+    position: relative
+}*/
+
+.box {
+    background: #ecf0f5;
+}
+.title-ho{font-weight:600}
+.mgb10 {
+    margin-bottom: 10px;
+}
+.content-pks {
+    margin-left: 200px
+}
+.red{color:red}
+.pdt5 {
+    padding-top: 5px
+}
+.content-pks label {
+    padding-left: 5px;
+}
+.left-col {
+    height: 100%;
+    overflow: auto;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 100px;
+    position: absolute;
+    background-color: #e7e4e4;
+    width: 200px;
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 25%);
+    transition: margin-left .3s;
+    /* margin-top: 50px; */
+}
+
+    .left-col ol {
+        padding-top: 10px;
+        padding-inline-start: 10px
+    }
+
+        .left-col ol li {
+            padding-top: 7px
+        }
+
+            .left-col ol li a {
+                color: #2c3b41;
+                font-weight: 600;
+                font-size: 12px;
+            }
+
+                .left-col ol li a:hover {
+                    color: darkred
+                }
+
+    .left-col .left-title {
+        font-size: 16px;
+        font-weight: bold;
+        color: #333
+    }
+
+.box-body {
+    background-color: #fff;
+    /* margin: 10px; */
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 25%);
+    transition: margin-left .3s;
+}
+
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #fff;
+    border-bottom: 1px dotted #333 !important;
+}
+
+.dflex {
+    display: flex
+}
+
+.red {
+    border: none !important
+}
+
+.box-infoHo .bootstrap-select > .dropdown-toggle, .box-infoHo .TextBox {
+    border: 0 !important;
+    border-bottom: 1px dotted #000000 !important;
+}
+
+.tbCheckList tr, .tbCheckList td {
+    border: none !important
+}
+
+.i {
+    font-style: italic
+}
+
+.h4 b.title-pks {
+    font-size: 14px !important
+}
