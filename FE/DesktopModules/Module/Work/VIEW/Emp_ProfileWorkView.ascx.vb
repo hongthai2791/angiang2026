@@ -231,95 +231,105 @@ Namespace Modules.EPORTAL
                 GetEducationName = ""
             End If
         End Function
+        Private Sub SetCell(col As String, row As Integer, value As Object)
+            If TypeOf value Is String Then
+                ' Ký tự điều khiển không hợp lệ trong XML và chuỗi quá dài làm file Excel lỗi/không lưu được
+                Dim txt As String = System.Text.RegularExpressions.Regex.Replace(CStr(value), "[\x00-\x08\x0B\x0C\x0E-\x1F]", "")
+                If txt.Length > 32000 Then txt = txt.Substring(0, 32000)
+                value = txt
+            End If
+            wsh.Cells(col & row).Value = value
+            SetBorderRPT(col, row)
+        End Sub
         Protected Sub btnExport_Click(sender As Object, e As EventArgs)
+            Dim data As Byte() = Nothing
             Try
-                Dim fileSave = flReg.GenKey() & ".xlsx"
-                Dim pathTemp = Server.MapPath(flReg.MapPath("/data/" & Me.PortalId & "/temps/") & fileSave)
-                Dim file As FileInfo
-                Dim IsRows, intI As Integer
-                Dim package As ExcelPackage
+                Dim IsRows As Integer = 4, intI As Integer = 1
                 Dim ubj As CMSUserPortalInfo
                 Dim objW As CMS_WorkInfo
                 Dim objJUS As CMS_JobUserInfo
-                file = New FileInfo(Server.MapPath("/api/work/Template/HSDaUngTuyen.xlsx"))
-                package = New ExcelPackage(file)
-                wsh = package.Workbook.Worksheets.First()
-                If IsNothing(wsh) = False Then
-                    wsh.Cells("A2").Value = "DANH SÁCH LAO ĐỘNG ĐÃ ỨNG TUYỂN"
-                    IsRows = 4 : intI = 1
-                    arrTemp = objController.CMS_Recruitment_List_Search_HSUT(Me.PortalId, txtkey.Text.Trim, drSort.SelectedValue, 1,
+                Dim pathTpl As String = Server.MapPath("/api/work/Template/HSDaUngTuyen.xlsx")
+                ' Mở mẫu ở chế độ chỉ đọc, dựng file trong bộ nhớ: không cần ghi file tạm lên đĩa
+                Using fs As New FileStream(pathTpl, FileMode.Open, FileAccess.Read, FileShare.ReadWrite)
+                    Using package As New ExcelPackage(fs)
+                        wsh = package.Workbook.Worksheets.First()
+                        wsh.Cells("A2").Value = "DANH SÁCH LAO ĐỘNG ĐÃ ỨNG TUYỂN"
+                        arrTemp = objController.CMS_Recruitment_List_Search_HSUT(Me.PortalId, txtkey.Text.Trim, drSort.SelectedValue, 1,
                                                        10000, Gender.SelectedValue, Business_ID.SelectedValue, Experience_ID.SelectedValue,
                                                         TinhTP.SelectedValue, PhuongXa.SelectedValue, Salary_ID.SelectedValue, Career_ID.SelectedValue, Status_ID.SelectedValue, "")
-                    For Each Cr As CMS_RecruitmentInfo In arrTemp
-                        wsh.Cells("A" & IsRows).Value = intI : SetBorderRPT("A", IsRows)
-                        wsh.Cells("B" & IsRows).Value = flReg.ReadDate(Cr.CreateDate, False) : SetBorderRPT("B", IsRows)
-                        wsh.Cells("C" & IsRows).Value = flReg.GetUserName(Cr.CreatedUser) : SetBorderRPT("C", IsRows)
-                        ubj = flDnn.CMSUserPortal_Get_By_User("", Cr.CreatedUser, "", Me.PortalId)
-                        If ubj IsNot Nothing Then
-                            wsh.Cells("D" & IsRows).Value = flReg.ReadDate(ubj.DateOfBirth, False) : SetBorderRPT("D", IsRows)
-                            wsh.Cells("E" & IsRows).Value = flDic.Sex_Name(ubj.Gender) : SetBorderRPT("E", IsRows)
-                            wsh.Cells("F" & IsRows).Value = ubj.CMND : SetBorderRPT("F", IsRows)
-                            wsh.Cells("G" & IsRows).Value = ubj.Telephone : SetBorderRPT("G", IsRows)
-                            wsh.Cells("H" & IsRows).Value = ubj.Email : SetBorderRPT("H", IsRows)
-                            wsh.Cells("I" & IsRows).Value = ubj.Address : SetBorderRPT("I", IsRows)
-                        Else
-                            wsh.Cells("D" & IsRows).Value = "" : SetBorderRPT("D", IsRows)
-                            wsh.Cells("E" & IsRows).Value = "" : SetBorderRPT("E", IsRows)
-                            wsh.Cells("F" & IsRows).Value = "" : SetBorderRPT("F", IsRows)
-                            wsh.Cells("G" & IsRows).Value = "" : SetBorderRPT("G", IsRows)
-                            wsh.Cells("H" & IsRows).Value = "" : SetBorderRPT("H", IsRows)
-                            wsh.Cells("I" & IsRows).Value = "" : SetBorderRPT("I", IsRows)
-                        End If
-                        objJUS = objController.CMS_JobUser_Get(Me.PortalId, Cr.JobUser_ID)
-                        If objJUS IsNot Nothing Then
-                            wsh.Cells("J" & IsRows).Value = flReg.RemoveHTML(HttpUtility.HtmlDecode(objJUS.Education)) : SetBorderRPT("J", IsRows)
-                            wsh.Cells("K" & IsRows).Value = GetEducationName(objJUS.Level_ID) : SetBorderRPT("K", IsRows)
-                            wsh.Cells("L" & IsRows).Value = flCheck.Career_Name(Me.PortalId, objJUS.Career_ID) : SetBorderRPT("L", IsRows)
-                            wsh.Cells("M" & IsRows).Value = "" : SetBorderRPT("M", IsRows)
-                            wsh.Cells("N" & IsRows).Value = "" : SetBorderRPT("N", IsRows)
-                            wsh.Cells("O" & IsRows).Value = flCheck.Experience_Name(Me.PortalId, objJUS.Experience_ID) : SetBorderRPT("O", IsRows)
-                            wsh.Cells("P" & IsRows).Value = GetPositionName(objJUS.LevelDesired) : SetBorderRPT("P", IsRows)
-                        Else
-                            wsh.Cells("J" & IsRows).Value = "" : SetBorderRPT("J", IsRows)
-                            wsh.Cells("K" & IsRows).Value = "" : SetBorderRPT("K", IsRows)
-                            wsh.Cells("L" & IsRows).Value = "" : SetBorderRPT("L", IsRows)
-                            wsh.Cells("M" & IsRows).Value = "" : SetBorderRPT("M", IsRows)
-                            wsh.Cells("N" & IsRows).Value = "" : SetBorderRPT("N", IsRows)
-                            wsh.Cells("O" & IsRows).Value = "" : SetBorderRPT("O", IsRows)
-                            wsh.Cells("P" & IsRows).Value = "" : SetBorderRPT("P", IsRows)
-                        End If
-                        objW = objController.CMS_Work_Get(Me.PortalId, Cr.Work_ID)
-                        If objW IsNot Nothing Then
-                            wsh.Cells("Q" & IsRows).Value = flReg.ReadDate(objW.CreatedDate, False) : SetBorderRPT("Q", IsRows)
-                            wsh.Cells("R" & IsRows).Value = flCheck.Business_Name("", Me.PortalId, objW.Business_ID, Me.PortalId) : SetBorderRPT("R", IsRows)
-                            wsh.Cells("S" & IsRows).Value = flDic.RegionalName(Me.PortalId, objW.TinhTP, "") : SetBorderRPT("S", IsRows)
-
-                            Dim status As String = ""
-
-                            If Cr.IsView Then status += "Đã xem;"
-                            If Cr.IsContact Then status += "Đã liên hệ;"
-                            If Cr.IsInterview Then status += "Đã phỏng vấn;"
-                            If Cr.IsTest Then status += "Đã test;"
-                            If Cr.IsElect Then status += "Trúng tuyển;"
-                            If Cr.IsCancel Then status += "Từ chối;"
-
-                            wsh.Cells("T" & IsRows).Value = status : SetBorderRPT("T", IsRows)
+                        For Each Cr As CMS_RecruitmentInfo In arrTemp
+                            SetCell("A", IsRows, intI)
+                            SetCell("B", IsRows, flReg.ReadDate(Cr.CreateDate, False))
+                            SetCell("C", IsRows, flReg.GetUserName(Cr.CreatedUser))
+                            ubj = flDnn.CMSUserPortal_Get_By_User("", Cr.CreatedUser, "", Me.PortalId)
+                            If ubj IsNot Nothing Then
+                                SetCell("D", IsRows, flReg.ReadDate(ubj.DateOfBirth, False))
+                                SetCell("E", IsRows, flDic.Sex_Name(ubj.Gender))
+                                SetCell("F", IsRows, ubj.CMND & "")
+                                SetCell("G", IsRows, ubj.Telephone & "")
+                                SetCell("H", IsRows, ubj.Email & "")
+                                SetCell("I", IsRows, ubj.Address & "")
                             Else
-                                wsh.Cells("Q" & IsRows).Value = "" : SetBorderRPT("Q", IsRows)
-                            wsh.Cells("R" & IsRows).Value = "" : SetBorderRPT("R", IsRows)
-                            wsh.Cells("S" & IsRows).Value = "" : SetBorderRPT("S", IsRows)
-                            wsh.Cells("T" & IsRows).Value = "" : SetBorderRPT("T", IsRows)
-                        End If
-
-                        IsRows += 1 : intI += 1
-                    Next
-                    package.SaveAs(New FileInfo(pathTemp))
-                    package.Dispose()
-                    flReg.SaveFileName(pathTemp, "HSDaUngTuyen" & Now.ToString("_dd_MM_yy") & ".xlsx")
-                End If
+                                For Each c As String In New String() {"D", "E", "F", "G", "H", "I"}
+                                    SetCell(c, IsRows, "")
+                                Next
+                            End If
+                            objJUS = objController.CMS_JobUser_Get(Me.PortalId, Cr.JobUser_ID)
+                            If objJUS IsNot Nothing Then
+                                SetCell("J", IsRows, flReg.RemoveHTML(HttpUtility.HtmlDecode(objJUS.Education)))
+                                SetCell("K", IsRows, GetEducationName(objJUS.Level_ID))
+                                SetCell("L", IsRows, flCheck.Career_Name(Me.PortalId, objJUS.Career_ID))
+                                SetCell("M", IsRows, "")
+                                SetCell("N", IsRows, "")
+                                SetCell("O", IsRows, flCheck.Experience_Name(Me.PortalId, objJUS.Experience_ID))
+                                SetCell("P", IsRows, GetPositionName(objJUS.LevelDesired))
+                            Else
+                                For Each c As String In New String() {"J", "K", "L", "M", "N", "O", "P"}
+                                    SetCell(c, IsRows, "")
+                                Next
+                            End If
+                            objW = objController.CMS_Work_Get(Me.PortalId, Cr.Work_ID)
+                            If objW IsNot Nothing Then
+                                Dim status As String = ""
+                                If Cr.IsView Then status += "Đã xem;"
+                                If Cr.IsContact Then status += "Đã liên hệ;"
+                                If Cr.IsInterview Then status += "Đã phỏng vấn;"
+                                If Cr.IsTest Then status += "Đã test;"
+                                If Cr.IsElect Then status += "Trúng tuyển;"
+                                If Cr.IsCancel Then status += "Từ chối;"
+                                SetCell("Q", IsRows, flReg.ReadDate(objW.CreatedDate, False))
+                                ' viewAddress mặc định False để chỉ lấy tên đơn vị (không kèm HTML)
+                                SetCell("R", IsRows, flCheck.Business_Name("", Me.PortalId, objW.Business_ID))
+                                SetCell("S", IsRows, flDic.RegionalName(Me.PortalId, objW.TinhTP, ""))
+                                SetCell("T", IsRows, status)
+                            Else
+                                For Each c As String In New String() {"Q", "R", "S", "T"}
+                                    SetCell(c, IsRows, "")
+                                Next
+                            End If
+                            IsRows += 1 : intI += 1
+                        Next
+                        data = package.GetAsByteArray()
+                    End Using
+                End Using
             Catch ex As Exception
-                ScriptManager.RegisterStartupScript(Me.Page, Me.Page.GetType(), "thong_bao", "notify('info', '" & flReg.BugLog(Me.PortalId, ex.Message, Me.PortalSettings.ActiveTab.TabName) & "', 'Thông báo', false);", True)
+                Dim msg As String = ex.Message
+                Try
+                    msg = flReg.BugLog(Me.PortalId, ex.ToString(), Me.PortalSettings.ActiveTab.TabName)
+                Catch
+                End Try
+                ' Thoát ký tự để thông báo lỗi không làm hỏng chuỗi JavaScript (nếu hỏng sẽ không hiện gì cả)
+                msg = msg.Replace("\", "\\").Replace("'", "\'").Replace(vbCr, " ").Replace(vbLf, " ")
+                ScriptManager.RegisterStartupScript(Me.Page, Me.Page.GetType(), "thong_bao", "notify('info', '" & msg & "', 'Thông báo', false);", True)
+                Return
             End Try
+            Response.Clear()
+            Response.ContentType = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+            Response.AddHeader("Content-Disposition", "attachment; filename=HSDaUngTuyen" & Now.ToString("_dd_MM_yy") & ".xlsx")
+            Response.AddHeader("Content-Length", data.Length.ToString())
+            Response.BinaryWrite(data)
+            Response.Flush()
+            HttpContext.Current.ApplicationInstance.CompleteRequest()
         End Sub
     End Class
 
